@@ -1,4 +1,5 @@
 import { HeroNav } from "@/components/HeroNav";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { BodyText } from "@/components/typography/BodyText";
 import { MainHeader } from "@/components/typography/MainHeader";
 import { SubHeader } from "@/components/typography/SubHeader";
@@ -34,20 +35,29 @@ export default function Home() {
         <HeroNav />
       </section>
       <section>
-        <SubHeader>Venue & Event Space</SubHeader>
-        <MainHeader>Venue & Event Space</MainHeader>
-        <BodyText>
-          Rlm is an all inclusive wedding and event venue. We believe in
-          stress-free events. Always bringing a comfortable and luxuriously
-          tailored gathering space together for sharing in life's celebrations.
-          Our goal is to elegantly bring your vision to life. As we plan, design
-          and fully execute beautiful event. Focus on your celebration of love.
-          We’ll handle all the important details. You deserve to radiate
-          confidence on one of the most important days of your life.
-        </BodyText>
-        <Button asChild variant="link" size="none" fontSize="lg">
-          <Link href="/">Schedule a Tour</Link>
-        </Button>
+        <MaxWidthWrapper className="py-12">
+          <div className="space-y-4">
+            <SubHeader>Venue & Event Space</SubHeader>
+            <MainHeader>Venue & Event Space</MainHeader>
+
+            <div className="flex gap-8">
+              <Image src="/right-arr.svg" alt="" width={58} height={20} />
+              <Button asChild variant="link" size="none" fontSize="lg">
+                <Link href="/">Schedule a Tour</Link>
+              </Button>
+            </div>
+          </div>
+          <BodyText className="max-w-[635px] ml-auto">
+            Rlm is an all inclusive wedding and event venue. We believe in
+            stress-free events. Always bringing a comfortable and luxuriously
+            tailored gathering space together for sharing in life's
+            celebrations. Our goal is to elegantly bring your vision to life. As
+            we plan, design and fully execute beautiful event. Focus on your
+            celebration of love. We’ll handle all the important details. You
+            deserve to radiate confidence on one of the most important days of
+            your life.
+          </BodyText>
+        </MaxWidthWrapper>
       </section>
     </main>
   );
