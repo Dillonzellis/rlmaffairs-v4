@@ -1,4 +1,6 @@
 import { HeroNav } from "@/components/HeroNav";
+import { MainHeader } from "@/components/typography/MainHeader";
+import { SubHeader } from "@/components/typography/SubHeader";
 import Image from "next/image";
 
 export default function Home() {
@@ -27,6 +29,10 @@ export default function Home() {
           className="absolute bottom-8 right-7"
         />
         <HeroNav />
+      </section>
+      <section>
+        <SubHeader>Venue & Event Space</SubHeader>
+        <MainHeader>Venue & Event Space</MainHeader>
       </section>
     </main>
   );
