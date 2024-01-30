@@ -2,7 +2,9 @@ import { HeroNav } from "@/components/HeroNav";
 import { BodyText } from "@/components/typography/BodyText";
 import { MainHeader } from "@/components/typography/MainHeader";
 import { SubHeader } from "@/components/typography/SubHeader";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -43,6 +45,9 @@ export default function Home() {
           We’ll handle all the important details. You deserve to radiate
           confidence on one of the most important days of your life.
         </BodyText>
+        <Button asChild variant="link" size="none" fontSize="lg">
+          <Link href="/">Schedule a Tour</Link>
+        </Button>
       </section>
     </main>
   );
