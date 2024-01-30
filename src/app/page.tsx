@@ -1,4 +1,5 @@
 import { HeroNav } from "@/components/HeroNav";
+import { BodyText } from "@/components/typography/BodyText";
 import { MainHeader } from "@/components/typography/MainHeader";
 import { SubHeader } from "@/components/typography/SubHeader";
 import Image from "next/image";
@@ -33,6 +34,15 @@ export default function Home() {
       <section>
         <SubHeader>Venue & Event Space</SubHeader>
         <MainHeader>Venue & Event Space</MainHeader>
+        <BodyText>
+          Rlm is an all inclusive wedding and event venue. We believe in
+          stress-free events. Always bringing a comfortable and luxuriously
+          tailored gathering space together for sharing in life's celebrations.
+          Our goal is to elegantly bring your vision to life. As we plan, design
+          and fully execute beautiful event. Focus on your celebration of love.
+          We’ll handle all the important details. You deserve to radiate
+          confidence on one of the most important days of your life.
+        </BodyText>
       </section>
     </main>
   );
