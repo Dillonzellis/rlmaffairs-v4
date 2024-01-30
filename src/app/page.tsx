@@ -47,7 +47,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <BodyText className="max-w-[635px] ml-auto">
+          <BodyText className="max-w-prose ml-auto">
             Rlm is an all inclusive wedding and event venue. We believe in
             stress-free events. Always bringing a comfortable and luxuriously
             tailored gathering space together for sharing in life's
