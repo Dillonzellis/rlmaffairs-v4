@@ -1,6 +1,7 @@
 import BackgroundImage from "@/components/BackgroundImage";
 import { HeroNav } from "@/components/HeroNav";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { SmallSlider } from "@/components/SmallSlider";
 import { BodyText } from "@/components/typography/BodyText";
 import { MainHeader } from "@/components/typography/MainHeader";
 import { SubHeader } from "@/components/typography/SubHeader";
@@ -98,7 +99,7 @@ export default function Home() {
       </section>
       <section className="relative">
         <div>
-          <MaxWidthWrapper className="py-12">
+          <MaxWidthWrapper className="py-16">
             <div className="space-y-4">
               <SubHeader>Venue & Event Space</SubHeader>
               <MainHeader>Premiere Catering</MainHeader>
@@ -125,11 +126,12 @@ export default function Home() {
           <Image
             src="/catering-feat.jpg"
             alt=""
-            height={639}
+            height={700}
             width={620}
-            className="absolute right-0 top-0 -z-10"
+            className="absolute right-0 top-0 -z-10 object-cover"
           />
         </div>
+        <SmallSlider />
       </section>
     </main>
   );
