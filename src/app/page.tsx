@@ -1,5 +1,4 @@
 import BackgroundImage from "@/components/BackgroundImage";
-import { FixedImage } from "@/components/FixImage";
 import { HeroNav } from "@/components/HeroNav";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { BodyText } from "@/components/typography/BodyText";
