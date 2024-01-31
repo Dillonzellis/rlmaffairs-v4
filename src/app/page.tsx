@@ -63,6 +63,74 @@ export default function Home() {
       <section>
         <BackgroundImage imageUrl="/venue-feat.jpg" />
       </section>
+      <section>
+        <MaxWidthWrapper className="py-12">
+          <div className="space-y-4">
+            <div className="grid grid-cols-7">
+              <div className="space-y-4 col-span-4">
+                <SubHeader>Venue & Event Space</SubHeader>
+                <MainHeader>Floral Designs</MainHeader>
+
+                <div className="flex gap-8">
+                  <Image src="/right-arr.svg" alt="" width={58} height={20} />
+                  <Button asChild variant="link" size="none" fontSize="lg">
+                    <Link href="/">Schedule a Tour</Link>
+                  </Button>
+                </div>
+              </div>
+
+              <BodyText className="max-w-prose ml-auto col-span-3">
+                Rlm is an all inclusive wedding and event venue. We believe in
+                stress-free events. Always bringing a comfortable and
+                luxuriously tailored gathering space together for sharing in
+                life's celebrations. Our goal is to elegantly bring your vision
+                to life. As we plan, design and fully execute beautiful event.
+                Focus on your celebration of love. We’ll handle all the
+                important details. You deserve to radiate confidence on one of
+                the most important days of your life.
+              </BodyText>
+            </div>
+          </div>
+        </MaxWidthWrapper>
+      </section>
+      <section>
+        <BackgroundImage imageUrl="/floral-feat.jpg" />
+      </section>
+      <section className="relative">
+        <div>
+          <MaxWidthWrapper className="py-12">
+            <div className="space-y-4">
+              <SubHeader>Venue & Event Space</SubHeader>
+              <MainHeader>Premiere Catering</MainHeader>
+              <div className="flex gap-8 pb-16">
+                <Image src="/right-arr.svg" alt="" width={58} height={20} />
+                <Button asChild variant="link" size="none" fontSize="lg">
+                  <Link href="/">Schedule a Tour</Link>
+                </Button>
+              </div>
+              <BodyText className="max-w-[55ch]">
+                Savor the magic of your wedding day with our exceptional
+                in-house catering. Our culinary experts have curate a menu that
+                combines exquisite flavors from the first bite to the last, our
+                catering promises to be a delightful journey for your taste
+                buds. Let the celebration be as delicious as your love, making
+                every moment a flavorful memory. Indulge in a feast that
+                reflects the joy of your union, creating a culinary experience
+                that is as unique as your love story
+              </BodyText>
+            </div>
+          </MaxWidthWrapper>
+        </div>
+        <div>
+          <Image
+            src="/catering-feat.jpg"
+            alt=""
+            height={639}
+            width={620}
+            className="absolute right-0 top-0 -z-10"
+          />
+        </div>
+      </section>
     </main>
   );
 }
