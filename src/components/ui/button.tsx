@@ -28,7 +28,7 @@ const buttonVariants = cva(
       },
       fontSize: {
         default: "text-sm",
-        lg: "text-3xl",
+        lg: "text-xl md:text-3xl",
       },
     },
     defaultVariants: {
