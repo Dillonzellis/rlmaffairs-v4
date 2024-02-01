@@ -79,16 +79,11 @@ export default function Home() {
       </section>
       <section className="relative">
         <div>
-          <MaxWidthWrapper className="py-16">
+          <MaxWidthWrapper className="py-12 md:py-16">
             <div className="space-y-4">
               <SubHeader>Venue & Event Space</SubHeader>
               <MainHeader>Premiere Catering</MainHeader>
-              <div className="flex gap-8 pb-16">
-                <Image src="/right-arr.svg" alt="" width={58} height={20} />
-                <Button asChild variant="link" size="none" fontSize="lg">
-                  <Link href="/">Schedule a Tour</Link>
-                </Button>
-              </div>
+              <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
               <BodyText className="max-w-[55ch]">
                 Savor the magic of your event with our exceptional in-house
                 catering. We offer all the catering services you may need for
@@ -104,7 +99,7 @@ export default function Home() {
             alt=""
             height={700}
             width={620}
-            className="absolute right-0 top-0 -z-10 object-cover"
+            className="right-0 top-0 -z-10 hidden object-cover md:absolute md:block"
           />
         </div>
         <SmallSlider />
