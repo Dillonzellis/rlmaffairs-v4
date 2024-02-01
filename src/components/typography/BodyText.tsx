@@ -9,7 +9,7 @@ export const BodyText = ({ children, className }: BodyTextProps) => {
   return (
     <div
       className={cn(
-        "font-light text-lg tracking-tighter text-muted-foreground leading-8",
+        "font-light leading-7 tracking-tighter text-muted-foreground md:text-lg md:leading-8",
         className,
       )}
     >
