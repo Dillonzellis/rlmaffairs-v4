@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export const HomeAwards = () => {
   return (
-    <div className="flex justify-center flex-col gap-8">
-      <div className="text-center font-serif font-medium max-w-[1000px] mx-auto tracking-tighter text-6xl">
+    <div className="flex flex-col justify-center gap-8">
+      <div className="mx-auto max-w-[1000px] text-center font-serif font-medium tracking-tighter md:text-6xl">
         Excellence in Service: Celebrating Our Prestigious Wedding Industry
         Awards
       </div>
-      <div className="flex gap-8 justify-center">
+      <div className="flex justify-center gap-8">
         {awards.map((award, idx) => (
           <Image
             key={idx}

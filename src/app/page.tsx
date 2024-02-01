@@ -135,9 +135,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-12">
-        <HomeAwards />
-      </section>
+      {/* <section className="py-12"> */}
+      {/*   <HomeAwards /> */}
+      {/* </section> */}
     </main>
   );
 }
