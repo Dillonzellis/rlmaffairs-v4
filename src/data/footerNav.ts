@@ -3,22 +3,22 @@ export const footerNav = [
     linksCol: [
       { label: "Venue", href: "/venue" },
       { label: "Florals", href: "/florals" },
-      { label: "Event Planning", href: "/event-planning" },
+      { label: "Love Letters", href: "/event-planning" },
       { label: "Our Story", href: "/our-story" },
     ],
   },
   {
     linksCol: [
-      { label: "Venue", href: "/venue" },
-      { label: "Florals", href: "/florals" },
-      { label: "Event Planning", href: "/event-planning" },
+      { label: "Catering Menu", href: "/venue" },
+      { label: "Floor Plan", href: "/florals" },
+      { label: "FAQ", href: "/event-planning" },
     ],
   },
   {
     linksCol: [
-      { label: "Venue", href: "/venue" },
-      { label: "Event Planning", href: "/event-planning" },
-      { label: "Our Story", href: "/our-story" },
+      { label: "Instagram", href: "/venue" },
+      { label: "Facebook", href: "/event-planning" },
+      { label: "The Knot", href: "/our-story" },
     ],
   },
 ];
