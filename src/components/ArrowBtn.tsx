@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,11 +6,14 @@ import Link from "next/link";
 interface ArrowBtnProps {
   children: React.ReactNode;
   href: string;
+  className?: string;
 }
 
-export const ArrowBtn = ({ href, children }: ArrowBtnProps) => {
+export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
   return (
-    <div className="flex items-center gap-4 pb-8 md:gap-8 md:pb-0">
+    <div
+      className={cn("flex items-center gap-4 pb-8 md:gap-8 md:pb-0", className)}
+    >
       <Image
         src="/right-arr.svg"
         alt=""
