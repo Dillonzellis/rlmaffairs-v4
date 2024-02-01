@@ -51,14 +51,11 @@ export default function Home() {
             </div>
           </div>
           <BodyText className="max-w-prose ml-auto">
-            Rlm is an all inclusive wedding and event venue. We believe in
-            stress-free events. Always bringing a comfortable and luxuriously
+            RLM is an all inclusive wedding and event venue. Offering amazing
+            pricing, full catering services, beautiful florals and coordination.
+            We are committed to always bringing a comfortable and luxuriously
             tailored gathering space together for sharing in life&apos;s
-            celebrations. Our goal is to elegantly bring your vision to life. As
-            we plan, design and fully execute beautiful event. Focus on your
-            celebration of love. We’ll handle all the important details. You
-            deserve to radiate confidence on one of the most important days of
-            your life.
+            celebrations.
           </BodyText>
         </MaxWidthWrapper>
       </section>
@@ -82,14 +79,11 @@ export default function Home() {
               </div>
 
               <BodyText className="max-w-prose ml-auto col-span-3">
-                Rlm is an all inclusive wedding and event venue. We believe in
-                stress-free events. Always bringing a comfortable and
-                luxuriously tailored gathering space together for sharing in
-                life&apos;s celebrations. Our goal is to elegantly bring your
-                vision to life. As we plan, design and fully execute beautiful
-                event. Focus on your celebration of love. We’ll handle all the
-                important details. You deserve to radiate confidence on one of
-                the most important days of your life.
+                RLM Affairs award winning designers offer exquisite attention to
+                detail. Whether it’s a single rose or decor for an entire Gala
+                every bloom is hand picked. We have had many different
+                influences in the floral industry, affording us the opportunity
+                to always create something unique.
               </BodyText>
             </div>
           </div>
@@ -111,14 +105,10 @@ export default function Home() {
                 </Button>
               </div>
               <BodyText className="max-w-[55ch]">
-                Savor the magic of your wedding day with our exceptional
-                in-house catering. Our culinary experts have curate a menu that
-                combines exquisite flavors from the first bite to the last, our
-                catering promises to be a delightful journey for your taste
-                buds. Let the celebration be as delicious as your love, making
-                every moment a flavorful memory. Indulge in a feast that
-                reflects the joy of your union, creating a culinary experience
-                that is as unique as your love story
+                Savor the magic of your event with our exceptional in-house
+                catering. We offer all the catering services you may need for
+                your event. Our staff works directly with each client to tailor
+                every detail.
               </BodyText>
             </div>
           </MaxWidthWrapper>
