@@ -111,7 +111,7 @@ export default function Home() {
             alt=""
             height={758}
             width={423}
-            className="col-span-2"
+            className="col-span-2 max-h-72 object-cover object-[0_12%] md:max-h-[800px]"
           />
           <div className="col-span-4 py-12">
             <MaxWidthWrapper>
