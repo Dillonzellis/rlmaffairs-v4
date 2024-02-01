@@ -7,9 +7,7 @@ import { SmallSlider } from "@/components/SmallSlider";
 import { BodyText } from "@/components/typography/BodyText";
 import { MainHeader } from "@/components/typography/MainHeader";
 import { SubHeader } from "@/components/typography/SubHeader";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowBtn } from "@/components/ArrowBtn";
 
 export default function Home() {
@@ -25,9 +23,9 @@ export default function Home() {
         />
         <div className="fixed left-2.5 top-7 flex gap-4 md:left-7">
           <Image src="/hamburger.svg" alt="" width={45} height={20} />
-          <div className="text-lg text-white">MENU</div>
+          <div className="text-lg text-background">MENU</div>
         </div>
-        <h1 className="absolute left-1/2 top-[10%] -translate-x-1/2 font-serif text-8xl font-semibold text-white">
+        <h1 className="absolute left-1/2 top-[10%] -translate-x-1/2 font-serif text-8xl font-semibold text-background">
           RLM
         </h1>
         <Image

@@ -27,7 +27,7 @@ const FooterLink = ({ label, href }: FooterLinkProps) => {
 export const FooterLinks = () => {
   return (
     <div className="bg-[url('/footer-bg.png')] bg-cover bg-no-repeat">
-      <MaxWidthWrapper className="pb-4 text-white">
+      <MaxWidthWrapper className="pb-4 text-background">
         <div className="pb-6 text-center font-serif text-5xl tracking-tighter md:text-start md:text-7xl">
           RLM Affairs
         </div>

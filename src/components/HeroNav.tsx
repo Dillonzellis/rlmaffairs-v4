@@ -14,7 +14,7 @@ export const HeroNav = () => {
         {navItems.map((item) => (
           <li
             key={item.label}
-            className="pb-2 font-serif text-4xl font-semibold italic text-white md:text-5xl"
+            className="pb-2 font-serif text-4xl font-semibold italic text-background md:text-5xl"
           >
             {item.label}
           </li>
