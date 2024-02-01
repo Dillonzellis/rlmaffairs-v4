@@ -16,7 +16,7 @@ export const FooterCTA = () => {
           <Button>Book A Tour!</Button>
         </div>
         <div className="flex flex-col items-center">
-          <small>Not finding what you're looking for?</small>
+          <small>Not finding what you&apos;re looking for?</small>
           <small>Tell us about your dream wedding</small>
         </div>
       </div>

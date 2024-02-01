@@ -53,7 +53,7 @@ export default function Home() {
           <BodyText className="max-w-prose ml-auto">
             Rlm is an all inclusive wedding and event venue. We believe in
             stress-free events. Always bringing a comfortable and luxuriously
-            tailored gathering space together for sharing in life's
+            tailored gathering space together for sharing in life&apos;s
             celebrations. Our goal is to elegantly bring your vision to life. As
             we plan, design and fully execute beautiful event. Focus on your
             celebration of love. We’ll handle all the important details. You
@@ -85,9 +85,9 @@ export default function Home() {
                 Rlm is an all inclusive wedding and event venue. We believe in
                 stress-free events. Always bringing a comfortable and
                 luxuriously tailored gathering space together for sharing in
-                life's celebrations. Our goal is to elegantly bring your vision
-                to life. As we plan, design and fully execute beautiful event.
-                Focus on your celebration of love. We’ll handle all the
+                life&apos;s celebrations. Our goal is to elegantly bring your
+                vision to life. As we plan, design and fully execute beautiful
+                event. Focus on your celebration of love. We’ll handle all the
                 important details. You deserve to radiate confidence on one of
                 the most important days of your life.
               </BodyText>
@@ -152,11 +152,11 @@ export default function Home() {
                 space where brides and cherished guests can pen down their
                 experiences and memories from your special day. Your words are a
                 testament to the magic that unfolds within our walls. Whether
-                you're a bride reminiscing about your dream wedding or a guest
-                touched by the love in the air, we'd be honored to feature your
-                unique tale in our gallery of cherished moments. Let your love
-                story inspire others and become a part of the lasting legacy of
-                joy and celebration at RLM Affairs
+                you&apos;re a bride reminiscing about your dream wedding or a
+                guest touched by the love in the air, we&apos;d be honored to
+                feature your unique tale in our gallery of cherished moments.
+                Let your love story inspire others and become a part of the
+                lasting legacy of joy and celebration at RLM Affairs
               </BodyText>
             </div>
           </div>
