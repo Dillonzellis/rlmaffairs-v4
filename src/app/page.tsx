@@ -1,3 +1,4 @@
+import { MoveRight } from "lucide-react";
 import BackgroundImage from "@/components/BackgroundImage";
 import { HeroNav } from "@/components/HeroNav";
 import { HomeAwards } from "@/components/HomeAwards";
@@ -43,9 +44,21 @@ export default function Home() {
             <SubHeader>Venue & Event Space</SubHeader>
             <MainHeader>Venue & Event Space</MainHeader>
 
-            <div className="flex gap-8">
-              <Image src="/right-arr.svg" alt="" width={58} height={20} />
-              <Button asChild variant="link" size="none" fontSize="lg">
+            <div className="flex items-center gap-4 pb-8 md:gap-8 md:pb-0">
+              <Image
+                src="/right-arr.svg"
+                alt=""
+                width={58}
+                height={20}
+                className="h-3.5 w-10 md:h-5 md:w-14"
+              />
+              <Button
+                asChild
+                variant="link"
+                size="none"
+                fontSize="lg"
+                className="font-light"
+              >
                 <Link href="/">Schedule a Tour</Link>
               </Button>
             </div>
@@ -58,8 +71,6 @@ export default function Home() {
             celebrations.
           </BodyText>
         </MaxWidthWrapper>
-      </section>
-      <section>
         <BackgroundImage imageUrl="/venue-feat.jpg" />
       </section>
       <section>
