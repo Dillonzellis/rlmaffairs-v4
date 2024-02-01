@@ -10,6 +10,7 @@ import { SubHeader } from "@/components/typography/SubHeader";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowBtn } from "@/components/ArrowBtn";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           width={1280}
           className="h-screen w-full object-cover"
         />
-        <div className="fixed left-7 top-7 flex gap-4">
+        <div className="fixed left-2.5 top-7 flex gap-4 md:left-7">
           <Image src="/hamburger.svg" alt="" width={45} height={20} />
           <div className="text-lg text-white">MENU</div>
         </div>
@@ -34,7 +35,7 @@ export default function Home() {
           alt=""
           width={20}
           height={55}
-          className="absolute bottom-8 right-7"
+          className="absolute bottom-8 right-2.5 md:right-7"
         />
         <HeroNav />
       </section>
@@ -43,25 +44,7 @@ export default function Home() {
           <div className="space-y-4">
             <SubHeader>Venue & Event Space</SubHeader>
             <MainHeader>Venue & Event Space</MainHeader>
-
-            <div className="flex items-center gap-4 pb-8 md:gap-8 md:pb-0">
-              <Image
-                src="/right-arr.svg"
-                alt=""
-                width={58}
-                height={20}
-                className="h-3.5 w-10 md:h-5 md:w-14"
-              />
-              <Button
-                asChild
-                variant="link"
-                size="none"
-                fontSize="lg"
-                className="font-light"
-              >
-                <Link href="/">Schedule a Tour</Link>
-              </Button>
-            </div>
+            <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
           </div>
           <BodyText className="ml-auto max-w-prose">
             RLM is an all inclusive wedding and event venue. Offering amazing
@@ -80,15 +63,8 @@ export default function Home() {
               <div className="col-span-4 space-y-4">
                 <SubHeader>Venue & Event Space</SubHeader>
                 <MainHeader>Floral Designs</MainHeader>
-
-                <div className="flex gap-8">
-                  <Image src="/right-arr.svg" alt="" width={58} height={20} />
-                  <Button asChild variant="link" size="none" fontSize="lg">
-                    <Link href="/">Schedule a Tour</Link>
-                  </Button>
-                </div>
+                <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
               </div>
-
               <BodyText className="col-span-3 ml-auto max-w-prose">
                 RLM Affairs award winning designers offer exquisite attention to
                 detail. Whether it’s a single rose or decor for an entire Gala
