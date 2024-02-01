@@ -12,20 +12,20 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-dvh">
       <section>
         <Image
           src="/hero-placeholder.jpg"
           alt=""
           height={834}
           width={1280}
-          className="h-screen object-cover w-full"
+          className="h-screen w-full object-cover"
         />
-        <div className="top-7 left-7 flex gap-4 fixed">
+        <div className="fixed left-7 top-7 flex gap-4">
           <Image src="/hamburger.svg" alt="" width={45} height={20} />
-          <div className="text-white text-lg">MENU</div>
+          <div className="text-lg text-white">MENU</div>
         </div>
-        <h1 className="font-serif absolute left-1/2 top-[10%] text-8xl text-white font-semibold -translate-x-1/2">
+        <h1 className="absolute left-1/2 top-[10%] -translate-x-1/2 font-serif text-8xl font-semibold text-white">
           RLM
         </h1>
         <Image
@@ -50,7 +50,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <BodyText className="max-w-prose ml-auto">
+          <BodyText className="ml-auto max-w-prose">
             RLM is an all inclusive wedding and event venue. Offering amazing
             pricing, full catering services, beautiful florals and coordination.
             We are committed to always bringing a comfortable and luxuriously
@@ -66,7 +66,7 @@ export default function Home() {
         <MaxWidthWrapper className="py-12">
           <div className="space-y-4">
             <div className="grid grid-cols-7">
-              <div className="space-y-4 col-span-4">
+              <div className="col-span-4 space-y-4">
                 <SubHeader>Venue & Event Space</SubHeader>
                 <MainHeader>Floral Designs</MainHeader>
 
@@ -78,7 +78,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <BodyText className="max-w-prose ml-auto col-span-3">
+              <BodyText className="col-span-3 ml-auto max-w-prose">
                 RLM Affairs award winning designers offer exquisite attention to
                 detail. Whether it’s a single rose or decor for an entire Gala
                 every bloom is hand picked. We have had many different

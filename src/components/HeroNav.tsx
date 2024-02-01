@@ -9,12 +9,12 @@ export type TypenavItems = (typeof navItems)[number];
 
 export const HeroNav = () => {
   return (
-    <div className="absolute left-7 bottom-8">
+    <div className="absolute bottom-8 left-2.5 lg:left-7">
       <ul>
         {navItems.map((item) => (
           <li
             key={item.label}
-            className="italic text-5xl pb-2 text-white font-serif font-semibold"
+            className="pb-2 font-serif text-4xl font-semibold italic text-white md:text-5xl"
           >
             {item.label}
           </li>
