@@ -3,5 +3,9 @@ interface MainHeaderProps {
 }
 
 export const MainHeader = ({ children }: MainHeaderProps) => {
-  return <div className="font-serif text-9xl tracking-tighter">{children}</div>;
+  return (
+    <div className="font-serif text-7xl tracking-tighter lg:text-9xl">
+      {children}
+    </div>
+  );
 };
