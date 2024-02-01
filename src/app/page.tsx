@@ -59,7 +59,7 @@ export default function Home() {
       <section>
         <MaxWidthWrapper className="py-12">
           <div className="space-y-4">
-            <div className="grid grid-cols-7">
+            <div className="grid-cols-7 md:grid">
               <div className="col-span-4 space-y-4">
                 <SubHeader>Venue & Event Space</SubHeader>
                 <MainHeader>Floral Designs</MainHeader>
@@ -112,7 +112,7 @@ export default function Home() {
         <SmallSlider />
       </section>
       <section>
-        <div className="grid grid-cols-6 gap-6">
+        <div className="grid-cols-6 gap-6 md:grid">
           <Image
             src="/love-letters.jpg"
             alt=""
