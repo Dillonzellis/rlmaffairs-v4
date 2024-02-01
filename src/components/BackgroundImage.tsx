@@ -5,7 +5,7 @@ interface BackgroundImageProps {
 const BackgroundImage = ({ imageUrl }: BackgroundImageProps) => {
   return (
     <div
-      className={`bg-center bg-fixed bg-no-repeat h-[573px] bg-cover`}
+      className={`min-h-72 bg-cover bg-fixed bg-center bg-no-repeat md:min-h-[573px]`}
       style={{ backgroundImage: `url(${imageUrl})` }}
     ></div>
   );
