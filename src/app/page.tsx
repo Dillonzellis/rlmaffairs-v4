@@ -113,22 +113,25 @@ export default function Home() {
             width={423}
             className="col-span-2"
           />
-          <div className="col-span-4 px-8 py-12">
-            <div className="space-y-4">
-              <SubHeader>Share Your Love Story</SubHeader>
-              <MainHeader>Love Letters</MainHeader>
-              <BodyText>
-                We invite you to contribute to our Love Letters, a heartfelt
-                space where brides and cherished guests can pen down their
-                experiences and memories from your special day. Your words are a
-                testament to the magic that unfolds within our walls. Whether
-                you&apos;re a bride reminiscing about your dream wedding or a
-                guest touched by the love in the air, we&apos;d be honored to
-                feature your unique tale in our gallery of cherished moments.
-                Let your love story inspire others and become a part of the
-                lasting legacy of joy and celebration at RLM Affairs
-              </BodyText>
-            </div>
+          <div className="col-span-4 py-12">
+            <MaxWidthWrapper>
+              <div className="space-y-4">
+                <SubHeader>Share Your Love Story</SubHeader>
+                <MainHeader>Love Letters</MainHeader>
+                <BodyText>
+                  We invite you to contribute to our Love Letters, a heartfelt
+                  space where brides and cherished guests can pen down their
+                  experiences and memories from your special day. Your words are
+                  a testament to the magic that unfolds within our walls.
+                  Whether you&apos;re a bride reminiscing about your dream
+                  wedding or a guest touched by the love in the air, we&apos;d
+                  be honored to feature your unique tale in our gallery of
+                  cherished moments. Let your love story inspire others and
+                  become a part of the lasting legacy of joy and celebration at
+                  RLM Affairs
+                </BodyText>
+              </div>
+            </MaxWidthWrapper>
           </div>
         </div>
       </section>
