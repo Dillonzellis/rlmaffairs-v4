@@ -4,15 +4,9 @@ import { FooterLinks } from "./FooterLinks";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#07111F]">
+    <footer className="space-y-12 bg-[#07111F] md:space-y-28">
       <FooterCTA />
-      <div>Footer links</div>
-      <div className="relative">
-        <Image src="/footer-bg.png" alt="logo" width={1280} height={517} />
-        <div className="absolute bottom-4 text-white w-full">
-          <FooterLinks />
-        </div>
-      </div>
+      <FooterLinks />
     </footer>
   );
 };
