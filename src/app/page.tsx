@@ -75,8 +75,6 @@ export default function Home() {
             </div>
           </div>
         </MaxWidthWrapper>
-      </section>
-      <section>
         <BackgroundImage imageUrl="/floral-feat.jpg" />
       </section>
       <section className="relative">
