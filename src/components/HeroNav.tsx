@@ -9,7 +9,7 @@ export type TypenavItems = (typeof navItems)[number];
 
 export const HeroNav = () => {
   return (
-    <div className="absolute bottom-8 left-2.5 lg:left-7">
+    <div className="absolute bottom-4 left-2.5 md:bottom-8 md:left-7">
       <ul>
         {navItems.map((item) => (
           <li
