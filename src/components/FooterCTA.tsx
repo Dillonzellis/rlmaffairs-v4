@@ -10,7 +10,7 @@ export const FooterCTA = () => {
       <Image src="/footer-cta.jpg" alt="footer cta" width={1920} height={647} />
       <div className="mx-auto text-background md:-mt-24">
         <MaxWidthWrapper>
-          <div className="mx-auto max-w-[1000px] pb-4 text-center font-serif text-5xl font-medium tracking-tight md:text-6xl md:tracking-tighter">
+          <div className="mx-auto max-w-[1000px] pb-4 text-center font-serif text-3xl font-medium tracking-tight md:text-6xl md:tracking-tighter">
             Create Your Perfect Day with Our All-Inclusive Wedding Packages.
           </div>
           <div className="mx-auto max-w-2xl pb-2 text-center text-2xl font-light text-background/70 md:text-4xl">
