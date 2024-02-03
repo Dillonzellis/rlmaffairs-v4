@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Link from "next/link";
-import { footerNav } from "@/data/footerNav";
+import { footerNav } from "@/data/navLinks";
 import { getYear } from "@/lib/getYear";
 
 interface FooterLinkProps {
