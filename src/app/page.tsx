@@ -11,7 +11,7 @@ import { NavMenu } from "@/components/NavMenu";
 
 export default function Home() {
   return (
-    <main className="relative min-h-dvh">
+    <main className="min-h-dvh">
       <section>
         <Image
           src="/hero-placeholder.jpg"
@@ -20,10 +20,6 @@ export default function Home() {
           width={1280}
           className="h-screen w-full object-cover"
         />
-        {/* <div className="fixed left-2.5 top-7 flex gap-4 md:left-7"> */}
-        {/*   <Image src="/hamburger.svg" alt="" width={45} height={20} /> */}
-        {/*   <div className="text-lg text-background">MENU</div> */}
-        {/* </div> */}
         <NavMenu />
         <h1 className="absolute left-1/2 top-[10%] -translate-x-1/2 font-serif text-8xl font-semibold text-background">
           RLM
