@@ -40,9 +40,9 @@ export default function Home() {
       <section>
         <MaxWidthWrapper className="py-12">
           <div className="space-y-4">
-            <SubHeader>Venue & Event Space</SubHeader>
+            <SubHeader>The Stage for Lifelong Memories</SubHeader>
             <MainHeader>Venue & Event Space</MainHeader>
-            <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
+            <ArrowBtn href="/">Book a Tour</ArrowBtn>
           </div>
           <BodyText className="ml-auto max-w-prose">
             RLM is an all inclusive wedding and event venue. Offering amazing
@@ -59,9 +59,9 @@ export default function Home() {
           <div className="space-y-4">
             <div className="grid-cols-7 items-center md:grid">
               <div className="col-span-4 space-y-4">
-                <SubHeader>Venue & Event Space</SubHeader>
+                <SubHeader>Artistry in Every Petal</SubHeader>
                 <MainHeader>Floral Designs</MainHeader>
-                <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
+                <ArrowBtn href="/">Connect with Our Designers</ArrowBtn>
               </div>
               <BodyText className="col-span-3 ml-auto max-w-prose">
                 RLM Affairs award winning designers offer exquisite attention to
@@ -79,9 +79,9 @@ export default function Home() {
         <div>
           <MaxWidthWrapper className="py-12 md:py-16">
             <div className="space-y-4">
-              <SubHeader>Venue & Event Space</SubHeader>
+              <SubHeader>Crafting Your Culinary Story</SubHeader>
               <MainHeader>Premiere Catering</MainHeader>
-              <ArrowBtn href="/">Schedule a Tour</ArrowBtn>
+              <ArrowBtn href="/">Reserve a Tasting Experience</ArrowBtn>
               <BodyText className="max-w-[55ch]">
                 Savor the magic of your event with our exceptional in-house
                 catering. We offer all the catering services you may need for
