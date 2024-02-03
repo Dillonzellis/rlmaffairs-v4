@@ -32,7 +32,7 @@ export const FooterLinks = () => {
         <div className="pb-6 text-center font-serif text-5xl tracking-tighter md:text-start md:text-7xl">
           RLM Affairs
         </div>
-        <div className="flex flex-col items-center gap-6 pb-16 md:flex-row md:gap-20">
+        <div className="flex flex-col items-center gap-6 pb-16 md:flex-row md:items-baseline md:gap-20">
           {footerNav.map((col, idx) => (
             <FooterCol key={idx}>
               {col.linksCol.map((link) => (
