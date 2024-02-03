@@ -1,7 +1,5 @@
-import { MoveRight } from "lucide-react";
 import BackgroundImage from "@/components/BackgroundImage";
 import { HeroNav } from "@/components/HeroNav";
-import { HomeAwards } from "@/components/HomeAwards";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { SmallSlider } from "@/components/SmallSlider";
 import { BodyText } from "@/components/typography/BodyText";
