@@ -1,3 +1,13 @@
+"use client";
+
+import * as React from "react";
+import Autoplay from "embla-carousel-autoplay";
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 import Image from "next/image";
 
 const imgs = [
@@ -7,19 +17,39 @@ const imgs = [
   { src: "/catering-slide.jpg", alt: "venue" },
 ];
 
-export const SmallSlider = () => {
+export function SmallSlider() {
   return (
-    <div className="flex overflow-hidden">
-      {imgs.map((img, idx) => (
-        <Image
-          key={idx}
-          src={img.src}
-          alt={img.alt}
-          width={365}
-          height={335}
-          className="min-h-[335px] object-cover"
-        />
-      ))}
-    </div>
+    <Carousel
+      className="w-full"
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+      plugins={[
+        Autoplay({
+          delay: 2000,
+        }),
+      ]}
+    >
+      <CarouselContent className="-ml-1">
+        {imgs.map((img, idx) => (
+          <CarouselItem
+            key={idx}
+            className="pl-0 sm:w-full md:basis-1/2 lg:basis-1/3"
+          >
+            <div className="">
+              <Image
+                key={idx}
+                src={img.src}
+                alt={img.alt}
+                width={365}
+                height={335}
+                className="min-h-[335px] w-full object-cover"
+              />
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+    </Carousel>
   );
-};
+}

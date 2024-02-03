@@ -77,7 +77,7 @@ export default function Home() {
       </section>
       <section className="relative">
         <div>
-          <MaxWidthWrapper className="py-12 md:py-16">
+          <MaxWidthWrapper className="py-12 md:py-36">
             <div className="space-y-4">
               <SubHeader>Crafting Your Culinary Story</SubHeader>
               <MainHeader>Premiere Catering</MainHeader>
