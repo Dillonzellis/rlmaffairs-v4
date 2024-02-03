@@ -4,8 +4,8 @@ interface MainHeaderProps {
 
 export const MainHeader = ({ children }: MainHeaderProps) => {
   return (
-    <div className="font-serif text-7xl tracking-tighter lg:text-9xl">
+    <h2 className="font-serif text-7xl tracking-tighter lg:text-9xl">
       {children}
-    </div>
+    </h2>
   );
 };
