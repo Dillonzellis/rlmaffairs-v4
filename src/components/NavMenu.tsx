@@ -15,7 +15,7 @@ const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
   return (
     <div
       ref={refProp}
-      className="fixed left-0 top-0 z-20 flex h-screen w-full flex-col border-r-8 border-r-muted-foreground bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
+      className="fixed left-0 top-0 z-30 flex h-screen w-full flex-col border-r-8 border-r-muted-foreground bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
     >
       <div
         onClick={handleClick}
@@ -30,7 +30,7 @@ const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
             <li key={index} className="py-2">
               <Link
                 href={item.href}
-                className="text-4xl text-primary hover:underline"
+                className="font-serif text-4xl font-bold text-primary hover:text-primary/70"
               >
                 {item.label}
               </Link>
@@ -43,7 +43,7 @@ const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
 };
 
 export const NavMenu = () => {
-  const [sheetActive, setSheetActive] = useState(true);
+  const [sheetActive, setSheetActive] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const handleClick = () => {
@@ -76,7 +76,7 @@ export const NavMenu = () => {
     <>
       <div
         onClick={handleClick}
-        className="fixed left-2.5 top-7 flex cursor-pointer gap-4 md:left-7"
+        className="fixed left-2.5 top-7 z-20 flex cursor-pointer gap-4 md:left-7"
       >
         <Image src="/hamburger.svg" alt="" width={45} height={20} />
         <div className="text-lg text-background">MENU</div>
