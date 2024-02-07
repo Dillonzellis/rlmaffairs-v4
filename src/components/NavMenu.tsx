@@ -2,24 +2,48 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
+import { X } from "lucide-react";
+import { mainNav } from "@/data/navLinks";
+import Link from "next/link";
 
 interface NavSheetProps {
   refProp: React.RefObject<HTMLDivElement>;
+  handleClick: () => void;
 }
 
-const NavSheet = ({ refProp }: NavSheetProps) => {
+const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
   return (
     <div
       ref={refProp}
-      className="fixed left-0 top-0 z-20 h-screen w-52 bg-white"
+      className="fixed left-0 top-0 z-20 h-screen w-full border-r-8 border-r-muted-foreground bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
     >
-      <div>Sheet Menu</div>
+      <div
+        onClick={handleClick}
+        className="flex cursor-pointer items-center gap-2"
+      >
+        <X strokeWidth={1.5} className="h-9 w-9" />
+        <span className="text-lg">CLOSE</span>
+      </div>
+      <div className="flex h-full flex-col justify-center">
+        <ul>
+          {mainNav.map((item, index) => (
+            <li key={index} className="py-2">
+              <Link
+                href={item.href}
+                className="text-4xl text-primary hover:underline"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
 
 export const NavMenu = () => {
-  const [sheetActive, setSheetActive] = useState(false);
+  const [sheetActive, setSheetActive] = useState(true);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const handleClick = () => {
@@ -57,7 +81,7 @@ export const NavMenu = () => {
         <Image src="/hamburger.svg" alt="" width={45} height={20} />
         <div className="text-lg text-background">MENU</div>
       </div>
-      {sheetActive && <NavSheet refProp={menuRef} />}
+      {sheetActive && <NavSheet refProp={menuRef} handleClick={handleClick} />}
     </>
   );
 };
