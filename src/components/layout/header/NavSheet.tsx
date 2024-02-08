@@ -11,7 +11,7 @@ export const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
   return (
     <div
       ref={refProp}
-      className="fixed left-0 top-0 z-30 flex h-screen w-full flex-col border-r-8 border-r-muted-foreground bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
+      className="fixed left-0 top-0 z-30 flex h-dvh w-full flex-col border-r-8 border-r-muted-foreground bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
     >
       <div
         onClick={handleClick}
