@@ -2,7 +2,7 @@ interface BackgroundImageProps {
   imageUrl: string;
 }
 
-const BackgroundImage = ({ imageUrl }: BackgroundImageProps) => {
+export const BackgroundImage = ({ imageUrl }: BackgroundImageProps) => {
   return (
     <div
       className={`min-h-72 bg-cover bg-fixed bg-center bg-no-repeat md:min-h-[573px]`}
@@ -10,5 +10,3 @@ const BackgroundImage = ({ imageUrl }: BackgroundImageProps) => {
     ></div>
   );
 };
-
-export default BackgroundImage;

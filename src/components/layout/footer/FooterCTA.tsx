@@ -1,8 +1,8 @@
 import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { Button, buttonVariants } from "./ui/button";
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import { Button } from "@/components/common/ui/button";
+import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 
 export const FooterCTA = () => {
   return (

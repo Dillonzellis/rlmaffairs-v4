@@ -24,7 +24,7 @@ const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
         <X strokeWidth={1.5} className="h-9 w-9" />
         <span className="text-lg">CLOSE</span>
       </div>
-      <div className="flex h-full flex-col justify-center">
+      <nav className="flex h-full flex-col justify-center">
         <ul>
           {mainNav.map((item, index) => (
             <li key={index} className="py-2">
@@ -37,7 +37,7 @@ const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
             </li>
           ))}
         </ul>
-      </div>
+      </nav>
     </div>
   );
 };
