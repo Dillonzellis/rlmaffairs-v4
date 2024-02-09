@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { NavMenu } from "@/components/layout/header/NavMenu";
-import { HeroNav } from "@/components/common/HeroNav";
 
 export const HomeHero = () => {
   return (
@@ -10,12 +9,10 @@ export const HomeHero = () => {
         alt=""
         height={834}
         width={1280}
-        className="h-screen w-full object-cover"
+        className="h-dvh w-full object-cover"
       />
       <NavMenu />
-      {/* <h1 className="absolute left-1/2 top-[10%] -translate-x-1/2 font-serif text-8xl font-semibold text-background"> */}
-      {/*   RLM */}
-      {/* </h1> */}
+      {/* TODO: add anchor link to next section */}
       <Image
         src="/down-arr.svg"
         alt=""
