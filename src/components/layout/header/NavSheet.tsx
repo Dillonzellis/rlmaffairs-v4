@@ -11,14 +11,14 @@ export const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
   return (
     <div
       ref={refProp}
-      className="fixed left-0 top-0 z-30 flex h-dvh w-full flex-col border-r-2 border-r-primary/90 bg-background/90 py-7 pl-2.5 backdrop-blur-md md:w-[30rem] md:pl-7"
+      className="fixed left-0 top-0 z-30 flex h-dvh w-full flex-col border-r border-r-primary/90 bg-background/70 p-4 backdrop-blur-md md:w-[30rem]"
     >
       <div
         onClick={handleClick}
         className="flex cursor-pointer items-center gap-2"
       >
-        <X strokeWidth={1} className="h-9 w-9" />
-        <span className="text-lg">CLOSE</span>
+        <X strokeWidth={1.5} className="h-9 w-9" />
+        <span className="font-bold">CLOSE</span>
       </div>
       <nav className="flex h-full flex-col justify-center">
         <ul>

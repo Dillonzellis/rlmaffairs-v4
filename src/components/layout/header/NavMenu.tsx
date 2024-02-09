@@ -15,8 +15,8 @@ export const NavMenu = () => {
           onClick={toggleVisibility}
           className="flex cursor-pointer items-center gap-2 border-r-background/30 p-4 md:border-r"
         >
-          <AlignLeft strokeWidth={1} className="h-9 w-9 text-background" />
-          <div className="hidden text-lg md:block">MENU</div>
+          <AlignLeft strokeWidth={1.5} className="h-9 w-9 text-background" />
+          <div className="hidden font-bold md:block">MENU</div>
         </div>
         <div className="flex items-center pr-3 md:pr-0">
           <Link href="/">RLM LOGO</Link>
