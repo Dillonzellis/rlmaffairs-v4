@@ -4,7 +4,7 @@ interface SubHeaderProps {
 
 export const SubHeader = ({ children }: SubHeaderProps) => {
   return (
-    <div className="text-muted-foreground italic font-light tracking-tighter text-sm">
+    <div className="text-sm font-light italic tracking-tighter text-primary/70">
       {children}
     </div>
   );
