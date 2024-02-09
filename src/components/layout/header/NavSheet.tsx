@@ -17,16 +17,19 @@ export const NavSheet = ({ refProp, handleClick }: NavSheetProps) => {
         onClick={handleClick}
         className="flex cursor-pointer items-center gap-2"
       >
-        <X strokeWidth={1.5} className="h-9 w-9" />
+        <X strokeWidth={1} className="h-9 w-9" />
         <span className="text-lg">CLOSE</span>
       </div>
       <nav className="flex h-full flex-col justify-center">
         <ul>
           {mainNav.map((item, index) => (
-            <li key={index} className="py-2">
+            <li
+              key={index}
+              className="group transform py-1 transition-transform duration-200 hover:translate-x-1"
+            >
               <Link
                 href={item.href}
-                className="font-serif text-4xl font-bold text-primary hover:text-primary/70"
+                className="font-nav text-2xl font-light text-primary group-hover:text-primary/80"
               >
                 {item.label}
               </Link>

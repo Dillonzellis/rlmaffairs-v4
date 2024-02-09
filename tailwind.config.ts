@@ -21,6 +21,7 @@ const config = {
       fontFamily: {
         sans: ["var(--nunito)"],
         serif: ["var(--dream-avenue)"],
+        nav: ["var(--serifDisplay)"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -82,4 +83,3 @@ const config = {
 } satisfies Config;
 
 export default config;
-
