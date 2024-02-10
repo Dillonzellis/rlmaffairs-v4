@@ -1,18 +1,66 @@
 "use client";
 
+import { useState } from "react";
+import { cn } from "@/lib/utils";
+import { mainNav } from "@/data/navLinks";
+import { X } from "lucide-react";
 import Link from "next/link";
-import { NavSheet } from "./NavSheet";
-import { useToggleVisibility } from "@/hooks/useToggleVisibility";
 import { AlignLeft } from "lucide-react";
 
-export const NavMenu = () => {
-  const { ref, isVisible, toggleVisibility } = useToggleVisibility();
+interface NavSheetProps {
+  isOpen: boolean;
+  toggleSheet: () => void;
+}
 
+const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
+  const navSheetClasses = cn(
+    "fixed top-0 z-30 flex h-dvh w-full flex-col border-r border-r-primary/30 bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
+    "transition-transform duration-500 ease-in-out",
+    {
+      "transform translate-x-0": isOpen,
+      "transform -translate-x-full": !isOpen,
+    },
+  );
+  return (
+    <div className={navSheetClasses}>
+      <div
+        onClick={toggleSheet}
+        className="flex cursor-pointer items-center gap-2 border-b border-b-primary/30 pb-4"
+      >
+        <X strokeWidth={1.5} className="h-9 w-9" />
+        <span className="font-bold">CLOSE</span>
+      </div>
+      <nav className="flex h-full flex-col justify-center">
+        <ul>
+          {mainNav.map((item, index) => (
+            <li
+              key={index}
+              className="group transform py-1 transition-transform duration-200 hover:translate-x-1"
+            >
+              <Link
+                href={item.href}
+                className="font-nav text-2xl font-light text-primary group-hover:text-primary/80"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  );
+};
+
+export const NavMenu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleSheet = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <div className="fixed left-0 top-0 z-20 flex w-full justify-between border-b border-b-background/30 text-background">
         <div
-          onClick={toggleVisibility}
+          onClick={toggleSheet}
           className="flex cursor-pointer items-center gap-2 border-r-background/30 p-4 md:border-r"
         >
           <AlignLeft strokeWidth={1.5} className="h-9 w-9 text-background" />
@@ -29,7 +77,7 @@ export const NavMenu = () => {
           </div>
         </div>
       </div>
-      {isVisible && <NavSheet refProp={ref} handleClick={toggleVisibility} />}
+      <NavSheet isOpen={isOpen} toggleSheet={toggleSheet} />
     </>
   );
 };
