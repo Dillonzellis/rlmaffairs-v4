@@ -1,6 +1,6 @@
 "use client";
 
-import { Icons } from "@/components/Icons";
+import { Icons } from "@/components/common/Icons";
 import Image from "next/image";
 import { NavMenu } from "@/components/layout/header/NavMenu";
 import Link from "next/link";
