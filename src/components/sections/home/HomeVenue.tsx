@@ -7,7 +7,7 @@ import { BackgroundImage } from "@/components/common/BackgroundImage";
 
 export const HomeVenue = () => {
   return (
-    <section>
+    <section id="venue">
       <MaxWidthWrapper className="py-12">
         <div className="space-y-4">
           <SubHeader>The Stage for Lifelong Memories</SubHeader>

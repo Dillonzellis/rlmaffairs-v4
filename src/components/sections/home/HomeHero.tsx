@@ -1,5 +1,10 @@
+"use client";
+
+import { Icons } from "@/components/Icons";
 import Image from "next/image";
 import { NavMenu } from "@/components/layout/header/NavMenu";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const HomeHero = () => {
   return (
@@ -12,15 +17,19 @@ export const HomeHero = () => {
         className="h-dvh w-full object-cover"
       />
       <NavMenu />
-      {/* TODO: add anchor link to next section */}
-      <Image
-        src="/down-arr.svg"
-        alt=""
-        width={20}
-        height={55}
-        className="absolute bottom-8 right-2.5 md:right-7"
-      />
-      {/* <HeroNav /> */}
+      <motion.div
+        className="absolute bottom-8 right-2.5 text-white md:right-7"
+        animate={{
+          y: [0, -10, 0],
+          transition: { duration: 2, repeat: Infinity },
+        }}
+        whileHover={{ scale: 1.5, transition: { duration: 0.3 } }}
+        whileTap={{ scale: 1.2, transition: { duration: 0.3 } }}
+      >
+        <Link href="/#venue">
+          <Icons.downArrow className="h-14 w-14" />
+        </Link>
+      </motion.div>
     </section>
   );
 };
