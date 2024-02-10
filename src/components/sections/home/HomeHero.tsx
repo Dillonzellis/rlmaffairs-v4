@@ -5,6 +5,7 @@ import Image from "next/image";
 import { NavMenu } from "@/components/layout/header/NavMenu";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { HeroNav } from "@/components/common/HeroNav";
 
 export const HomeHero = () => {
   return (
@@ -30,6 +31,7 @@ export const HomeHero = () => {
           <Icons.downArrow className="h-14 w-14" />
         </Link>
       </motion.div>
+      <HeroNav />
     </section>
   );
 };

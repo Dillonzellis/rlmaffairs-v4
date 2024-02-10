@@ -8,7 +8,7 @@ import { SmallSlider } from "@/components/common/SmallSlider";
 
 export const HomeCatering = () => {
   return (
-    <section className="relative">
+    <section id="catering" className="relative">
       <div>
         <MaxWidthWrapper className="py-12 md:py-36">
           <div className="space-y-4">

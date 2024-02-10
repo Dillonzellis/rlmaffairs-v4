@@ -7,7 +7,7 @@ import { BodyText } from "@/components/common/typography/BodyText";
 
 export const HomeFloral = () => {
   return (
-    <section>
+    <section id="florals">
       <MaxWidthWrapper className="py-12">
         <div className="space-y-4">
           <div className="grid-cols-7 items-center md:grid">

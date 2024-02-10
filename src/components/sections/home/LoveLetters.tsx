@@ -6,7 +6,7 @@ import { BodyText } from "@/components/common/typography/BodyText";
 
 export const LoveLetters = () => {
   return (
-    <section>
+    <section id="love-letters">
       <div className="grid-cols-6 gap-6 md:grid">
         <Image
           src="/love-letters.jpg"
