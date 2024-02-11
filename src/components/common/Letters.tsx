@@ -20,13 +20,13 @@ const Letter = ({ src, alt, isCenter }: LetterProps) => {
   return (
     <div
       className={cn(
-        "relative inset-0",
+        "relative inset-0 shadow-md",
         isCenter
           ? "h-96 w-full max-w-[550px] md:h-[475px]"
           : "hidden h-[358px] w-[284px] md:block",
       )}
     >
-      <Image className="object-cover shadow" src={src} alt={alt} fill />
+      <Image className="object-cover" src={src} alt={alt} fill />
       {isCenter && (
         <div className="absolute inset-0 p-4 md:p-8">
           <div className="flex h-full flex-col gap-8 bg-primary/40 px-4 pt-16 text-white backdrop-blur-sm md:pb-8 md:pt-12">

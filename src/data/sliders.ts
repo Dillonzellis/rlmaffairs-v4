@@ -9,7 +9,7 @@ export const letterSlider = [
     isCenter: true,
   },
   {
-    src: "/letter-slide-1.jpg",
+    src: "/letter-slide-2.jpg",
     alt: "Love Letter 1",
   },
 ];
