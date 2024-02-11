@@ -23,4 +23,17 @@ export const Icons = {
       </defs>
     </svg>
   ),
+
+  star: (props: LucideProps) => (
+    <svg {...props} viewBox="0 0 51 49">
+      <path
+        d="M25.5 1L33.0705 16.469L50 18.9648L37.75 30.9989L40.641 48L25.5 39.969L10.359 48L13.25 30.9989L1 18.9648L17.9295 16.469L25.5 1Z"
+        fill="white"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  ),
 };

@@ -3,10 +3,11 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { SubHeader } from "@/components/common/typography/SubHeader";
 import { BodyText } from "@/components/common/typography/BodyText";
+import { Letters } from "@/components/common/Letters";
 
 export const LoveLetters = () => {
   return (
-    <section id="love-letters">
+    <section id="love-letters" className="pb-8 md:pb-80">
       <div className="grid-cols-6 gap-6 md:grid">
         <Image
           src="/love-letters.jpg"
@@ -15,7 +16,7 @@ export const LoveLetters = () => {
           width={423}
           className="col-span-2 max-h-72 object-cover object-[0_12%] md:max-h-[800px]"
         />
-        <div className="col-span-4 py-12">
+        <div className="col-span-4 pb-12 pt-12 md:pb-36">
           <MaxWidthWrapper>
             <div className="space-y-4">
               <SubHeader>Share Your Love Story</SubHeader>
@@ -35,6 +36,13 @@ export const LoveLetters = () => {
           </MaxWidthWrapper>
         </div>
       </div>
+      <MaxWidthWrapper>
+        <div className="relative">
+          <div className="-top-[16rem] w-full md:absolute">
+            <Letters />
+          </div>
+        </div>
+      </MaxWidthWrapper>
     </section>
   );
 };
