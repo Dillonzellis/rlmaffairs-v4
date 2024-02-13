@@ -1,7 +1,11 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { scrollInVariants } from "@/lib/framerVariants";
 
 interface ArrowBtnProps {
   children: React.ReactNode;
@@ -11,7 +15,11 @@ interface ArrowBtnProps {
 
 export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
   return (
-    <div
+    <motion.div
+      variants={scrollInVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
       className={cn("flex items-center gap-4 pb-8 md:gap-8 md:pb-0", className)}
     >
       <Image
@@ -30,6 +38,6 @@ export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
       >
         <Link href={href}>{children}</Link>
       </Button>
-    </div>
+    </motion.div>
   );
 };
