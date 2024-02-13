@@ -2,7 +2,6 @@
 
 import { Icons } from "@/components/common/Icons";
 import Image from "next/image";
-import { NavMenu } from "@/components/layout/header/NavMenu";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { HeroNav } from "@/components/common/HeroNav";
@@ -17,7 +16,6 @@ export const HomeHero = () => {
         width={1280}
         className="h-dvh w-full object-cover"
       />
-      <NavMenu />
       <motion.div
         className="absolute bottom-8 right-2.5 text-white md:right-7"
         animate={{

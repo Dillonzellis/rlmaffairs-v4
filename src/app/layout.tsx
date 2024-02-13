@@ -4,6 +4,7 @@ import { Nunito, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Footer } from "@/components/layout/footer/Footer";
+import { Header } from "@/components/layout/header/Header";
 
 const nunito = Nunito({ subsets: ["latin"], variable: "--nunito" });
 const dmSerif = DM_Serif_Display({
@@ -38,6 +39,7 @@ export default function RootLayout({
           dmSerif.variable,
         )}
       >
+        <Header />
         {children}
         <Footer />
       </body>
