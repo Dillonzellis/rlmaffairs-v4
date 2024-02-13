@@ -26,7 +26,7 @@ export const HomeHero = () => {
         whileTap={{ scale: 1.2, transition: { duration: 0.3 } }}
       >
         <Link href="/#venue">
-          <Icons.downArrow className="h-14 w-14" />
+          <Icons.downArrow className="text-backround h-14 w-14" />
         </Link>
       </motion.div>
       <HeroNav />

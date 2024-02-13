@@ -7,7 +7,7 @@ import { Icons } from "./Icons";
 import { Typewriter } from "react-simple-typewriter";
 
 const Star = () => {
-  return <Icons.star className="h-10 w-10 md:h-12 md:w-12" />;
+  return <Icons.star className="h-10 w-10 text-background md:h-12 md:w-12" />;
 };
 
 interface LetterProps {
