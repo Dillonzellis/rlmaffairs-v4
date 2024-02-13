@@ -1,11 +1,10 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { scrollInVariants } from "@/lib/framerVariants";
+import { Icons } from "./Icons";
 
 interface ArrowBtnProps {
   children: React.ReactNode;
@@ -19,25 +18,21 @@ export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
       variants={scrollInVariants}
       initial="hidden"
       whileInView="visible"
+      whileHover={{ x: 10, transition: { duration: 0.3 } }}
+      whileTap={{ scale: 0.95, transition: { duration: 0.3 } }}
       viewport={{ once: true }}
-      className={cn("flex items-center gap-4 pb-8 md:gap-8 md:pb-0", className)}
+      className={cn(
+        "group flex items-center gap-4 pb-8 md:gap-8 md:pb-0",
+        className,
+      )}
     >
-      <Image
-        src="/right-arr.svg"
-        alt=""
-        width={58}
-        height={20}
-        className="h-3.5 w-10 md:h-5 md:w-14"
-      />
-      <Button
-        asChild
-        variant="link"
-        size="none"
-        fontSize="lg"
-        className="font-light"
+      <Link
+        href={href}
+        className="flex items-center gap-4 group-hover:text-primary/80"
       >
-        <Link href={href}>{children}</Link>
-      </Button>
+        <Icons.rightArrow className="h-3.5 w-10 md:h-5 md:w-14" />
+        <span className="text-xl font-light md:text-3xl">{children}</span>
+      </Link>
     </motion.div>
   );
 };
