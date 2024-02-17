@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { mainNav } from "@/data/navLinks";
 import { X } from "lucide-react";
@@ -14,7 +14,7 @@ interface NavSheetProps {
 
 const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
   const navSheetClasses = cn(
-    "fixed top-0 z-30 flex h-dvh w-full flex-col border-r border-r-primary/30 bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
+    "fixed top-0 z-30 flex h-dvh w-full flex-col border-r border-r-primary/90 bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
     "transition-transform duration-500 ease-in-out",
     {
       "transform translate-x-0": isOpen,
@@ -53,12 +53,35 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
 
 export const NavMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [bgColor, setBgColor] = useState("");
+
   const toggleSheet = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log(window.scrollY);
+      if (window.scrollY >= 200) {
+        setBgColor("bg-red-700");
+      } else {
+        setBgColor("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
-      <div className="fixed left-0 top-0 z-20 flex w-full justify-between border-b border-b-background/30 text-background">
+      <div
+        className={cn(
+          "fixed left-0 top-0 z-20 flex w-full justify-between border-b border-b-background/30 text-background transition-colors duration-300 ease-in-out",
+          bgColor,
+        )}
+      >
         <div
           onClick={toggleSheet}
           className="flex cursor-pointer items-center gap-2 border-r-background/30 p-4 md:border-r"
