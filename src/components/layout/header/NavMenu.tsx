@@ -53,7 +53,7 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
 
 export const NavMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [bgColor, setBgColor] = useState("");
+  const [bgColor, setBgColor] = useState("bg-transparent");
 
   const toggleSheet = () => {
     setIsOpen(!isOpen);
