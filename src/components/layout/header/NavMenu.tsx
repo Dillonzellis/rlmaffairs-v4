@@ -90,7 +90,11 @@ export const NavMenu = () => {
           onClick={toggleSheet}
           className="flex cursor-pointer items-center gap-2 border-r-background/30 p-4 md:border-r"
         >
-          <AlignLeft strokeWidth={1.5} className="h-9 w-9 text-background" />
+          {/* FIX: hamburger background  */}
+          <AlignLeft
+            strokeWidth={1.5}
+            className={cn("h-9 w-9 text-background", bgColor)}
+          />
           <div className="hidden font-bold md:block">MENU</div>
         </div>
         <div className="flex items-center pr-3 md:pr-0">
