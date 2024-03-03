@@ -1,7 +1,14 @@
+import { PageHero } from "@/components/common/PageHero";
+import { HomeHashLinks } from "@/data/navLinks";
+
 export default function FloralsPage() {
   return (
     <main>
-      <h1>Florals</h1>
+      <PageHero
+        imgSrc="/hero-placeholder.jpg"
+        imgAlt=""
+        hashLinks={HomeHashLinks}
+      />
     </main>
   );
 }
