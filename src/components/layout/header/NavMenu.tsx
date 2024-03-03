@@ -34,6 +34,7 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
         <ul>
           {mainNav.map((item, index) => (
             <li
+              onClick={toggleSheet}
               key={index}
               className="group transform py-1 transition-transform duration-200 hover:translate-x-1"
             >
