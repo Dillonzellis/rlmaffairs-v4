@@ -7,12 +7,17 @@ export const mainNav = [
 
 export type TypeMainNav = (typeof mainNav)[number];
 
-export const hashLinks = [
+export interface HashLinksType {
+  label: string;
+  href: string;
+}
+
+export const HomeHashLinks = [
   { label: "Venue & Event Space", href: "/#venue" },
   { label: "Florals Designs", href: "/#florals" },
   { label: "Catering", href: "/#catering" },
   { label: "Love Letters", href: "/#love-letters" },
-] as const;
+];
 
 export const footerNav = [
   {

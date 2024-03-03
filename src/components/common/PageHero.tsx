@@ -1,13 +1,15 @@
 import Image from "next/image";
 import { HeroNav } from "@/components/common/HeroNav";
 import { DownArrow } from "./DownArrow";
+import { HashLinksType } from "@/data/navLinks";
 
 interface PageHeroProps {
   imgSrc: string;
   imgAlt: string;
+  hashLinks?: HashLinksType[];
 }
 
-export const PageHero = ({ imgSrc, imgAlt }: PageHeroProps) => {
+export const PageHero = ({ imgSrc, imgAlt, hashLinks }: PageHeroProps) => {
   return (
     <section>
       <Image
@@ -18,7 +20,7 @@ export const PageHero = ({ imgSrc, imgAlt }: PageHeroProps) => {
         className="h-dvh w-full object-cover"
       />
       <DownArrow />
-      <HeroNav />
+      {hashLinks && <HeroNav links={hashLinks} />}
     </section>
   );
 };
