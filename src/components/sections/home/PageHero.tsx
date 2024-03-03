@@ -6,12 +6,17 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { HeroNav } from "@/components/common/HeroNav";
 
-export const HomeHero = () => {
+interface PageHeroProps {
+  imgSrc: string;
+  imgAlt: string;
+}
+
+export const PageHero = ({ imgSrc, imgAlt }: PageHeroProps) => {
   return (
     <section>
       <Image
-        src="/hero-placeholder.jpg"
-        alt=""
+        src={imgSrc}
+        alt={imgAlt}
         height={834}
         width={1280}
         className="h-dvh w-full object-cover"
