@@ -52,8 +52,12 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
 };
 
 export const NavMenu = () => {
+  const transparentHeaderClasses =
+    "bg-transparent text-background border-background/30";
+  const solidHeaderClasses = "bg-background/70 backdrop-blur-md text-primary";
+
   const [isOpen, setIsOpen] = useState(false);
-  const [bgColor, setBgColor] = useState("bg-transparent");
+  const [bgColor, setBgColor] = useState(transparentHeaderClasses);
 
   const toggleSheet = () => {
     setIsOpen(!isOpen);
@@ -63,9 +67,9 @@ export const NavMenu = () => {
     const handleScroll = () => {
       console.log(window.scrollY);
       if (window.scrollY >= 200) {
-        setBgColor("bg-red-700");
+        setBgColor(solidHeaderClasses);
       } else {
-        setBgColor("");
+        setBgColor(transparentHeaderClasses);
       }
     };
 
@@ -78,7 +82,7 @@ export const NavMenu = () => {
     <>
       <div
         className={cn(
-          "fixed left-0 top-0 z-20 flex w-full justify-between border-b border-b-background/30 text-background transition-colors duration-300 ease-in-out",
+          "fixed left-0 top-0 z-20 flex w-full justify-between border-b transition-colors duration-300 ease-in-out",
           bgColor,
         )}
       >
