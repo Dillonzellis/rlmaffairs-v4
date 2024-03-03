@@ -12,9 +12,6 @@ export default function Home() {
       <HomeFloral />
       <HomeCatering />
       <LoveLetters />
-      {/* <section className="py-12"> */}
-      {/*   <HomeAwards /> */}
-      {/* </section> */}
     </main>
   );
 }

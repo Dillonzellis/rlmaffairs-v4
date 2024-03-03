@@ -2,6 +2,7 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import Link from "next/link";
 import { footerNav } from "@/data/navLinks";
 import { getYear } from "@/lib/getYear";
+import { HomeAwards } from "@/components/common/HomeAwards";
 
 interface FooterLinkProps {
   label: string;
@@ -41,6 +42,9 @@ export const FooterLinks = () => {
               ))}
             </FooterCol>
           ))}
+          <div>
+            <HomeAwards />
+          </div>
         </div>
         <div className="flex justify-between">
           <small>&copy; {getYear()} RLM Affairs</small>
