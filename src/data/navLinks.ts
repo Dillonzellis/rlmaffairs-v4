@@ -1,8 +1,7 @@
 export const mainNav = [
   { label: "Venue & Event Space", href: "/venue-&-event-space" },
   { label: "Floral Designs", href: "/floral-designs" },
-  { label: "Catering", href: "/venue" },
-  { label: "Love Letters", href: "/venue" },
+  { label: "Catering", href: "/catering" },
 ] as const;
 
 export type TypeMainNav = (typeof mainNav)[number];
@@ -13,6 +12,21 @@ export interface HashLinksType {
 }
 
 export const HomeHashLinks = [
+  { label: "Venue & Event Space", href: "/#venue" },
+  { label: "Florals Designs", href: "/#florals" },
+  { label: "Catering", href: "/#catering" },
+  { label: "Love Letters", href: "/#love-letters" },
+];
+
+export const VenueHashLinks = [
+  { label: "Packages", href: "/#venue" },
+  { label: "Venue Features", href: "/#florals" },
+  { label: "Preferred Vendors", href: "/#catering" },
+  { label: "Gallery", href: "/#love-letters" },
+  { label: "Floor Plan", href: "/#love-letters" },
+];
+
+export const FloralHashLinks = [
   { label: "Venue & Event Space", href: "/#venue" },
   { label: "Florals Designs", href: "/#florals" },
   { label: "Catering", href: "/#catering" },
