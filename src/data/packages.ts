@@ -1,6 +1,7 @@
 export const WeddingPackages = [
   {
-    title: "Sapphire Package",
+    title: "Sapphire",
+    color: "text-blue-600",
     desc: "This is the Sapphire Package",
     feats: [
       "50 Guests",
@@ -23,6 +24,7 @@ export const WeddingPackages = [
   },
   {
     title: "Ruby Package",
+    color: "text-rose-700",
     desc: "This is the Ruby Package",
     feats: ["Feature 1", "Feature 2", "Feature 3"],
     price: 2000,
@@ -30,6 +32,7 @@ export const WeddingPackages = [
   },
   {
     title: "Emerald Package",
+    color: "text-green-600",
     desc: "This is the Emerald Package",
     feats: ["Feature 1", "Feature 2", "Feature 3"],
     price: 3000,
@@ -37,6 +40,7 @@ export const WeddingPackages = [
   },
   {
     title: "Diamond Package",
+    color: "text-primary",
     desc: "This is the Diamond Package",
     feats: ["Feature 1", "Feature 2", "Feature 3"],
     price: 4000,
