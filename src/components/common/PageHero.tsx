@@ -4,23 +4,39 @@ import { DownArrow } from "./DownArrow";
 import { HashLinksType } from "@/data/navLinks";
 
 interface PageHeroProps {
-  imgSrc: string;
-  imgAlt: string;
+  imgSrc?: string;
+  imgAlt?: string;
   hashLinks?: HashLinksType[];
+  videoSrc?: string;
 }
 
-export const PageHero = ({ imgSrc, imgAlt, hashLinks }: PageHeroProps) => {
+export const PageHero = ({
+  imgSrc,
+  imgAlt,
+  hashLinks,
+  videoSrc,
+}: PageHeroProps) => {
   return (
     <section>
-      <Image
-        src={imgSrc}
-        alt={imgAlt}
-        height={834}
-        width={1280}
-        className="h-dvh w-full object-cover"
-      />
-      <DownArrow />
-      {hashLinks && <HeroNav links={hashLinks} />}
+      <>
+        {videoSrc ? (
+          <video autoPlay muted loop className="h-dvh w-full object-cover">
+            {/* <source src="home-hero.webm" type="video/mp4" /> */}
+            <source src={videoSrc} type="video/webm" />
+          </video>
+        ) : null}
+        {imgSrc ? (
+          <Image
+            src={imgSrc}
+            alt={imgAlt || "Hero Image"}
+            height={834}
+            width={1280}
+            className="h-dvh w-full object-cover"
+          />
+        ) : null}
+        <DownArrow />
+        {hashLinks && <HeroNav links={hashLinks} />}
+      </>
     </section>
   );
 };

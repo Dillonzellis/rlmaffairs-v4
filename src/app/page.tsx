@@ -8,11 +8,7 @@ import { HomeHashLinks } from "@/data/navLinks";
 export default function Home() {
   return (
     <main className="min-h-dvh">
-      <PageHero
-        imgSrc="/hero-placeholder.jpg"
-        imgAlt=""
-        hashLinks={HomeHashLinks}
-      />
+      <PageHero videoSrc="/home-hero.webm" hashLinks={HomeHashLinks} />
       <HomeVenue />
       <HomeFloral />
       <HomeCatering />
