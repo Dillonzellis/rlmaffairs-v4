@@ -33,6 +33,13 @@ export const FloralHashLinks = [
   { label: "Love Letters", href: "/#love-letters" },
 ];
 
+export const CateringHashLinks = [
+  { label: "Hors D'oeuvres Stations", href: "/#appetizers" },
+  { label: "Salad Selections", href: "/#salads" },
+  { label: "Buffet Main Course Options", href: "/#catering" },
+  { label: "Side Dishes", href: "/#love-letters" },
+];
+
 export const footerNav = [
   {
     linksCol: [
