@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { HeroNav } from "@/components/common/HeroNav";
 import { DownArrow } from "./DownArrow";
 import { HashLinksType } from "@/data/navLinks";
 
 interface PageHeroProps {
-  imgSrc?: string;
+  imgSrc?: string | StaticImageData;
   imgAlt?: string;
   hashLinks?: HashLinksType[];
   videoSrc?: string;
