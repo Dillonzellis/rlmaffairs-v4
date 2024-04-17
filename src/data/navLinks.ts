@@ -1,9 +1,10 @@
 export const mainNav = [
-  { label: "Venue & Event Space", href: "/venue-&-event-space" },
+  { label: "Venue Gallery", href: "/venue-&-event-space" },
+  // { label: "Venue & Event Space", href: "/venue-&-event-space" },
   { label: "Wedding Packages", href: "/venue-&-event-space#wedding-packages" },
   { label: "Event Packages", href: "/venue-&-event-space#packages" },
   { label: "Catering", href: "/catering" },
-  { label: "Gallery", href: "/venue-&-event-space#gallery" },
+  { label: "Love Letter", href: "/love-letters" },
   { label: "Our Story", href: "/our-story" },
 ] as const;
 
@@ -22,12 +23,12 @@ export const HomeHashLinks = [
 ];
 
 export const VenueHashLinks = [
-  { label: "Wedding Packages", href: "/venue-&-event-space/#wedding-packages" },
-  { label: "Event Packages", href: "/#venue" },
+  // { label: "Wedding Packages", href: "/venue-&-event-space/#wedding-packages" },
+  // { label: "Event Packages", href: "/#venue" },
   { label: "Venue Features", href: "/#florals" },
-  { label: "Preferred Vendors", href: "/#catering" },
+  // { label: "Preferred Vendors", href: "/#catering" },
   { label: "Gallery", href: "/#love-letters" },
-  { label: "Floor Plan", href: "/#love-letters" },
+  // { label: "Floor Plan", href: "/#love-letters" },
 ];
 
 export const FloralHashLinks = [
