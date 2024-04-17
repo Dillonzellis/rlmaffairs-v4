@@ -1,6 +1,5 @@
 import { PageHero } from "@/components/common/PageHero";
 import { CateringHashLinks } from "@/data/navLinks";
-import { ArrowBtn } from "@/components/common/ArrowBtn";
 import { BackgroundImage } from "@/components/common/BackgroundImage";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
@@ -9,6 +8,7 @@ import { BodyText } from "@/components/common/typography/BodyText";
 import { appetizerMenu } from "@/data/menus";
 import Image from "next/image";
 import appetizers from "/public/appetizers.png";
+import cateringFeat from "/public/catering-page-1.jpg";
 
 export default function CateringPage() {
   return (
@@ -25,7 +25,6 @@ export default function CateringPage() {
               <div className="col-span-4 space-y-4">
                 <SubHeader>Artistry in Every Petal</SubHeader>
                 <MainHeader>Catering</MainHeader>
-                <ArrowBtn href="/">See Our Menu</ArrowBtn>
               </div>
               <BodyText className="col-span-3 ml-auto max-w-prose">
                 RLM Affairs offers all the services you may need for your event.
@@ -40,7 +39,7 @@ export default function CateringPage() {
             </div>
           </div>
         </MaxWidthWrapper>
-        <BackgroundImage imageUrl="/floral-feat.jpg" />
+        <BackgroundImage imageUrl="catering-page-1.jpg" />
       </section>
       <section>
         <div className="flex gap-8">
@@ -56,8 +55,8 @@ export default function CateringPage() {
               {appetizerMenu.map((item) => (
                 <div key={item.name} className="flex justify-between py-2">
                   <div className="flex items-center gap-2">
-                    <div className="text-lg font-bold">{item.name}:</div>
-                    <div>{item.description}</div>
+                    <div className="text-lg font-bold">{item.name}</div>
+                    {item.description ? <div>{item.description}</div> : null}
                   </div>
                 </div>
               ))}
