@@ -14,7 +14,6 @@ export const HomeFloral = () => {
             <div className="col-span-4 space-y-4">
               <SubHeader>Artistry in Every Petal</SubHeader>
               <MainHeader>Floral Designs</MainHeader>
-              {/* TODO: add target blank */}
               <ArrowBtn targetBlank href="https://rlmflorist.com/">
                 RLM Florist
               </ArrowBtn>
