@@ -26,7 +26,8 @@ export const HomeCatering = () => {
       </div>
       <div>
         <Image
-          src="/catering-feat.jpg"
+          // src="/catering-feat.jpg"
+          src="/home-catering-feat.jpg"
           alt=""
           height={700}
           width={620}
