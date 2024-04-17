@@ -49,7 +49,9 @@ export default function CateringPage() {
           </div>
           <div>
             <MaxWidthWrapper className="py-12">
-              <MainHeader size="medium">Hors D'oeuvres Stations</MainHeader>
+              <MainHeader size="medium">
+                Hor&apos;s Doeuvres Stations
+              </MainHeader>
               <hr />
               {appetizerMenu.map((item) => (
                 <div key={item.name} className="flex justify-between py-2">
