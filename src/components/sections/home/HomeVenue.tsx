@@ -22,7 +22,7 @@ export const HomeVenue = () => {
           celebrations.
         </BodyText>
       </MaxWidthWrapper>
-      <BackgroundImage imageUrl="/venue-feat.jpg" />
+      <BackgroundImage imageUrl="/venue-1.jpg" />
     </section>
   );
 };
