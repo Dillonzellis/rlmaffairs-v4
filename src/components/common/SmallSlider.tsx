@@ -11,10 +11,14 @@ import {
 import Image from "next/image";
 
 const imgs = [
-  { src: "/catering-slide.jpg", alt: "venue" },
-  { src: "/catering-slide-2.jpg", alt: "venue" },
-  { src: "/catering-slide-3.jpg", alt: "venue" },
-  { src: "/catering-slide.jpg", alt: "venue" },
+  { src: "/cater-slide.jpg", alt: "" },
+  { src: "/cater-slide-1.jpg", alt: "" },
+  { src: "/cater-slide-2.jpg", alt: "" },
+  { src: "/cater-slide-3.jpg", alt: "" },
+  { src: "/catering-slide.jpg", alt: "" },
+  { src: "/catering-slide-2.jpg", alt: "" },
+  { src: "/catering-slide-3.jpg", alt: "" },
+  { src: "/catering-slide.jpg", alt: "" },
 ];
 
 export function SmallSlider() {
