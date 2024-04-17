@@ -6,6 +6,7 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { SubHeader } from "@/components/common/typography/SubHeader";
 import { BodyText } from "@/components/common/typography/BodyText";
+import { appetizerMenu } from "@/data/menus";
 import Image from "next/image";
 import appetizers from "/public/appetizers.png";
 
@@ -48,8 +49,16 @@ export default function CateringPage() {
           </div>
           <div>
             <MaxWidthWrapper className="py-12">
-              <MainHeader size="medium">Appetizers</MainHeader>
+              <MainHeader size="medium">Hors D'oeuvres Stations</MainHeader>
               <hr />
+              {appetizerMenu.map((item) => (
+                <div key={item.name} className="flex justify-between py-2">
+                  <div className="flex items-center gap-2">
+                    <div className="text-lg font-bold">{item.name}:</div>
+                    <div>{item.description}</div>
+                  </div>
+                </div>
+              ))}
             </MaxWidthWrapper>
           </div>
         </div>

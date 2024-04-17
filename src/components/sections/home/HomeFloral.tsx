@@ -14,7 +14,8 @@ export const HomeFloral = () => {
             <div className="col-span-4 space-y-4">
               <SubHeader>Artistry in Every Petal</SubHeader>
               <MainHeader>Floral Designs</MainHeader>
-              <ArrowBtn href="/">Connect with Our Designers</ArrowBtn>
+              {/* TODO: add target blank */}
+              <ArrowBtn href="https://rlmflorist.com/">RLM Florist</ArrowBtn>
             </div>
             <BodyText className="col-span-3 ml-auto max-w-prose">
               RLM Affairs award winning designers offer exquisite attention to

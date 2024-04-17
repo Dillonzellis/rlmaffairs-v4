@@ -46,39 +46,43 @@ const Package = ({
 
 export const VenuePackages = () => {
   return (
-    <section id="venue">
-      <MaxWidthWrapper className="py-12">
-        <SubHeader>Premier Packages</SubHeader>
-        <MainHeader>Packages</MainHeader>
-        <BodyText className="">
-          RLM Affairs offers all the services you may need for your event. Our
-          staff works directly with our clients to tailor each event to your
-          specific needs. Whether you need just catering, or a complete event
-          design, we will work with you as much as you need, or we will provide
-          you with A la carte services based specifically on your needs and
-          budget. Our award winning catering, wedding planning, cakes, and
-          floral design are available every day, breakfast, lunch, dinner, or in
-          between.
-        </BodyText>
-      </MaxWidthWrapper>
-      <BackgroundImage imageUrl="/venue-feat.jpg" />
-      <MaxWidthWrapper>
-        <h2 className="py-14 pb-8 text-center font-serif text-6xl">
-          Wedding Packages
-        </h2>
-        <div className="flex flex-col justify-center gap-8 md:flex-row">
-          {WeddingPackages.map((pkg) => (
-            <Package key={pkg.title} {...pkg} />
-          ))}
-        </div>
-      </MaxWidthWrapper>
-      <div>Micro Wedding Package</div>
-      <div>Wedding Reception Only</div>
-      <h2 className="text-3xl font-bold">Event Packages</h2>
-      <div>Premier Event Package</div>
-      <div>Elegant Event Package</div>
-      <div>Exquisitt Event Package</div>
-      <div>Venue Only</div>
-    </section>
+    <>
+      <section id="venue">
+        <MaxWidthWrapper className="py-12">
+          <SubHeader>Premier Packages</SubHeader>
+          <MainHeader>Packages</MainHeader>
+          <BodyText className="">
+            RLM Affairs offers all the services you may need for your event. Our
+            staff works directly with our clients to tailor each event to your
+            specific needs. Whether you need just catering, or a complete event
+            design, we will work with you as much as you need, or we will
+            provide you with A la carte services based specifically on your
+            needs and budget. Our award winning catering, wedding planning,
+            cakes, and floral design are available every day, breakfast, lunch,
+            dinner, or in between.
+          </BodyText>
+        </MaxWidthWrapper>
+        <BackgroundImage imageUrl="/venue-feat.jpg" />
+      </section>
+      <section id="wedding-packages">
+        <MaxWidthWrapper>
+          <h2 className="py-14 pb-8 text-center font-serif text-6xl">
+            Wedding Packages
+          </h2>
+          <div className="flex flex-col justify-center gap-8 md:flex-row">
+            {WeddingPackages.map((pkg) => (
+              <Package key={pkg.title} {...pkg} />
+            ))}
+          </div>
+        </MaxWidthWrapper>
+        <div>Micro Wedding Package</div>
+        <div>Wedding Reception Only</div>
+        <h2 className="text-3xl font-bold">Event Packages</h2>
+        <div>Premier Event Package</div>
+        <div>Elegant Event Package</div>
+        <div>Exquisitt Event Package</div>
+        <div>Venue Only</div>
+      </section>
+    </>
   );
 };
