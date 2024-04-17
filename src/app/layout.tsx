@@ -20,8 +20,8 @@ const dreamAvenue = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "RLMFlorist",
-  description: "Your premier local florist",
+  title: "RLM Affairs",
+  description: "Your premier wedding venue and event space.",
 };
 
 export default function RootLayout({
