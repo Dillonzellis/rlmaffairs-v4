@@ -11,7 +11,8 @@ export const LoveLetters = () => {
       <div className="grid-cols-6 gap-6 md:grid">
         <Image
           // src="/love-letters.jpg"
-          src="/love-note-feat.jpg"
+          // src="/love-note-feat.jpg"
+          src="/love-letter-2.jpg"
           alt=""
           height={758}
           width={423}
