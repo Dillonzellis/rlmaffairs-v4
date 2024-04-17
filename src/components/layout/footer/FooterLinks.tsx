@@ -16,7 +16,7 @@ const FooterCol = ({ children }: { children: React.ReactNode }) => {
 const FooterLink = ({ label, href }: FooterLinkProps) => {
   return (
     <li className="transition-transform duration-200 hover:translate-x-1 hover:text-background/90">
-      <Link href={href} className="text-2xl font-light md:text-3xl">
+      <Link href={href} className="text-2xl font-light md:text-xl">
         {label}
       </Link>
     </li>
