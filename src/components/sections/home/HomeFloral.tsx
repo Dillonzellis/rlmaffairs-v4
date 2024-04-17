@@ -28,7 +28,7 @@ export const HomeFloral = () => {
           </div>
         </div>
       </MaxWidthWrapper>
-      <BackgroundImage imageUrl="/floral-feat.jpg" />
+      <BackgroundImage imageUrl="/floral-1.jpg" />
     </section>
   );
 };
