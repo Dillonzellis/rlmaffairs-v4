@@ -10,7 +10,8 @@ export const LoveLetters = () => {
     <section id="love-letters" className="pb-8 md:pb-80">
       <div className="grid-cols-6 gap-6 md:grid">
         <Image
-          src="/love-letters.jpg"
+          // src="/love-letters.jpg"
+          src="/love-note-feat.jpg"
           alt=""
           height={758}
           width={423}
