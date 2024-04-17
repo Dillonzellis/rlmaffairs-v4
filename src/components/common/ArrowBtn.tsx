@@ -10,9 +10,15 @@ interface ArrowBtnProps {
   children: React.ReactNode;
   href: string;
   className?: string;
+  targetBlank?: boolean;
 }
 
-export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
+export const ArrowBtn = ({
+  href,
+  children,
+  className,
+  targetBlank,
+}: ArrowBtnProps) => {
   return (
     <motion.div
       variants={scrollInVariants}
@@ -25,13 +31,25 @@ export const ArrowBtn = ({ href, children, className }: ArrowBtnProps) => {
       )}
     >
       <motion.div variants={btnArrowVariants} whileHover="hover" whileTap="tap">
-        <Link
-          href={href}
-          className="flex items-center gap-4 group-hover:text-primary/80"
-        >
-          <Icons.rightArrow className="h-3.5 w-10 md:h-5 md:w-14" />
-          <span className="text-xl font-light md:text-3xl">{children}</span>
-        </Link>
+        {targetBlank ? (
+          <a
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 group-hover:text-primary/80"
+          >
+            <Icons.rightArrow className="h-3.5 w-10 md:h-5 md:w-14" />
+            <span className="text-xl font-light md:text-3xl">{children}</span>
+          </a>
+        ) : (
+          <Link
+            href={href}
+            className="flex items-center gap-4 group-hover:text-primary/80"
+          >
+            <Icons.rightArrow className="h-3.5 w-10 md:h-5 md:w-14" />
+            <span className="text-xl font-light md:text-3xl">{children}</span>
+          </Link>
+        )}
       </motion.div>
     </motion.div>
   );
