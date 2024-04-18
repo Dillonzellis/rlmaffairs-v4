@@ -13,7 +13,6 @@ const PackageBtn = ({ children, green }: PackageBtnProps) => {
       <div
         className={cn(
           "item-center inline-flex h-[21rem] cursor-pointer flex-col justify-center rounded-2xl border-b-[7px] px-8 py-4 font-serif text-9xl text-white transition-colors active:border-b-0",
-
           green
             ? "border-b-brandGreen-800 bg-brandGreen-400 hover:bg-brandGreen-300"
             : "border-b-brandGold-800 bg-brandGold-400 hover:bg-brandGold-300",
