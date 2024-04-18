@@ -23,12 +23,8 @@ export const HomeHashLinks = [
 ];
 
 export const VenueHashLinks = [
-  // { label: "Wedding Packages", href: "/venue-&-event-space/#wedding-packages" },
-  // { label: "Event Packages", href: "/#venue" },
   { label: "Venue Features", href: "/#florals" },
-  // { label: "Preferred Vendors", href: "/#catering" },
   { label: "Gallery", href: "/#love-letters" },
-  // { label: "Floor Plan", href: "/#love-letters" },
 ];
 
 export const FloralHashLinks = [

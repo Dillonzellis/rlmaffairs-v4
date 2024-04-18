@@ -6,17 +6,9 @@ import venueHero from "/public/venue-hero.jpg";
 export default function VenuePage() {
   return (
     <main>
+      {/* TODO: Slider for Venue Feat imgs */}
       <PageHero imgSrc={venueHero} imgAlt="" hashLinks={VenueHashLinks} />
-
-      {/* Packages */}
       <VenuePackages />
-
-      {/* Venue Features */}
-      {/* Suites */}
-      {/* Preferred Vendors */}
-      {/* Gallery */}
-      {/* FAQs */}
-      {/* Floor Plan */}
     </main>
   );
 }
