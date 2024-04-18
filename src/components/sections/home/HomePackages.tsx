@@ -1,3 +1,4 @@
+import { BackgroundImage } from "@/components/common/BackgroundImage";
 import { Icons } from "@/components/common/Icons";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { cn } from "@/lib/utils";
@@ -27,13 +28,14 @@ const PackageBtn = ({ children, green }: PackageBtnProps) => {
 
 export const HomePackages = () => {
   return (
-    <section className="py-12">
-      <MaxWidthWrapper>
+    <section>
+      <MaxWidthWrapper className="py-12">
         <div className="flex flex-col justify-center gap-16 md:flex-row">
           <PackageBtn>Wedding Packages</PackageBtn>
           <PackageBtn green>Event Packages</PackageBtn>
         </div>
       </MaxWidthWrapper>
+      <BackgroundImage imageUrl="venue-1.jpg" />
     </section>
   );
 };
