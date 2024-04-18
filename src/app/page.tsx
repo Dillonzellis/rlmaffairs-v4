@@ -3,6 +3,7 @@ import { HomeVenue } from "@/components/sections/home/HomeVenue";
 import { HomeCatering } from "@/components/sections/home/HomeCatering";
 import { LoveLetters } from "@/components/sections/home/LoveLetters";
 import { PageHero } from "@/components/common/PageHero";
+import { HomePackages } from "@/components/sections/home/HomePackages";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <PageHero videoSrc="/home-hero.webm" />
       <HomeVenue />
       <HomeFloral />
+      <HomePackages />
       <HomeCatering />
       <LoveLetters />
     </main>

@@ -24,6 +24,14 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
     --radius: 0.3rem;
+
+    --brand-green-300: 142 37% 35%;
+    --brand-green-400: 142 36% 30%;
+    --brand-green-800: 142 47% 17%;
+
+    --brand-gold-300: 37 31% 47%;
+    --brand-gold-400: 37 31% 43%;
+    --brand-gold-800: 37 31% 27%;
   }
 
   .dark {
