@@ -54,6 +54,11 @@ export const VenuePackages = () => {
           <BodyText className="">List the Features</BodyText>
         </MaxWidthWrapper>
       </section>
+      <section>
+        <MaxWidthWrapper className="py-12">
+          <MainHeader>Gallery</MainHeader>
+        </MaxWidthWrapper>
+      </section>
       {/* <section id="wedding-packages"> */}
       {/*   <MaxWidthWrapper> */}
       {/*     <h2 className="py-14 pb-8 text-center font-serif text-6xl"> */}
