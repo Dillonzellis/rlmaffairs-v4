@@ -8,15 +8,8 @@ type PackageBtnProps = {
 };
 
 const PackageBtn = ({ children, green }: PackageBtnProps) => {
-  const colorClasses = green
-    ? "bg-brandGreen-400 hover:bg-brandGreen-300 border-b-brandGreen-800"
-    : "bg-brandGreen-400 hover:bg-brandGreen-300 border-b-brandGreen-800";
-
   return (
     <div className="max-w-xl">
-      {/* <div */}
-      {/*   className={`item-center inline-flex h-[21rem] cursor-pointer flex-col justify-center rounded-2xl border-b-[7px] px-8 py-4 font-serif text-9xl text-white transition-colors active:border-b-0 ${colorClasses}`} */}
-      {/* > */}
       <div
         className={cn(
           "item-center inline-flex h-[21rem] cursor-pointer flex-col justify-center rounded-2xl border-b-[7px] px-8 py-4 font-serif text-9xl text-white transition-colors active:border-b-0",
@@ -27,7 +20,6 @@ const PackageBtn = ({ children, green }: PackageBtnProps) => {
         )}
       >
         {children}
-
         <Icons.lgRightArrow className="" />
       </div>
     </div>
