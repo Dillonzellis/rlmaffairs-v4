@@ -2,12 +2,14 @@ import Image, { StaticImageData } from "next/image";
 import { HeroNav } from "@/components/common/HeroNav";
 import { DownArrow } from "./DownArrow";
 import { HashLinksType } from "@/data/navLinks";
+import { cn } from "@/lib/utils";
 
 interface PageHeroProps {
   imgSrc?: string | StaticImageData;
   imgAlt?: string;
   hashLinks?: HashLinksType[];
   videoSrc?: string;
+  small?: boolean;
 }
 
 export const PageHero = ({
@@ -15,6 +17,7 @@ export const PageHero = ({
   imgAlt,
   hashLinks,
   videoSrc,
+  small,
 }: PageHeroProps) => {
   return (
     <section>
@@ -30,7 +33,8 @@ export const PageHero = ({
             alt={imgAlt || "Hero Image"}
             height={834}
             width={1280}
-            className="h-dvh w-full object-cover"
+            // className="h-dvh w-full object-cover"
+            className={cn("w-full object-cover", small ? "h-96" : "h-dvh")}
           />
         ) : null}
         <DownArrow />
