@@ -45,14 +45,16 @@ export default function CateringPage() {
         </MaxWidthWrapper>
         <BackgroundImage imageUrl="catering-page-1.jpg" />
       </section>
-      <section className="">
+      <section>
         <MenuSection
+          id="appetizers"
           imgSrc={appetizers}
           imgAlt=""
           menuTitle="Hors D'oeuvres Stations"
           menuItems={appetizerMenu}
         />
         <MenuSection
+          id="salads"
           imgSrc={appetizers}
           imgAlt=""
           menuTitle="Salad Selections"
@@ -60,12 +62,14 @@ export default function CateringPage() {
           rightVariant
         />
         <MenuSection
+          id="main-course"
           imgSrc={appetizers}
           imgAlt=""
           menuTitle="Buffet Main Course Options"
           menuItems={mainCourseMenu}
         />
         <MenuSection
+          id="side-dishes"
           imgSrc={appetizers}
           imgAlt=""
           menuTitle="Side Dishes"

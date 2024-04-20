@@ -34,10 +34,10 @@ export const FloralHashLinks = [
 ];
 
 export const CateringHashLinks = [
-  { label: "Hors D'oeuvres Stations", href: "/#appetizers" },
-  { label: "Salad Selections", href: "/#salads" },
-  { label: "Buffet Main Course Options", href: "/#catering" },
-  { label: "Side Dishes", href: "/#love-letters" },
+  { label: "Hors D'oeuvres Stations", href: "#appetizers" },
+  { label: "Salad Selections", href: "#salads" },
+  { label: "Buffet Main Course Options", href: "#main-course" },
+  { label: "Side Dishes", href: "#side-dishes" },
 ];
 
 export const footerNav = [

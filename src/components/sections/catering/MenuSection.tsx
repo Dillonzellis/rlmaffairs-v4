@@ -4,6 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import { TypeMenu } from "@/data/menus";
 
 type MenuSectionProps = {
+  id: string;
   imgSrc: StaticImageData;
   imgAlt: string;
   menuTitle: string;
@@ -47,6 +48,7 @@ const MenuCol = ({
 };
 
 export const MenuSection = ({
+  id,
   imgSrc,
   imgAlt,
   menuTitle,
@@ -54,7 +56,7 @@ export const MenuSection = ({
   rightVariant,
 }: MenuSectionProps) => {
   return (
-    <div className="flex gap-8">
+    <div id={id} className="flex gap-8">
       {rightVariant ? (
         <>
           <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
