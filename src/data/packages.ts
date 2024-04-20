@@ -85,6 +85,43 @@ export const weddingPackages = [
 
 export type TypeWeddingPackages = (typeof weddingPackages)[number];
 
+export const smallWeddingPackages = [
+  {
+    title: "Micro Wedding",
+    mainPrice: "$3,600",
+    feats: [
+      "25 Guests",
+      "4 hour Venue Rental included",
+      "Ceremony Décor: organza draping",
+      "Bride bouquet & Groom boutonnière",
+      "Set Up & display of couples personal items",
+      "One entrée buffet with 2 side dishes and bread Or Heavy Hors d’Oeuvres with 3 choices",
+      "Tea and Water beverages",
+      "Disposable Flatware Glasses and Paper Napkins",
+      "2 tier Cake with stand, Staff will cut & serve cake Vanilla or Chocolate, Rough, Smooth or Naked iced",
+      "Staff for event 2 hours",
+    ],
+  },
+  {
+    title: "Wedding Reception Only",
+    mainPrice: "$3,800",
+    feats: [
+      "50 Guests",
+      "Venue Rental Included 4 hours",
+      "Reception tables & chairs",
+      "1 Entree 2 sides dinner roll & salad",
+      "Set Up & clean up",
+      "Beverages Displayed in Decanters: Tea and water beverages",
+      "Disposable Flatware Glasses and Paper Napkins",
+      "2 tier Cake with Cake stand, Staff will cut & serve cake Vanilla or Chocolate, Rough, Smooth or Naked iced",
+      "Staff for event 4 hours",
+    ],
+    reducedPrice: "$3,200",
+  },
+] as const;
+
+export type TypeSmallWeddingPackages = (typeof smallWeddingPackages)[number];
+
 // export const WeddingPackages = [
 //   {
 //     title: "Sapphire",

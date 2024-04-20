@@ -1,7 +1,8 @@
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { Package } from "@/components/sections/packages/Package";
-import { weddingPackages } from "@/data/packages";
+import { weddingPackages, smallWeddingPackages } from "@/data/packages";
+import { SmallPackage } from "@/components/sections/packages/SmallPackage";
 
 export default function WeddingPackagePage() {
   return (
@@ -15,12 +16,16 @@ export default function WeddingPackagePage() {
       </section>
       <section className="py-12">
         <MaxWidthWrapper>
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-12 pb-12">
             {weddingPackages.map((pkg, i) => (
               <Package key={i} {...pkg} />
             ))}
           </div>
-          <div>Smaller Packages</div>
+          <div className="flex gap-8">
+            {smallWeddingPackages.map((pkg, i) => (
+              <SmallPackage key={i} {...pkg} />
+            ))}
+          </div>
         </MaxWidthWrapper>
       </section>
     </main>
