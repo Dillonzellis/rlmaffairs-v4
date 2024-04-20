@@ -5,10 +5,14 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { SubHeader } from "@/components/common/typography/SubHeader";
 import { BodyText } from "@/components/common/typography/BodyText";
-import { appetizerMenu } from "@/data/menus";
-import Image from "next/image";
+import {
+  appetizerMenu,
+  mainCourseMenu,
+  saladMenu,
+  sideDishMenu,
+} from "@/data/menus";
 import appetizers from "/public/appetizers.png";
-import cateringFeat from "/public/catering-page-1.jpg";
+import { MenuSection } from "@/components/sections/catering/MenuSection";
 
 export default function CateringPage() {
   return (
@@ -41,28 +45,33 @@ export default function CateringPage() {
         </MaxWidthWrapper>
         <BackgroundImage imageUrl="catering-page-1.jpg" />
       </section>
-      <section>
-        <div className="flex gap-8">
-          <div>
-            <Image src={appetizers} alt="Catering Image" />
-          </div>
-          <div>
-            <MaxWidthWrapper className="py-12">
-              <MainHeader size="medium">
-                Hor&apos;s Doeuvres Stations
-              </MainHeader>
-              <hr />
-              {appetizerMenu.map((item) => (
-                <div key={item.name} className="flex justify-between py-2">
-                  <div className="flex items-center gap-2">
-                    <div className="text-lg font-bold">{item.name}</div>
-                    {item.description ? <div>{item.description}</div> : null}
-                  </div>
-                </div>
-              ))}
-            </MaxWidthWrapper>
-          </div>
-        </div>
+      <section className="">
+        <MenuSection
+          imgSrc={appetizers}
+          imgAlt=""
+          menuTitle="Hors D'oeuvres Stations"
+          menuItems={appetizerMenu}
+        />
+        <MenuSection
+          imgSrc={appetizers}
+          imgAlt=""
+          menuTitle="Salad Selections"
+          menuItems={saladMenu}
+          rightVariant
+        />
+        <MenuSection
+          imgSrc={appetizers}
+          imgAlt=""
+          menuTitle="Buffet Main Course Options"
+          menuItems={mainCourseMenu}
+        />
+        <MenuSection
+          imgSrc={appetizers}
+          imgAlt=""
+          menuTitle="Side Dishes"
+          menuItems={sideDishMenu}
+          rightVariant
+        />
       </section>
     </main>
   );
