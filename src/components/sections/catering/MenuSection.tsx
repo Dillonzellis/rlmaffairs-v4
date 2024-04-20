@@ -30,12 +30,14 @@ const MenuCol = ({
   return (
     <div>
       <MaxWidthWrapper className="py-12">
-        <MainHeader size="medium">{menuTitle}</MainHeader>
+        <MainHeader className="font-nav" size="medium">
+          {menuTitle}
+        </MainHeader>
         <hr className="pb-2" />
         {menuItems.map((item) => (
           <div key={item.title} className="flex justify-between py-2">
             <div className="flex flex-col">
-              <div className="text-xl font-bold">{item.title}</div>
+              <div className="font-nav text-xl font-medium">{item.title}</div>
               {item.desc ? (
                 <div className="text-sm text-muted-foreground">{item.desc}</div>
               ) : null}
