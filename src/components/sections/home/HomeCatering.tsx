@@ -14,7 +14,7 @@ export const HomeCatering = () => {
           <div className="space-y-4">
             <SubHeader>Crafting Your Culinary Story</SubHeader>
             <MainHeader>Premiere Catering</MainHeader>
-            <ArrowBtn href="/">Catering Menu</ArrowBtn>
+            <ArrowBtn href="/catering">Catering Menu</ArrowBtn>
             <BodyText className="max-w-[55ch]">
               Savor the magic of your event with our exceptional in-house
               catering. We offer all the catering services you may need for your
