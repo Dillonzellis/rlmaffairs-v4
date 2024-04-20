@@ -1,10 +1,10 @@
-import { TypeSmallWeddingPackages } from "@/data/packages";
+import { TypeSmallPackages } from "@/data/packages";
 
 export const SmallPackage = ({
   title,
   mainPrice,
   feats,
-}: TypeSmallWeddingPackages) => {
+}: TypeSmallPackages) => {
   return (
     <div className="rounded-sm bg-[#d5d5d5]/15 px-6 py-10 shadow">
       <div className="flex items-baseline justify-between gap-20">
@@ -13,7 +13,9 @@ export const SmallPackage = ({
           <hr className="border-t-1 w-[120%] border-[#d5d5d5]"></hr>
         </div>
         <div className="">
-          <div className="font-serif text-3xl">{mainPrice}</div>
+          {mainPrice ? (
+            <div className="font-serif text-3xl">{mainPrice}</div>
+          ) : null}
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 export const mainNav = [
   { label: "Venue Gallery", href: "/venue-&-event-space" },
   { label: "Wedding Packages", href: "/wedding-packages" },
-  { label: "Event Packages", href: "/venue-&-event-space#packages" },
+  { label: "Event Packages", href: "/event-packages" },
   { label: "Catering", href: "/catering" },
   { label: "Love Letter", href: "/love-letters" },
   { label: "Our Story", href: "/our-story" },

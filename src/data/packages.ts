@@ -1,3 +1,9 @@
+export type TypeSmallPackages = {
+  title: string;
+  mainPrice?: string;
+  feats: string[];
+};
+
 export const weddingPackages = [
   {
     title: "Diamond Package",
@@ -81,7 +87,7 @@ export const weddingPackages = [
     ],
     reducedPrice: "$3,900",
   },
-] as const;
+];
 
 export type TypeWeddingPackages = (typeof weddingPackages)[number];
 
@@ -118,58 +124,75 @@ export const smallWeddingPackages = [
     ],
     reducedPrice: "$3,200",
   },
-] as const;
+];
 
 export type TypeSmallWeddingPackages = (typeof smallWeddingPackages)[number];
 
-// export const WeddingPackages = [
-//   {
-//     title: "Sapphire",
-//     color: "text-blue-600",
-//     desc: "This is the Sapphire Package",
-//     feats: [
-//       "50 Guests",
-//       "6 hour Venue Rental Included",
-//       "Reception Décor: Silk Greens & Organza",
-//       "Ceremony Décor: organza draping",
-//       "Flower girl petals",
-//       "Bridal bouquet",
-//       "3 Bridesmaids",
-//       "Groom & 3 Groomsmen boutonnières",
-//       "One entrée buffet with 2 side dishes and bread Or Heavy Hors d’Oeuvres with 3 choices",
-//       "Tea and Water beverages",
-//       "Disposable Flatware Glasses and Paper Napkins",
-//       "2 tier Cake with Cake stand, Staff will cut & serve",
-//       "Staff for event 4 hours",
-//       "Rehearsal Day of Event",
-//     ],
-//     price: 4100.0,
-//     reducedPrice: "Monday - Thursday: $3900.00",
-//   },
-//   {
-//     title: "Ruby Package",
-//     color: "text-rose-700",
-//     desc: "This is the Ruby Package",
-//     feats: ["Feature 1", "Feature 2", "Feature 3"],
-//     price: 2000,
-//     reducedPrice: "Monday - Thursday: 3900.00",
-//   },
-//   {
-//     title: "Emerald Package",
-//     color: "text-green-600",
-//     desc: "This is the Emerald Package",
-//     feats: ["Feature 1", "Feature 2", "Feature 3"],
-//     price: 3000,
-//     reducedPrice: "Monday - Thursday: 3900.00",
-//   },
-//   {
-//     title: "Diamond Package",
-//     color: "text-primary",
-//     desc: "This is the Diamond Package",
-//     feats: ["Feature 1", "Feature 2", "Feature 3"],
-//     price: 4000,
-//     reducedPrice: "Monday - Thursday: 3900.00",
-//   },
-// ] as const;
+export const eventPackages = [
+  {
+    title: "Exquisite Event",
+    mainPrice: "$8,300",
+    feats: [
+      "75 guests",
+      "10 hour Venue Rental Included",
+      "Set Up & display of your personal items",
+      "Event Décor: table runners, greens & lanterns with florals for tables, florals for food display, mantle & entry table",
+      "Catering: Cocktail hour 3 Hors d’Oeuvres Dinner 2 entrée buffet, signature salad, diner rolls, 2 side dishes",
+      "Beverages Displayed in Elegant Decanters: Tea and water beverages",
+      "Charger,Silver or Gold flatware, Goblets and Dinner Plates with Napkins",
+      "3 tier cake with stand, staff will cut & serve cake Vanilla or Chocolate, Rough, Smooth or Naked iced",
+      "Staff for event 6 hours",
+      "You may add additional guests",
+      "Photo Booth Wall",
+      "Day of Coordinator: Timeline /Dinner Service /Toasts / Cake Cutting/ Etc.",
+    ],
+    reducedPrice: "$8,100",
+  },
+  {
+    title: "Elegant Event",
+    mainPrice: "$6,300",
+    feats: [
+      "65 Guests",
+      "8 hour Venue Rental Included",
+      "Set Up & display of your personal items",
+      "Event Décor: table runners, greens and lanterns for tables, flowers for entry table and mantle",
+      "Catering: Cocktail hour 2 Hors d’Oeuvres 2 entrée buffet, signature salad, diner rolls, 2 side dishes",
+      "Beverages Displayed in Elegant Decanters: Tea and water beverages",
+      "Charger, Silver flatware, Goblets and Dinner Plates with Napkins",
+      "2 tier cake with stand, staff will cut & serve cake Vanilla or Chocolate, Rough, Smooth or Naked iced",
+      "Staff for event 6 hours",
+      "You may add additional guests",
+    ],
+    reducedPrice: "$6,000",
+  },
+  {
+    title: "Premier Event",
+    mainPrice: "$3,800",
+    feats: [
+      "50 Guests",
+      "6 hour Venue Rental included",
+      "Event Décor: greens and lanterns",
+      "Set Up & display of your personal items",
+      "One entrée buffet with 2 side dishes and bread Or Heavy Hors d’Oeuvres with 3 choices",
+      "Beverages Displayed in Elegant Decanters: Tea and water beverages",
+      "Disposable Flatware Glasses and Paper Napkins",
+      "2 tier Cake for dessert with stand, Staff will cut & serve cake Vanilla or Chocolate, Rough, Smooth or Naked iced",
+      "Staff for event 4 hours",
+      "You may add additional guests",
+    ],
+    reducedPrice: "$3,700",
+  },
+];
 
-// export type TypeWeddingPackages = (typeof WeddingPackages)[number];
+export const smallEventPackages = [
+  {
+    title: "Venue Only",
+    feats: [
+      "Fridays, Saturdays & Sundays - $2100.00 8 hours",
+      "Monday-Thursday - $1,500 6 hours",
+      "With any package 350.00/hour",
+      "A $500 deposit is required to hold a date.",
+      "This deposit is not refundable. The balance is due 40 days prior to your event.",
+    ],
+  },
+];
