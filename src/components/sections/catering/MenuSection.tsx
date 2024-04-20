@@ -56,7 +56,7 @@ export const MenuSection = ({
   rightVariant,
 }: MenuSectionProps) => {
   return (
-    <div id={id} className="flex gap-8">
+    <div id={id} className="flex scroll-mt-[4.25rem] gap-8">
       {rightVariant ? (
         <>
           <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
