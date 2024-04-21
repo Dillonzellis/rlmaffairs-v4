@@ -3,7 +3,6 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { Package } from "@/components/sections/packages/Package";
 import { weddingPackages, smallWeddingPackages } from "@/data/packages";
 import { SmallPackage } from "@/components/sections/packages/SmallPackage";
-import { ArrowBtn } from "@/components/common/ArrowBtn";
 import { Button } from "@/components/common/ui/button";
 import Link from "next/link";
 
