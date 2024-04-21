@@ -3,6 +3,8 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { Package } from "@/components/sections/packages/Package";
 import { eventPackages, smallEventPackages } from "@/data/packages";
 import { SmallPackage } from "@/components/sections/packages/SmallPackage";
+import { Button } from "@/components/common/ui/button";
+import Link from "next/link";
 
 export default function EventPackagePage() {
   return (
@@ -26,6 +28,14 @@ export default function EventPackagePage() {
               <SmallPackage key={i} {...pkg} />
             ))}
           </div>
+          <Button
+            variant="outline"
+            size="lg"
+            asChild
+            className="mt-12 text-base"
+          >
+            <Link href="/vendors">Our Preferred Vendors</Link>
+          </Button>
         </MaxWidthWrapper>
       </section>
     </main>

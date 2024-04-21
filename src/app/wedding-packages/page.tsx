@@ -3,6 +3,9 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { Package } from "@/components/sections/packages/Package";
 import { weddingPackages, smallWeddingPackages } from "@/data/packages";
 import { SmallPackage } from "@/components/sections/packages/SmallPackage";
+import { ArrowBtn } from "@/components/common/ArrowBtn";
+import { Button } from "@/components/common/ui/button";
+import Link from "next/link";
 
 export default function WeddingPackagePage() {
   return (
@@ -26,6 +29,14 @@ export default function WeddingPackagePage() {
               <SmallPackage key={i} {...pkg} />
             ))}
           </div>
+          <Button
+            variant="outline"
+            size="lg"
+            asChild
+            className="mt-12 text-base"
+          >
+            <Link href="/vendors">Our Preferred Vendors</Link>
+          </Button>
         </MaxWidthWrapper>
       </section>
     </main>
