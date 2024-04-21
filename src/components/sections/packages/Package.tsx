@@ -15,7 +15,7 @@ export const Package = ({
         </div>
         <div className="flex items-baseline gap-4">
           <div className="font-serif text-7xl">{mainPrice}</div>
-          <div className="italic">Friday - Sunday</div>
+          <div className="font-bold italic">Friday - Sunday</div>
         </div>
       </div>
 
