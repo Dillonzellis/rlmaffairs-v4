@@ -14,7 +14,7 @@ export const Package = ({
           <hr className="border-t-1 w-[120%] border-[#d5d5d5]"></hr>
         </div>
         <div className="flex items-baseline gap-4">
-          <div className="font-serif text-7xl">{mainPrice}</div>
+          <div className="font-serif text-5xl">{mainPrice}</div>
           <div className="font-bold italic">Friday - Sunday</div>
         </div>
       </div>
