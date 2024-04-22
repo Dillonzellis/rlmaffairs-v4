@@ -30,7 +30,7 @@ const MenuCol = ({
   return (
     <div>
       <MaxWidthWrapper className="py-12">
-        <MainHeader className="font-nav" size="medium">
+        <MainHeader className="font-serif" size="medium">
           {menuTitle}
         </MainHeader>
         <hr className="pb-2" />
