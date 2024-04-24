@@ -8,3 +8,5 @@ A website for RLMAffairs, a buiness specializing in wedding and event planning. 
 2. **Run**: `npm run dev`, then open [http://localhost:3000](http://localhost:3000)
 
 This is site is currently in development and will eventually reside as the live site for RLMAffairs at [rlmaffairs.com](https://rlmaffairs.com).
+
+The development site can be viewed at [https://rlmaffairs-v4.vercel.app/](https://rlmaffairs-v4.vercel.app/).
