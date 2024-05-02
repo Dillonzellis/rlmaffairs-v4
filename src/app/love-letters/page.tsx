@@ -1,5 +1,6 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
+import { LetterForm } from "@/components/sections/love-letters/LetterForm";
 import { PageLetter } from "@/components/sections/love-letters/PageLetter";
 import { reviews } from "@/data/reviews";
 
@@ -20,6 +21,11 @@ export default function LoveLettersHome() {
               <PageLetter {...review} key={index} />
             ))}
           </div>
+        </MaxWidthWrapper>
+      </section>
+      <section>
+        <MaxWidthWrapper>
+          <LetterForm />
         </MaxWidthWrapper>
       </section>
     </main>
