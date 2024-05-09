@@ -43,7 +43,9 @@ export default function CateringPage() {
             </div>
           </div>
         </MaxWidthWrapper>
-        <BackgroundImage imageUrl="catering-page-1.jpg" />
+        <div className="hidden md:block">
+          <BackgroundImage imageUrl="catering-page-1.jpg" />
+        </div>
       </section>
       <section>
         <MenuSection

@@ -2,6 +2,7 @@ import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import Image, { StaticImageData } from "next/image";
 import { TypeMenu } from "@/data/menus";
+import { cn } from "@/lib/utils";
 
 type MenuSectionProps = {
   id: string;
@@ -18,7 +19,11 @@ const ImgCol = ({
 }: Pick<MenuSectionProps, "imgSrc" | "imgAlt">) => {
   return (
     <div>
-      <Image src={imgSrc} alt={imgAlt} className="h-full object-cover" />
+      <Image
+        src={imgSrc}
+        alt={imgAlt}
+        className="md:w-unset max-h-[200px] min-w-full object-cover md:min-h-full"
+      />
     </div>
   );
 };
@@ -58,7 +63,13 @@ export const MenuSection = ({
   rightVariant,
 }: MenuSectionProps) => {
   return (
-    <div id={id} className="flex scroll-mt-[4.25rem] gap-8">
+    <div
+      id={id}
+      className={cn(
+        "flex scroll-mt-[4.25rem] flex-col justify-between md:flex-row md:gap-8",
+        rightVariant ? "flex-col-reverse" : "",
+      )}
+    >
       {rightVariant ? (
         <>
           <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
