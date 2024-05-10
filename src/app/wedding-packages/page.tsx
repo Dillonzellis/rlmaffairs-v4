@@ -23,7 +23,7 @@ export default function WeddingPackagePage() {
               <Package key={i} {...pkg} />
             ))}
           </div>
-          <div className="flex gap-8">
+          <div className="flex flex-col gap-8 md:flex-row">
             {smallWeddingPackages.map((pkg, i) => (
               <SmallPackage key={i} {...pkg} />
             ))}
