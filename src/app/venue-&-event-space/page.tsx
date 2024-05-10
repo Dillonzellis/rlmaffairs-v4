@@ -7,7 +7,12 @@ export default function VenuePage() {
   return (
     <main>
       {/* TODO: Slider for Venue Feat imgs */}
-      <PageHero imgSrc={venueHero} imgAlt="" hashLinks={VenueHashLinks} />
+      <PageHero
+        imgSrc={venueHero}
+        imgAlt=""
+        hashLinks={VenueHashLinks}
+        link=""
+      />
       <VenuePackages />
     </main>
   );
