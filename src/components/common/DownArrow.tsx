@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Icons } from "./Icons";
 
-export const DownArrow = () => {
+interface DownArrowProps {
+  link: string;
+}
+
+export const DownArrow = ({ link }: DownArrowProps) => {
   return (
     <motion.div
       className="absolute bottom-8 right-2.5 text-white md:right-7"
@@ -15,7 +19,7 @@ export const DownArrow = () => {
       whileHover={{ scale: 1.5, transition: { duration: 0.3 } }}
       whileTap={{ scale: 1.2, transition: { duration: 0.3 } }}
     >
-      <Link href="/#venue">
+      <Link href={link}>
         <Icons.downArrow className="text-backround h-14 w-14" />
       </Link>
     </motion.div>

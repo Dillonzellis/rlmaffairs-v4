@@ -21,6 +21,7 @@ export default function CateringPage() {
         imgSrc="/hero-placeholder.jpg"
         imgAlt=""
         hashLinks={CateringHashLinks}
+        link="#appetizers"
       />
       <section>
         <MaxWidthWrapper className="py-12">

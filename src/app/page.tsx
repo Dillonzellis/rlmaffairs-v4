@@ -8,7 +8,7 @@ import { HomePackages } from "@/components/sections/home/HomePackages";
 export default function Home() {
   return (
     <main className="min-h-dvh">
-      <PageHero videoSrc="/home-hero.webm" />
+      <PageHero videoSrc="/home-hero.webm" link="#venue" />
       <HomeVenue />
       <HomeFloral />
       <HomePackages />

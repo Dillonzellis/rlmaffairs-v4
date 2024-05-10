@@ -10,6 +10,7 @@ interface PageHeroProps {
   hashLinks?: HashLinksType[];
   videoSrc?: string;
   small?: boolean;
+  link: string;
 }
 
 export const PageHero = ({
@@ -18,6 +19,7 @@ export const PageHero = ({
   hashLinks,
   videoSrc,
   small,
+  link,
 }: PageHeroProps) => {
   return (
     <section>
@@ -37,7 +39,7 @@ export const PageHero = ({
             className={cn("w-full object-cover", small ? "h-96" : "h-dvh")}
           />
         ) : null}
-        <DownArrow />
+        <DownArrow link={link} />
         {hashLinks && <HeroNav links={hashLinks} />}
       </>
     </section>
