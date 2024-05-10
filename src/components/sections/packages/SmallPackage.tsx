@@ -6,19 +6,20 @@ export const SmallPackage = ({
   feats,
 }: TypeSmallPackages) => {
   return (
-    <div className="rounded-sm bg-[#d5d5d5]/15 px-6 py-10 shadow">
-      <div className="flex items-baseline justify-between gap-20">
-        <div className="pb-8">
+    <div className="rounded-sm bg-[#d5d5d5]/15 px-3 py-6 shadow md:px-6 md:py-10">
+      <div className="flex flex-col items-baseline justify-between md:flex-row md:gap-20">
+        <div className="pb-4 md:pb-8">
           <div className="font-serif text-4xl">{title}</div>
-          <hr className="border-t-1 w-[120%] border-[#d5d5d5]"></hr>
+          <hr className="border-t-1 w-full border-[#d5d5d5] md:w-[120%]"></hr>
         </div>
         <div className="">
           {mainPrice ? (
-            <div className="font-serif text-3xl">{mainPrice}</div>
+            <div className="pb-4 text-xl md:pb-2 md:font-serif md:text-3xl">
+              {mainPrice}
+            </div>
           ) : null}
         </div>
       </div>
-
       <ul className="list-inside list-disc space-y-2 pb-6">
         {feats.map((feat, i) => (
           <li key={i}>{feat}</li>
