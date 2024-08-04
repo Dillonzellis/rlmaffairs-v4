@@ -1,11 +1,12 @@
 import localFont from "next/font/local";
 import type { Metadata } from "next";
-import { Nunito, DM_Serif_Display } from "next/font/google";
+import { Nunito, DM_Serif_Display, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Footer } from "@/components/layout/footer/Footer";
 import { Header } from "@/components/layout/header/Header";
 
+const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 const nunito = Nunito({ subsets: ["latin"], variable: "--nunito" });
 const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
           nunito.variable,
           dreamAvenue.variable,
           dmSerif.variable,
+          inter.variable,
         )}
       >
         <Header />

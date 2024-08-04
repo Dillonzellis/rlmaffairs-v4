@@ -22,6 +22,7 @@ const config = {
         sans: ["var(--nunito)"],
         serif: ["var(--dream-avenue)"],
         nav: ["var(--serifDisplay)"],
+        inter: ["var(--inter)"],
       },
       colors: {
         border: "hsl(var(--border))",
