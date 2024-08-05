@@ -69,3 +69,31 @@
 html {
   scroll-behavior: smooth !important;
 }
+
+.review-grid-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .md\:review-grid-area-md {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "daniel daniel"
+      "jonathan kira"
+      "jeanette patrick"
+      "double single";
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:review-grid-area-lg {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira"
+      "double double single single";
+  }
+}
