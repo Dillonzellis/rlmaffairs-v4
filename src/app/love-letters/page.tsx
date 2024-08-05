@@ -31,7 +31,7 @@ const TestimonialCard = ({
       </div>
     </div>
     <p className="pb-4 font-inter text-lg font-bold">{quote}</p>
-    <p className="text-sm italic">"{details}"</p>
+    <p className="text-sm italic">&quot;{details}&quot;</p>
   </div>
 );
 
