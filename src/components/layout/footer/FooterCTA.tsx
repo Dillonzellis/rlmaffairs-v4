@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/common/ui/button";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
+import Link from "next/link";
 
 export const FooterCTA = () => {
   return (
@@ -15,8 +16,10 @@ export const FooterCTA = () => {
             Packages start at $4,100 with flexible payment plans available.
           </div>
           <div className="flex justify-center py-8">
-            <Button variant="secondary" size="lg" className="text-lg">
-              Book A Tour!
+            <Button asChild variant="secondary" size="lg" className="text-lg">
+              <Link href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204">
+                Book A Tour!
+              </Link>
             </Button>
           </div>
         </MaxWidthWrapper>

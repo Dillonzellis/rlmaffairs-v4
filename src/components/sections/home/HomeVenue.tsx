@@ -11,7 +11,9 @@ export const HomeVenue = () => {
         <div className="space-y-4">
           <SubHeader>The Stage for Lifelong Memories</SubHeader>
           <MainHeader>Venue Gallery</MainHeader>
-          <ArrowBtn href="/">Book a Tour</ArrowBtn>
+          <ArrowBtn href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204">
+            Book a Tour
+          </ArrowBtn>
         </div>
       </MaxWidthWrapper>
       <BackgroundImage imageUrl="/venue-1.jpg" />

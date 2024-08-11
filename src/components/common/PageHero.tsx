@@ -35,7 +35,6 @@ export const PageHero = ({
             alt={imgAlt || "Hero Image"}
             height={834}
             width={1280}
-            // className="h-dvh w-full object-cover"
             className={cn("w-full object-cover", small ? "h-96" : "h-dvh")}
           />
         ) : null}
