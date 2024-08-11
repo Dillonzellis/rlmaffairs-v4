@@ -34,8 +34,8 @@ export const CateringHashLinks = [
 export const footerNav = [
   {
     linksCol: [
-      { label: "Venue", href: "/venue" },
-      { label: "Florals", href: "/venue-&-event-space" },
+      { label: "Venue", href: "/venue-&-event-space" },
+      { label: "Florals", href: "https://rlmflorist.com/", target: "_blank" },
       { label: "Catering Menu", href: "/catering" },
     ],
   },
