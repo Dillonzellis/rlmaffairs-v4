@@ -105,7 +105,7 @@ export const NavMenu = () => {
               alt="RLM Affairs Logo"
               width={100}
               height={100}
-              className="py-2 drop-shadow-xl"
+              className="max-w-[3.125rem] py-2 drop-shadow-xl md:max-w-[6.25rem]"
             />
           </Link>
         </div>
