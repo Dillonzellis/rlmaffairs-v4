@@ -409,7 +409,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div>
+          <div className="overflow-scroll">
             <table className="privacy-table">
               <thead>
                 <tr>

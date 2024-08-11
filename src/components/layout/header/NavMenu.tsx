@@ -91,7 +91,6 @@ export const NavMenu = () => {
           onClick={toggleSheet}
           className="flex cursor-pointer items-center gap-2 p-4"
         >
-          {/* FIX: hamburger background  */}
           <AlignLeft
             strokeWidth={1.5}
             className={cn("h-9 w-9 text-background", bgColor)}
@@ -109,11 +108,11 @@ export const NavMenu = () => {
             />
           </Link>
         </div>
-        <div className="hidden items-center transition-transform duration-200 hover:scale-105 md:flex ">
+        <div className="flex items-center transition-transform duration-200 hover:scale-105">
           <div>
             <a
               href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204"
-              className="p-4 font-bold"
+              className="pr-2 text-sm font-bold md:p-4 md:text-base"
             >
               RESERVE A TOUR
             </a>
