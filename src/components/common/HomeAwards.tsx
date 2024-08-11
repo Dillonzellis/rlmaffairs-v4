@@ -8,14 +8,14 @@ export const HomeAwards = () => {
         Excellence in Service: Celebrating Our Prestigious Wedding Industry
         Awards
       </div>
-      <div className="mx-auto flex max-w-[150px] flex-col items-center justify-center gap-2 md:max-w-full md:flex-row md:gap-8">
+      <div className="mx-auto flex max-w-[100px] flex-col items-center justify-center gap-4 md:flex-row md:gap-8 lg:max-w-full">
         {awards.map((award, idx) => (
           <Image
             key={idx}
             src={award.src}
             alt={award.alt}
-            width={175}
-            height={175}
+            width={150}
+            height={150}
           />
         ))}
       </div>
