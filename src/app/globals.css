@@ -97,3 +97,14 @@ html {
       "double double single single";
   }
 }
+
+.privacy-table {
+  border: 1px solid #e5e7eb;
+  thead {
+    border-bottom: 1px solid #e5e7eb;
+  }
+  td {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+  }
+}

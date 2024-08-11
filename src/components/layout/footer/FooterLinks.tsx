@@ -63,7 +63,7 @@ export const FooterLinks = () => {
           <small>&copy; {getYear()} RLM Affairs</small>
           <div className="flex gap-4">
             <small>
-              <Link href="">Privacy Policy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </small>
             <small>
               <Link href="">Terms of Service</Link>
