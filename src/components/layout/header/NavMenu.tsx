@@ -97,7 +97,7 @@ export const NavMenu = () => {
           />
           <div className="hidden font-bold md:block">MENU</div>
         </div>
-        <div className="flex items-center pr-3 md:pr-0">
+        <div className="flex items-center">
           <Link href="/">
             <Image
               src="/RLMAffairs_Logo_Gold_FNL.png"
