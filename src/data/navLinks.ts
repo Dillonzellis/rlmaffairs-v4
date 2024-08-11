@@ -24,13 +24,6 @@ export const VenueHashLinks = [
   { label: "Gallery", href: "/#love-letters" },
 ];
 
-// export const FloralHashLinks = [
-//   { label: "Venue & Event Space", href: "/#venue" },
-//   { label: "Florals Designs", href: "/#florals" },
-//   { label: "Catering", href: "/#catering" },
-//   { label: "Love Letters", href: "/#love-letters" },
-// ];
-
 export const CateringHashLinks = [
   { label: "Hors D'oeuvres Stations", href: "#appetizers" },
   { label: "Salad Selections", href: "#salads" },
@@ -42,24 +35,27 @@ export const footerNav = [
   {
     linksCol: [
       { label: "Venue", href: "/venue" },
-      { label: "Florals", href: "/florals" },
-      { label: "Catering Menu", href: "/venue" },
-      // { label: "Love Letters", href: "/event-planning" },
-      // { label: "Our Story", href: "/our-story" },
+      { label: "Florals", href: "/venue-&-event-space" },
+      { label: "Catering Menu", href: "/catering" },
     ],
   },
   {
     linksCol: [
-      // { label: "Catering Menu", href: "/venue" },
-      // { label: "Floor Plan", href: "/florals" },
-      // { label: "FAQ", href: "/event-planning" },
-    ],
-  },
-  {
-    linksCol: [
-      { label: "Instagram", href: "/venue" },
-      { label: "Facebook", href: "/event-planning" },
-      { label: "The Knot", href: "/our-story" },
+      {
+        label: "Instagram",
+        href: "https://www.instagram.com/rlmaffairs/",
+        target: "_blank",
+      },
+      {
+        label: "Facebook",
+        href: "https://www.facebook.com/rlmaffairs/",
+        target: "_blank",
+      },
+      {
+        label: "The Knot",
+        href: "https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225",
+        target: "_blank",
+      },
     ],
   },
 ];

@@ -7,18 +7,30 @@ import { HomeAwards } from "@/components/common/HomeAwards";
 interface FooterLinkProps {
   label: string;
   href: string;
+  target?: string;
 }
 
 const FooterCol = ({ children }: { children: React.ReactNode }) => {
   return <ul className="space-y-3 text-center md:text-start">{children}</ul>;
 };
 
-const FooterLink = ({ label, href }: FooterLinkProps) => {
+const FooterLink = ({ label, href, target }: FooterLinkProps) => {
   return (
     <li className="transition-transform duration-200 hover:translate-x-1 hover:text-background/90">
-      <Link href={href} className="text-2xl font-light md:text-xl">
-        {label}
-      </Link>
+      {target ? (
+        <a
+          href={href}
+          target={target}
+          className="text-2xl font-light md:text-xl"
+          rel={target === "_blank" ? "noopener noreferrer" : undefined}
+        >
+          {label}
+        </a>
+      ) : (
+        <Link href={href} className="text-2xl font-light md:text-xl">
+          {label}
+        </Link>
+      )}
     </li>
   );
 };
@@ -38,6 +50,7 @@ export const FooterLinks = () => {
                   key={link.label}
                   href={link.href}
                   label={link.label}
+                  target={(link as { target?: string }).target}
                 />
               ))}
             </FooterCol>
