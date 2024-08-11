@@ -7,7 +7,7 @@ export default function Home() {
       <section>
         <div className="h-[350px] bg-[url('/package-feat-sm.jpg')] bg-cover bg-center">
           <MaxWidthWrapper className="flex h-full items-center">
-            <MainHeader className="text-white">Terms of Service</MainHeader>
+            <MainHeader className="text-white">Privacy Policy</MainHeader>
           </MaxWidthWrapper>
         </div>
       </section>
@@ -22,10 +22,10 @@ export default function Home() {
 
           <div>
             <p className="pb-2">
-              This privacy notice for RLM Affairs ("we," "us," or "our")
-              describes how and why we might collect, store, use, and/or share
-              ("process") your information when you use our services
-              ("Services"), such as when you:
+              This privacy notice for RLM Affairs (&quot;we&quot;,
+              &quot;us,&quot; or &quot;our&quot;) describes how and why we might
+              collect, store, use, and/or share (&quot;process) your information
+              when you use our services (&quot;Services), such as when you:
             </p>
 
             <ul className="list-inside list-disc">
@@ -320,7 +320,10 @@ export default function Home() {
               you have the right to withdraw your consent at any time. You can
               withdraw your consent at any time by contacting us by using the
               contact details provided in the section{" "}
-              <a href="#">"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</a> below.
+              <a href="#">
+                &quot;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&quot;
+              </a>{" "}
+              below.
             </p>
           </div>
 
@@ -350,16 +353,16 @@ export default function Home() {
           <div>
             <p>
               Most web browsers and some mobile operating systems and mobile
-              applications include a Do-Not-Track ("DNT") feature or setting you
-              can activate to signal your privacy preference not to have data
-              about your online browsing activities monitored and collected. At
-              this stage, no uniform technology standard for recognizing and
-              implementing DNT signals has been finalized. As such, we do not
-              currently respond to DNT browser signals or any other mechanism
-              that automatically communicates your choice not to be tracked
-              online. If a standard for online tracking is adopted that we must
-              follow in the future, we will inform you about that practice in a
-              revised version of this privacy notice.
+              applications include a Do-Not-Track (&quot;DNT&quot;) feature or
+              setting you can activate to signal your privacy preference not to
+              have data about your online browsing activities monitored and
+              collected. At this stage, no uniform technology standard for
+              recognizing and implementing DNT signals has been finalized. As
+              such, we do not currently respond to DNT browser signals or any
+              other mechanism that automatically communicates your choice not to
+              be tracked online. If a standard for online tracking is adopted
+              that we must follow in the future, we will inform you about that
+              practice in a revised version of this privacy notice.
             </p>
           </div>
 
@@ -534,16 +537,18 @@ export default function Home() {
 
           <h3 className="font-bold">Sources of Personal Information</h3>
           <p>
-            Learn more about the sources of personal information we collect in "
-            <a href="#">WHAT INFORMATION DO WE COLLECT?</a>"
+            Learn more about the sources of personal information we collect in
+            &quot;
+            <a href="#">WHAT INFORMATION DO WE COLLECT?</a>&quot;
           </p>
 
           <h3 className="font-bold">
             How We Use and Share Personal Information
           </h3>
           <p>
-            Learn about how we use your personal information in the section, "
-            <a href="#">HOW DO WE PROCESS YOUR INFORMATION?</a>"
+            Learn about how we use your personal information in the section,
+            &quot;
+            <a href="#">HOW DO WE PROCESS YOUR INFORMATION?</a>&quot;
           </p>
 
           <h4 className="font-bold">
@@ -553,14 +558,15 @@ export default function Home() {
             We may disclose your personal information with our service providers
             pursuant to a written contract between us and each service provider.
             Learn more about how we disclose personal information to in the
-            section, "WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?"
+            section, &quot;WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
+            INFORMATION?&quot;
           </p>
 
           <p>
             We may use your personal information for our own business purposes,
             such as for undertaking internal research for technological
             development and demonstration. This is not considered to be
-            "selling" of your personal information.
+            &quot;selling&quot; of your personal information.
           </p>
 
           <p>
@@ -606,7 +612,7 @@ export default function Home() {
               personal data if it is used for targeted advertising (or sharing
               as defined under California’s privacy law), the sale of personal
               data, or profiling in furtherance of decisions that produce legal
-              or similarly significant effects ("profiling")
+              or similarly significant effects (&quot;profiling&quot;)
             </li>
           </ul>
 
@@ -618,7 +624,7 @@ export default function Home() {
             <li>
               Right to obtain a list of the categories of third parties to which
               we have disclosed personal data (as permitted by applicable law,
-              including California's and Delaware's privacy law)
+              including California&apos;s and Delaware&apos;s privacy law)
             </li>
             <li>
               Right to obtain a list of specific third parties to which we have
@@ -689,19 +695,21 @@ export default function Home() {
           </div>
 
           <div>
-            <h3 className="font-bold">California "Shine The Light" Law</h3>
+            <h3 className="font-bold">
+              California &quot;Shine The Light&quot; Law
+            </h3>
             <p>
-              California Civil Code Section 1798.83, also known as the "Shine
-              The Light" law, permits our users who are California residents to
-              request and obtain from us, once a year and free of charge,
-              information about categories of personal information (if any) we
-              disclosed to third parties for direct marketing purposes and the
-              names and addresses of all third parties with which we shared
-              personal information in the immediately preceding calendar year.
-              If you are a California resident and would like to make such a
-              request, please submit your request in writing to us by using the
-              contact details provided in the section "HOW CAN YOU CONTACT US
-              ABOUT THIS NOTICE?"
+              California Civil Code Section 1798.83, also known as the
+              &quot;Shine The Light&quot; law, permits our users who are
+              California residents to request and obtain from us, once a year
+              and free of charge, information about categories of personal
+              information (if any) we disclosed to third parties for direct
+              marketing purposes and the names and addresses of all third
+              parties with which we shared personal information in the
+              immediately preceding calendar year. If you are a California
+              resident and would like to make such a request, please submit your
+              request in writing to us by using the contact details provided in
+              the section &quot;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&quot;
             </p>
           </div>
 
@@ -715,12 +723,13 @@ export default function Home() {
             </p>
             <p>
               We may update this privacy notice from time to time. The updated
-              version will be indicated by an updated "Revised" date at the top
-              of this privacy notice. If we make material changes to this
-              privacy notice, we may notify you either by prominently posting a
-              notice of such changes or by directly sending you a notification.
-              We encourage you to review this privacy notice frequently to be
-              informed of how we are protecting your information.
+              version will be indicated by an updated &quot;Revised&quot; date
+              at the top of this privacy notice. If we make material changes to
+              this privacy notice, we may notify you either by prominently
+              posting a notice of such changes or by directly sending you a
+              notification. We encourage you to review this privacy notice
+              frequently to be informed of how we are protecting your
+              information.
             </p>
           </div>
 
