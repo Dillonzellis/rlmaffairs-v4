@@ -11,7 +11,6 @@ import {
   saladMenu,
   sideDishMenu,
 } from "@/data/menus";
-import appetizers from "/public/appetizers.png";
 import { MenuSection } from "@/components/sections/catering/MenuSection";
 
 export default function CateringPage() {
@@ -52,29 +51,21 @@ export default function CateringPage() {
         <MaxWidthWrapper className="border-l border-r">
           <MenuSection
             id="appetizers"
-            imgSrc={appetizers}
-            imgAlt=""
             menuTitle="Hors D'oeuvres Stations"
             menuItems={appetizerMenu}
           />
           <MenuSection
             id="salads"
-            imgSrc={appetizers}
-            imgAlt=""
             menuTitle="Salad Selections"
             menuItems={saladMenu}
           />
           <MenuSection
             id="main-course"
-            imgSrc={appetizers}
-            imgAlt=""
             menuTitle="Buffet Main Course Options"
             menuItems={mainCourseMenu}
           />
           <MenuSection
             id="side-dishes"
-            imgSrc={appetizers}
-            imgAlt=""
             menuTitle="Side Dishes"
             menuItems={sideDishMenu}
           />

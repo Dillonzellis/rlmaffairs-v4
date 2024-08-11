@@ -1,32 +1,13 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
-import Image, { StaticImageData } from "next/image";
 import { TypeMenu } from "@/data/menus";
 import { cn } from "@/lib/utils";
 
 type MenuSectionProps = {
   id: string;
-  imgSrc: StaticImageData;
-  imgAlt: string;
   menuTitle: string;
   menuItems: TypeMenu[];
-  rightVariant?: boolean;
 };
-
-// const ImgCol = ({
-//   imgSrc,
-//   imgAlt,
-// }: Pick<MenuSectionProps, "imgSrc" | "imgAlt">) => {
-//   return (
-//     <div>
-//       <Image
-//         src={imgSrc}
-//         alt={imgAlt}
-//         className="md:w-unset max-h-[200px] min-w-full object-cover md:min-h-full"
-//       />
-//     </div>
-//   );
-// };
 
 const MenuCol = ({
   menuTitle,
