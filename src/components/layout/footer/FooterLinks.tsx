@@ -66,7 +66,7 @@ export const FooterLinks = () => {
               <Link href="/privacy-policy">Privacy Policy</Link>
             </small>
             <small>
-              <Link href="">Terms of Service</Link>
+              <Link href="/terms-of-service">Terms of Service</Link>
             </small>
           </div>
         </div>
