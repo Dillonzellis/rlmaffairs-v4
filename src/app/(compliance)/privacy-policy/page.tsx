@@ -12,7 +12,7 @@ export default function Home() {
         </div>
       </section>
       <section className="mx-auto max-w-4xl">
-        <MaxWidthWrapper className="space-y-4 py-4">
+        <MaxWidthWrapper className="space-y-4 py-12">
           <div>
             <h2 className="text-xl font-bold">PRIVACY POLICY</h2>
             <div className="text-sm font-medium">

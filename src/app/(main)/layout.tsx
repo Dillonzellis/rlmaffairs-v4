@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import type { Metadata } from "next";
 import { Nunito, DM_Serif_Display, Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { cn } from "@/lib/utils";
 import { Footer } from "@/components/layout/footer/Footer";
 import { Header } from "@/components/layout/header/Header";
@@ -15,7 +15,7 @@ const dmSerif = DM_Serif_Display({
 });
 
 const dreamAvenue = localFont({
-  src: "../../public/fonts/DreamAvenue.ttf",
+  src: "../../../public/fonts/DreamAvenue.ttf",
   display: "swap",
   variable: "--dream-avenue",
 });
