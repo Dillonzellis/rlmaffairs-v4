@@ -6,6 +6,7 @@ import { mainNav } from "@/data/navLinks";
 import { X } from "lucide-react";
 import Link from "next/link";
 import { AlignLeft } from "lucide-react";
+import Image from "next/image";
 
 interface NavSheetProps {
   isOpen: boolean;
@@ -14,7 +15,7 @@ interface NavSheetProps {
 
 const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
   const navSheetClasses = cn(
-    "fixed top-0 z-30 flex h-dvh w-full flex-col border-r border-r-primary/90 bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
+    "fixed top-0 z-30 flex h-dvh w-full flex-col bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
     "transition-transform duration-500 ease-in-out",
     {
       "transform translate-x-0": isOpen,
@@ -25,7 +26,7 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
     <div className={navSheetClasses}>
       <div
         onClick={toggleSheet}
-        className="flex cursor-pointer items-center gap-2 border-b border-b-primary/30 pb-4"
+        className="flex cursor-pointer items-center gap-2 pb-4"
       >
         <X strokeWidth={1.5} className="h-9 w-9" />
         <span className="font-bold">CLOSE</span>
@@ -53,8 +54,7 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
 };
 
 export const NavMenu = () => {
-  const transparentHeaderClasses =
-    "bg-transparent text-background border-background/30";
+  const transparentHeaderClasses = "bg-transparent text-background";
   const solidHeaderClasses = "bg-background/70 backdrop-blur-md text-primary";
 
   const [isOpen, setIsOpen] = useState(false);
@@ -83,13 +83,13 @@ export const NavMenu = () => {
     <>
       <div
         className={cn(
-          "fixed left-0 top-0 z-20 flex w-full justify-between border-b transition-colors duration-300 ease-in-out",
+          "fixed left-0 top-0 z-20 flex w-full justify-between transition-colors duration-300 ease-in-out",
           bgColor,
         )}
       >
         <div
           onClick={toggleSheet}
-          className="flex cursor-pointer items-center gap-2 border-r-background/30 p-4 md:border-r"
+          className="flex cursor-pointer items-center gap-2 p-4"
         >
           {/* FIX: hamburger background  */}
           <AlignLeft
@@ -99,11 +99,22 @@ export const NavMenu = () => {
           <div className="hidden font-bold md:block">MENU</div>
         </div>
         <div className="flex items-center pr-3 md:pr-0">
-          <Link href="/">RLM LOGO</Link>
+          <Link href="/">
+            <Image
+              src="/RLMAffairs_Logo_Gold_FNL.png"
+              alt="RLM Affairs Logo"
+              width={100}
+              height={100}
+              className="py-2 drop-shadow-xl"
+            />
+          </Link>
         </div>
-        <div className="hidden items-center border-l-background/30 md:flex md:border-l">
+        <div className="hidden items-center transition-transform duration-200 hover:scale-105 md:flex ">
           <div>
-            <a href="/" className="p-4 font-bold">
+            <a
+              href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204"
+              className="p-4 font-bold"
+            >
               RESERVE A TOUR
             </a>
           </div>

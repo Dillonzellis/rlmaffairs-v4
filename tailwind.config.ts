@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--nunito)"],
+        sans: ["var(--inter)"],
         serif: ["var(--dream-avenue)"],
         nav: ["var(--serifDisplay)"],
         inter: ["var(--inter)"],

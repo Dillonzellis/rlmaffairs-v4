@@ -41,11 +41,6 @@ export const DJVendors: VendorProps[] = [
 
 export const officiantVendors: VendorProps[] = [
   {
-    name: "Rev. Heinz Kloeter",
-    link: "https://www.weddingofficiantga.com/",
-    phone: "678-983-7976",
-  },
-  {
     name: "Alternative Weddings - Rev. Dr. Barbara Roberts",
     link: "https://www.alternativeweddingsbyrevroberts.com/",
     phone: "706-265-7794",
@@ -56,29 +51,13 @@ export const officiantVendors: VendorProps[] = [
     phone: "678-890-4881",
   },
   {
-    name: "Davis Palmour",
-    phone: "706-455-8421",
-  },
-  {
     name: "Ceremonies By Rick - Rick Durham",
     link: "https://ceremoniesbyrick.com/",
     phone: "706-654-6268",
   },
   {
-    name: "Tyler Maraia",
-    phone: "206-245-5986",
-  },
-  {
     name: "Sensational Ceremonies - Dr. Gregg Potts",
     phone: "678-205-7267",
-  },
-  {
-    name: "Sue Palmer (minister)",
-    phone: "470-232-1170",
-  },
-  {
-    name: "Rocky Thompason",
-    phone: "770-490-1274",
   },
 ];
 

@@ -13,20 +13,20 @@ type MenuSectionProps = {
   rightVariant?: boolean;
 };
 
-const ImgCol = ({
-  imgSrc,
-  imgAlt,
-}: Pick<MenuSectionProps, "imgSrc" | "imgAlt">) => {
-  return (
-    <div>
-      <Image
-        src={imgSrc}
-        alt={imgAlt}
-        className="md:w-unset max-h-[200px] min-w-full object-cover md:min-h-full"
-      />
-    </div>
-  );
-};
+// const ImgCol = ({
+//   imgSrc,
+//   imgAlt,
+// }: Pick<MenuSectionProps, "imgSrc" | "imgAlt">) => {
+//   return (
+//     <div>
+//       <Image
+//         src={imgSrc}
+//         alt={imgAlt}
+//         className="md:w-unset max-h-[200px] min-w-full object-cover md:min-h-full"
+//       />
+//     </div>
+//   );
+// };
 
 const MenuCol = ({
   menuTitle,
@@ -40,7 +40,7 @@ const MenuCol = ({
         </MainHeader>
         <hr className="pb-2" />
         {menuItems.map((item) => (
-          <div key={item.title} className="flex justify-between py-2">
+          <div key={item.title} className="flex justify-center py-2">
             <div className="flex flex-col">
               <div className="font-nav text-xl font-medium">{item.title}</div>
               {item.desc ? (
@@ -54,33 +54,15 @@ const MenuCol = ({
   );
 };
 
-export const MenuSection = ({
-  id,
-  imgSrc,
-  imgAlt,
-  menuTitle,
-  menuItems,
-  rightVariant,
-}: MenuSectionProps) => {
+export const MenuSection = ({ id, menuTitle, menuItems }: MenuSectionProps) => {
   return (
     <div
       id={id}
       className={cn(
-        "flex scroll-mt-[4.25rem] flex-col justify-between md:flex-row md:gap-8",
-        rightVariant ? "flex-col-reverse" : "",
+        "flex scroll-mt-[4.25rem] flex-col justify-center md:flex-row md:gap-8",
       )}
     >
-      {rightVariant ? (
-        <>
-          <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
-          <ImgCol imgSrc={imgSrc} imgAlt={imgAlt} />
-        </>
-      ) : (
-        <>
-          <ImgCol imgSrc={imgSrc} imgAlt={imgAlt} />
-          <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
-        </>
-      )}
+      <MenuCol menuTitle={menuTitle} menuItems={menuItems} />
     </div>
   );
 };

@@ -48,37 +48,37 @@ export default function CateringPage() {
           <BackgroundImage imageUrl="catering-page-1.jpg" />
         </div>
       </section>
-      <section>
-        <MenuSection
-          id="appetizers"
-          imgSrc={appetizers}
-          imgAlt=""
-          menuTitle="Hors D'oeuvres Stations"
-          menuItems={appetizerMenu}
-        />
-        <MenuSection
-          id="salads"
-          imgSrc={appetizers}
-          imgAlt=""
-          menuTitle="Salad Selections"
-          menuItems={saladMenu}
-          rightVariant
-        />
-        <MenuSection
-          id="main-course"
-          imgSrc={appetizers}
-          imgAlt=""
-          menuTitle="Buffet Main Course Options"
-          menuItems={mainCourseMenu}
-        />
-        <MenuSection
-          id="side-dishes"
-          imgSrc={appetizers}
-          imgAlt=""
-          menuTitle="Side Dishes"
-          menuItems={sideDishMenu}
-          rightVariant
-        />
+      <section className="py-8 text-center">
+        <MaxWidthWrapper className="border-l border-r">
+          <MenuSection
+            id="appetizers"
+            imgSrc={appetizers}
+            imgAlt=""
+            menuTitle="Hors D'oeuvres Stations"
+            menuItems={appetizerMenu}
+          />
+          <MenuSection
+            id="salads"
+            imgSrc={appetizers}
+            imgAlt=""
+            menuTitle="Salad Selections"
+            menuItems={saladMenu}
+          />
+          <MenuSection
+            id="main-course"
+            imgSrc={appetizers}
+            imgAlt=""
+            menuTitle="Buffet Main Course Options"
+            menuItems={mainCourseMenu}
+          />
+          <MenuSection
+            id="side-dishes"
+            imgSrc={appetizers}
+            imgAlt=""
+            menuTitle="Side Dishes"
+            menuItems={sideDishMenu}
+          />
+        </MaxWidthWrapper>
       </section>
     </main>
   );

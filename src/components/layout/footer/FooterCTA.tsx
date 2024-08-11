@@ -1,5 +1,3 @@
-import { MoveRight } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/common/ui/button";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
@@ -20,23 +18,6 @@ export const FooterCTA = () => {
             <Button variant="secondary" size="lg" className="text-lg">
               Book A Tour!
             </Button>
-          </div>
-          <div className="flex flex-col items-center">
-            <small className="text-background/70">
-              Not finding what you&apos;re looking for?
-            </small>
-            <small>
-              <Button
-                asChild
-                variant="link"
-                className="h-auto p-0 text-background"
-              >
-                <Link href="">
-                  Tell us about your dream wedding
-                  <MoveRight className="pl-2" />
-                </Link>
-              </Button>
-            </small>
           </div>
         </MaxWidthWrapper>
       </div>

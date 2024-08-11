@@ -3,8 +3,6 @@ export const mainNav = [
   { label: "Wedding Packages", href: "/wedding-packages" },
   { label: "Event Packages", href: "/event-packages" },
   { label: "Catering", href: "/catering" },
-  { label: "Love Letter", href: "/love-letters" },
-  { label: "Our Story", href: "/our-story" },
 ] as const;
 
 export type TypeMainNav = (typeof mainNav)[number];
@@ -26,12 +24,12 @@ export const VenueHashLinks = [
   { label: "Gallery", href: "/#love-letters" },
 ];
 
-export const FloralHashLinks = [
-  { label: "Venue & Event Space", href: "/#venue" },
-  { label: "Florals Designs", href: "/#florals" },
-  { label: "Catering", href: "/#catering" },
-  { label: "Love Letters", href: "/#love-letters" },
-];
+// export const FloralHashLinks = [
+//   { label: "Venue & Event Space", href: "/#venue" },
+//   { label: "Florals Designs", href: "/#florals" },
+//   { label: "Catering", href: "/#catering" },
+//   { label: "Love Letters", href: "/#love-letters" },
+// ];
 
 export const CateringHashLinks = [
   { label: "Hors D'oeuvres Stations", href: "#appetizers" },
@@ -45,15 +43,16 @@ export const footerNav = [
     linksCol: [
       { label: "Venue", href: "/venue" },
       { label: "Florals", href: "/florals" },
-      { label: "Love Letters", href: "/event-planning" },
-      { label: "Our Story", href: "/our-story" },
+      { label: "Catering Menu", href: "/venue" },
+      // { label: "Love Letters", href: "/event-planning" },
+      // { label: "Our Story", href: "/our-story" },
     ],
   },
   {
     linksCol: [
-      { label: "Catering Menu", href: "/venue" },
-      { label: "Floor Plan", href: "/florals" },
-      { label: "FAQ", href: "/event-planning" },
+      // { label: "Catering Menu", href: "/venue" },
+      // { label: "Floor Plan", href: "/florals" },
+      // { label: "FAQ", href: "/event-planning" },
     ],
   },
   {
