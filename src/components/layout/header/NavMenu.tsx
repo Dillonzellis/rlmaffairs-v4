@@ -114,7 +114,7 @@ export const NavMenu = () => {
               href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204"
               className="pr-2 text-sm font-bold md:p-4 md:text-base"
             >
-              RESERVE A TOUR
+              BOOK A TOUR
             </a>
           </div>
         </div>

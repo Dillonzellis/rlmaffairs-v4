@@ -3,6 +3,10 @@ export const mainNav = [
   { label: "Wedding Packages", href: "/wedding-packages" },
   { label: "Event Packages", href: "/event-packages" },
   { label: "Catering", href: "/catering" },
+  {
+    label: "Book A Tour",
+    href: "https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204",
+  },
 ] as const;
 
 export type TypeMainNav = (typeof mainNav)[number];
