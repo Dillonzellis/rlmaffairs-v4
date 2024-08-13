@@ -20,10 +20,10 @@ export const HomeFloral = () => {
             </div>
             <BodyText className="col-span-3 ml-auto max-w-prose">
               Our award winning designers offer exquisite attention to detail.
-              Whether it’s a single rose, or décor for an entire Gala, every
-              bloom is hand picked. We have had many different influences in the
-              floral industry, affording us the opportunity to always create
-              something unique.
+              Whether it&apos;s a single rose, or décor for an entire Gala,
+              every bloom is hand picked. We have had many different influences
+              in the floral industry, affording us the opportunity to always
+              create something unique.
             </BodyText>
           </div>
         </div>
