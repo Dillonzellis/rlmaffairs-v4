@@ -25,7 +25,13 @@ export const PageHero = ({
     <section>
       <>
         {videoSrc ? (
-          <video autoPlay muted loop className="h-dvh w-full object-cover">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="h-dvh w-full object-cover"
+          >
             <source src={videoSrc} type="video/webm" />
           </video>
         ) : null}
