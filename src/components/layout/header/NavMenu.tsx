@@ -89,7 +89,7 @@ export const NavMenu = () => {
       >
         <div
           onClick={toggleSheet}
-          className="flex cursor-pointer items-center gap-2 p-4"
+          className="flex w-[105.13px] cursor-pointer items-center gap-2 p-4 md:w-[143px]"
         >
           <AlignLeft
             strokeWidth={1.5}
