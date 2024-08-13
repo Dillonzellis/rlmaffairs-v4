@@ -19,11 +19,11 @@ export const HomeFloral = () => {
               </ArrowBtn>
             </div>
             <BodyText className="col-span-3 ml-auto max-w-prose">
-              RLM Affairs award winning designers offer exquisite attention to
-              detail. Whether it’s a single rose or decor for an entire Gala
-              every bloom is hand picked. We have had many different influences
-              in the floral industry, affording us the opportunity to always
-              create something unique.
+              Our award winning designers offer exquisite attention to detail.
+              Whether it’s a single rose, or décor for an entire Gala, every
+              bloom is hand picked. We have had many different influences in the
+              floral industry, affording us the opportunity to always create
+              something unique.
             </BodyText>
           </div>
         </div>
