@@ -10,9 +10,11 @@ export default function EventPackagePage() {
   return (
     <main>
       <section>
-        <div className="h-[350px] bg-[url('/package-feat-sm.jpg')] bg-cover bg-center">
+        <div className="h-[350px] bg-[url('/event-hero.jpg')] bg-cover bg-center">
           <MaxWidthWrapper className="flex h-full items-center">
-            <MainHeader className="text-white">Event Packages</MainHeader>
+            <MainHeader className="header-text-shadow text-white">
+              Event Packages
+            </MainHeader>
           </MaxWidthWrapper>
         </div>
       </section>

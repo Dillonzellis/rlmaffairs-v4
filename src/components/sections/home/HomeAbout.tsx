@@ -6,7 +6,7 @@ import { BodyText } from "@/components/common/typography/BodyText";
 export const HomeAbout = () => {
   return (
     <section>
-      <div className="h-[350px] bg-[url('/package-feat-sm.jpg')] bg-cover bg-center">
+      <div className="h-[350px] bg-[url('/home-story-hero.jpg')] bg-cover bg-[2rem]">
         <MaxWidthWrapper className="flex h-full items-center">
           <MainHeader className="text-white">Our Story</MainHeader>
         </MaxWidthWrapper>

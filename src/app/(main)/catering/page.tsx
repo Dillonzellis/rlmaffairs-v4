@@ -17,7 +17,7 @@ export default function CateringPage() {
   return (
     <main className="min-h-dvh">
       <PageHero
-        imgSrc="/hero-placeholder.jpg"
+        imgSrc="/catering-page-hero.jpg"
         imgAlt=""
         hashLinks={CateringHashLinks}
         link="#appetizers"

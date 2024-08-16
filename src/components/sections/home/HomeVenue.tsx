@@ -16,7 +16,7 @@ export const HomeVenue = () => {
           </ArrowBtn>
         </div>
       </MaxWidthWrapper>
-      <BackgroundImage imageUrl="/venue-1.jpg" />
+      <BackgroundImage imageUrl="/home-venue-hero.jpg" />
     </section>
   );
 };
