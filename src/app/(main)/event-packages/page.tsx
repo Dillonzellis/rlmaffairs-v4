@@ -5,6 +5,7 @@ import { eventPackages, smallEventPackages } from "@/data/packages";
 import { SmallPackage } from "@/components/sections/packages/SmallPackage";
 import { Button } from "@/components/common/ui/button";
 import Link from "next/link";
+import { PackageDisclaimer } from "@/components/sections/packages/PackageDisclaimer";
 
 export default function EventPackagePage() {
   return (
@@ -30,6 +31,7 @@ export default function EventPackagePage() {
               <SmallPackage key={i} {...pkg} />
             ))}
           </div>
+          <PackageDisclaimer />
           <Button
             variant="outline"
             size="lg"
