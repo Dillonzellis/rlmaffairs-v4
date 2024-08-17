@@ -1,7 +1,7 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
-import { BodyText } from "@/components/common/typography/BodyText";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { SubHeader } from "@/components/common/typography/SubHeader";
+import { VenueFeatGrid } from "./VenueFeat";
 
 export const VenuePackages = () => {
   return (
@@ -10,8 +10,10 @@ export const VenuePackages = () => {
         <MaxWidthWrapper className="py-12">
           <SubHeader>Premier Packages</SubHeader>
           <MainHeader>Venue Features</MainHeader>
-          <BodyText className="">List the Features</BodyText>
         </MaxWidthWrapper>
+      </section>
+      <section>
+        <VenueFeatGrid />
       </section>
       <section>
         <MaxWidthWrapper className="py-12">
