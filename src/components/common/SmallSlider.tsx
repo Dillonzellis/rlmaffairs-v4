@@ -28,10 +28,11 @@ export function SmallSlider() {
       opts={{
         align: "start",
         loop: true,
+        watchDrag: false,
       }}
       plugins={[
         Autoplay({
-          delay: 2000,
+          delay: 1000,
         }),
       ]}
     >
