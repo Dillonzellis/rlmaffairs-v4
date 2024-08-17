@@ -32,7 +32,7 @@ export function SmallSlider() {
       }}
       plugins={[
         Autoplay({
-          delay: 1000,
+          delay: 1200,
         }),
       ]}
     >
