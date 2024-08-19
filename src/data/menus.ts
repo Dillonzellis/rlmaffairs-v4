@@ -6,47 +6,47 @@ export type TypeMenu = {
 export const appetizerMenu = [
   {
     title: "Assorted Crostini Elegance",
-    desc: "Toasted breads presented with a delightful variety of gourmet toppings to entice all tastes.",
+    desc: "Toasted breads presented with a delightful variety of gourmet toppings.",
   },
   {
     title: "Orchard’s Bounty Fruit Platters",
-    desc: "Fresh fruit platters showcasing a bountiful seasonal variety, perfect for a refreshing treat.",
+    desc: "Fresh fruit platters showcasing a seasonal variety.",
   },
   {
     title: "Garden Fresh Vegetable Medley",
-    desc: "Assorted seasonal sliced veggies served with your choice of ranch or hummus, celebrating nature's colors.",
+    desc: "Assorted seasonal sliced veggies served with your choice of ranch or hummus.",
   },
   {
-    title: "Artistic Cheese Array",
+    title: "Artistic Cheese Platters",
     desc: "An artistic selection of cheeses including cheddar, pepper jack, and brie, complemented by dried apricots, cranberries, chopped herbs, a drizzle of clover honey, and assorted crackers.",
   },
   {
-    title: "Buffalo Bliss Chicken Dip",
+    title: "Buffalo Chicken Dip",
     desc: "A creamy, spicy Buffalo chicken dip that's sure to kick the celebration up a notch.",
   },
   {
-    title: "Hot Artichoke and Spinach Symphony",
+    title: "Hot Artichoke and Spinach Dip",
     desc: "A warm, creamy dip of artichokes and fresh spinach served with crispy chips, perfect for sharing.",
   },
   {
     title: "Mediterranean Hummus and Pita Triangles",
-    desc: "Smooth, creamy hummus paired with crisp pita triangles, a simple yet sophisticated treat.",
+    desc: "Smooth, creamy hummus paired with crisp pita triangles.",
   },
   {
     title: "Manhattan Glazed Meatballs",
     desc: "House-made meatballs adorned with a sweet and spicy glaze, a bite-sized homage to classic flavors.",
   },
   {
-    title: "Celebratory Jumbo Shrimp Cocktail",
-    desc: "Jumbo shrimp served with a house-made cocktail sauce, adding a touch of elegance to your festivity.",
+    title: "Jumbo Shrimp Cocktail",
+    desc: "Jumbo shrimp served with a house-made cocktail sauce.",
   },
   {
-    title: "Wedding Bells Pigs in a Blanket",
+    title: "Pigs in a Blanket",
     desc: "Classic pigs in a blanket, a playful favorite that's perfect for guests of all ages.",
   },
   {
     title: "Chilled Soup Shots",
-    desc: "Shot glasses filled with cool or chilled soups, offering a unique, refined appetizer option.",
+    desc: "Shot glasses filled with cool or chilled soups, offering a unique, appetizer option.",
   },
   {
     title: "Mini Quiches Delight",
@@ -112,7 +112,7 @@ export const mainCourseMenu = [
   },
   {
     title: "Chicken Florentine",
-    desc: "Tender chicken with spinach, mushrooms, and asiago cream sauce, a creamy delight.",
+    desc: "Tender chicken with spinach, mushrooms, and asiago cream sauce.",
   },
   {
     title: "Chicken Caprese",
@@ -120,7 +120,7 @@ export const mainCourseMenu = [
   },
   {
     title: "BBQ Boneless Chicken Breast",
-    desc: "Juicy boneless chicken breast seasoned with BBQ sauce, grilled to a smoky perfection.",
+    desc: "Juicy boneless chicken breast seasoned with BBQ sauce.",
   },
   {
     title: "Roasted Vegetable Lasagna",
@@ -147,10 +147,6 @@ export const mainCourseMenu = [
     desc: "Classic Southern-style jumbo shrimp served over creamy grits, a hearty and flavorful dish.",
   },
   {
-    title: "New Orleans Seafood Gumbo",
-    desc: "Authentic gumbo with shrimp, chicken, Andouille sausage, and Tasso ham, straight from the heart of New Orleans.",
-  },
-  {
     title: "Champagne Cream Tortellini",
     desc: "Tortellini with your choice of pesto, shrimp, or chicken, combined with spinach and asiago cheese in a champagne cream sauce.",
   },
@@ -163,19 +159,11 @@ export const mainCourseMenu = [
 export const sideDishMenu = [
   {
     title: "Garlic Smashed Potatoes",
-    desc: "Creamy potatoes smashed with a rich garlic butter, a comforting side perfect for any main dish.",
-  },
-  {
-    title: "Potatoes au Gratin",
-    desc: "Sliced potatoes baked in a creamy cheese sauce, topped with a golden crust of cheese, a decadent treat.",
-  },
-  {
-    title: "Seasonal Steamed Asparagus",
-    desc: "Fresh asparagus steamed to perfection, lightly seasoned to enhance its natural flavors. (Seasonal pricing applies)",
+    desc: "Creamy potatoes smashed with a rich garlic butter, a comforting side.",
   },
   {
     title: "Steamed Assorted Vegetables",
-    desc: "A healthful assortment of freshly steamed vegetables, lightly seasoned to preserve their natural taste.",
+    desc: "Fresh asparagus steamed to perfection, lightly seasoned to enhance its natural flavors. (Seasonal pricing applies)",
   },
   {
     title: "Squash Casserole",
