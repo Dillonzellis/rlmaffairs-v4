@@ -162,16 +162,16 @@ export const sideDishMenu = [
     desc: "Creamy potatoes smashed with a rich garlic butter, a comforting side.",
   },
   {
-    title: "Steamed Assorted Vegetables",
+    title: "Seasonal Steamed Asparagus",
     desc: "Fresh asparagus steamed to perfection, lightly seasoned to enhance its natural flavors. (Seasonal pricing applies)",
   },
   {
-    title: "Squash Casserole",
-    desc: "Tender squash baked in a casserole with creamy cheese and a crispy topping, a hearty southern favorite.",
+    title: "Assorted Vegetables",
+    desc: "A healthful assortment of freshly steamed vegetables, lightly seasoned to preserve their natural taste.",
   },
   {
-    title: "Smashed Sweet Potatoes",
-    desc: "Sweet potatoes cooked and smashed with a hint of cinnamon and nutmeg, offering a sweet, spiced flavor.",
+    title: "Squash Casserole",
+    desc: "Tender squash baked in a casserole with creamy cheese and a crispy topping.",
   },
   {
     title: "Green Bean Casserole",
@@ -186,20 +186,16 @@ export const sideDishMenu = [
     desc: "Baby carrots glazed with a sweet butter sauce, a delightful and colorful addition to any plate.",
   },
   {
-    title: "Roasted Vegetables",
-    desc: "A vibrant mix of seasonal vegetables roasted to bring out their natural sweetness and flavor.",
-  },
-  {
     title: "Creamed Corn",
     desc: "Sweet corn cooked in a creamy sauce, seasoned with salt and pepper, a smooth and savory side.",
   },
   {
     title: "Chef’s Blend Wild Rice",
-    desc: "A robust blend of wild rice varieties, cooked to a nutty perfection, complementing any main course.",
+    desc: "A robust blend of wild rice varieties, cooked to a nutty perfection.",
   },
   {
-    title: "Jasmine Rice",
-    desc: "Fragrant Jasmine rice, light and fluffy, the perfect subtle side to accompany rich flavors.",
+    title: "Fragrant Jasmine Rice",
+    desc: "Light and fluffy, the perfect subtle side to accompany rich flavors.",
   },
   {
     title: "Basmati Rice",
@@ -210,12 +206,8 @@ export const sideDishMenu = [
     desc: "Fresh tomatoes and crisp cucumbers tossed in a light vinaigrette, a refreshing side salad.",
   },
   {
-    title: "Sweet Potato Soufflé",
-    desc: "Light and fluffy sweet potato soufflé topped with a crunchy pecan crust, a sweet complement to any meal.",
-  },
-  {
     title: "Gourmet Mac and Cheese",
-    desc: "Creamy, cheesy macaroni and cheese with a gourmet twist, baked to a golden brown crust.",
+    desc: "Creamy, cheesy macaroni and cheese with a gourmet twist.",
   },
   {
     title: "Roasted Sweet Corn and Tomato Salad",
