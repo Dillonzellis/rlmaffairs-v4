@@ -24,8 +24,8 @@ export const HomeHashLinks = [
 ];
 
 export const VenueHashLinks = [
-  { label: "Venue Features", href: "/#florals" },
-  { label: "Gallery", href: "/#love-letters" },
+  { label: "Venue Features", href: "#venue" },
+  { label: "Gallery", href: "#gallery" },
 ];
 
 export const CateringHashLinks = [

@@ -10,9 +10,9 @@ export default function VenuePage() {
     <main>
       <PageHero
         imgSrc={venueHero}
-        imgAlt=""
+        imgAlt="bride with friends"
         hashLinks={VenueHashLinks}
-        link=""
+        link="#venue"
       />
       <VenuePackages />
       <VenueFeatGrid />
