@@ -90,13 +90,19 @@ export const VenueFeatGrid = () => {
 
   return (
     <>
-      {chunks.map((chunk, index) => (
-        <VenueFeatRow key={index}>
-          {chunk.map((feat, i) => (
-            <VenueFeat key={i} featText={feat.featText} imgSrc={feat.imgSrc} />
-          ))}
-        </VenueFeatRow>
-      ))}
+      <section>
+        {chunks.map((chunk, index) => (
+          <VenueFeatRow key={index}>
+            {chunk.map((feat, i) => (
+              <VenueFeat
+                key={i}
+                featText={feat.featText}
+                imgSrc={feat.imgSrc}
+              />
+            ))}
+          </VenueFeatRow>
+        ))}
+      </section>
     </>
   );
 };
