@@ -18,7 +18,7 @@ const Feature = [
     imgSrc: "/venue-feats/slide-4.jpg",
   },
   {
-    featText: "Chilled Champaign Wall",
+    featText: "Chilled Champagne Wall",
     imgSrc: "/venue-feats/slide-5.jpg",
   },
   {
