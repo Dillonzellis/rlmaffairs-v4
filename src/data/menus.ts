@@ -84,7 +84,7 @@ export const saladMenu = [
 export const mainCourseMenu = [
   {
     title: "Sesame Sirloin",
-    desc: "Succulent sirloin with a caramelized sweet sesame drizzle, combining the rich flavors of beef with a hint of sweetness.",
+    desc: "Sliced sirloin with a caramelized sweet sesame drizzle, combining the rich flavors of beef with a hint of sweetness.",
   },
   {
     title: "Smoky Pulled Pork",
