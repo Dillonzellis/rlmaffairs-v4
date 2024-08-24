@@ -30,6 +30,13 @@ const MenuCol = ({
             </div>
           </div>
         ))}
+
+        <div className="pt-8">
+          *All red meat and seafood are upgrades with any package*
+        </div>
+        <div>
+          *Menu availability and pricing subject to change without notice*
+        </div>
       </MaxWidthWrapper>
     </div>
   );
