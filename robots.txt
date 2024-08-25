@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /cgi-bin/
+Disallow: /temp/
+
+Allow: /public/
+Allow: /events/
+
