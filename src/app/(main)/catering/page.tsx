@@ -12,6 +12,11 @@ import {
   sideDishMenu,
 } from "@/data/menus";
 import { MenuSection } from "@/components/sections/catering/MenuSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Catering",
+};
 
 export default function CateringPage() {
   return (

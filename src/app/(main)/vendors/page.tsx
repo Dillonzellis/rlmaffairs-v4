@@ -9,6 +9,11 @@ import {
   hairAndMakeupVendors,
   eventTravelAndInsuranceVendors,
 } from "@/data/vendors";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Vendors",
+};
 
 export default function VendorsHome() {
   return (

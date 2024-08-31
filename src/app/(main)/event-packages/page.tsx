@@ -6,6 +6,11 @@ import { SmallPackage } from "@/components/sections/packages/SmallPackage";
 import { Button } from "@/components/common/ui/button";
 import Link from "next/link";
 import { PackageDisclaimer } from "@/components/sections/packages/PackageDisclaimer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Event Packages",
+};
 
 export default function EventPackagePage() {
   return (

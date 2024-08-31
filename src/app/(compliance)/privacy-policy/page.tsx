@@ -1,6 +1,10 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+};
+
 export default function Home() {
   return (
     <main className="min-h-dvh">

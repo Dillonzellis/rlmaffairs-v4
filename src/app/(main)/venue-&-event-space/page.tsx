@@ -4,6 +4,11 @@ import { VenueHashLinks } from "@/data/navLinks";
 import venueHero from "/public/venue-hero.jpg";
 import { VenueFeatGrid } from "@/components/sections/venue/VenueFeat";
 import { VenueGallery } from "@/components/sections/venue/VenueGallery";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Venue & Event Space",
+};
 
 export default function VenuePage() {
   return (

@@ -21,7 +21,10 @@ const dreamAvenue = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "RLM Affairs",
+  title: {
+    default: "RLM Affairs",
+    template: "%s | RLM Affairs",
+  },
   description: "Your premier wedding venue and event space.",
 };
 
