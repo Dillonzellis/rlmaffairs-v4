@@ -1,5 +1,6 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
