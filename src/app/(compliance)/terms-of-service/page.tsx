@@ -261,9 +261,10 @@ export default function Home() {
                 Upload or transmit (or attempt to upload or to transmit) any
                 material that acts as a passive or active information collection
                 or transmission mechanism, including without limitation, clear
-                graphics interchange formats ("gifs"), 1×1 pixels, web bugs,
-                cookies, or other similar devices (sometimes referred to as
-                "spyware" or "passive collection mechanisms" or "pcms").
+                graphics interchange formats (&quot;gifs&quot;), 1×1 pixels, web
+                bugs, cookies, or other similar devices (sometimes referred to
+                as &quot;spyware&quot; or &quot;passive collection
+                mechanisms&quot; or &quot;pcms&quot;).
               </li>
               <li>
                 Interfere with, disrupt, or create an undue burden on the
@@ -279,8 +280,8 @@ export default function Home() {
                 the Services.
               </li>
               <li>
-                Copy or adapt the Services' software, including but not limited
-                to Flash, PHP, HTML, JavaScript, or other code.
+                Copy or adapt the Services&apos; software, including but not
+                limited to Flash, PHP, HTML, JavaScript, or other code.
               </li>
               <li>
                 Except as permitted by applicable law, decipher, decompile,
@@ -322,11 +323,12 @@ export default function Home() {
             materials to us or on the Services, including but not limited to
             text, writings, video, audio, photographs, graphics, comments,
             suggestions, or personal information or other material
-            (collectively, "Contributions"). Contributions may be viewable by
-            other users of the Services and through third-party websites. As
-            such, any Contributions you transmit may be treated in accordance
-            with the Services' Privacy Policy. When you create or make available
-            any Contributions, you thereby represent and warrant that:
+            (collectively, &quot;Contributions&quot;). Contributions may be
+            viewable by other users of the Services and through third-party
+            websites. As such, any Contributions you transmit may be treated in
+            accordance with the Services&apos; Privacy Policy. When you create
+            or make available any Contributions, you thereby represent and
+            warrant that:
             <ul>
               <li>
                 The creation, distribution, transmission, public display, or
@@ -427,38 +429,38 @@ export default function Home() {
             7. THIRD-PARTY WEBSITES AND CONTENT
             <br />
             The Services may contain (or you may be sent via the Site) links to
-            other websites ("Third-Party Websites") as well as articles,
-            photographs, text, graphics, pictures, designs, music, sound, video,
-            information, applications, software, and other content or items
-            belonging to or originating from third parties ("Third-Party
-            Content"). Such Third-Party Websites and Third-Party Content are not
-            investigated, monitored, or checked for accuracy, appropriateness,
-            or completeness by us, and we are not responsible for any
-            Third-Party Websites accessed through the Services or any
-            Third-Party Content posted on, available through, or installed from
-            the Services, including the content, accuracy, offensiveness,
-            opinions, reliability, privacy practices, or other policies of or
-            contained in the Third-Party Websites or the Third-Party Content.
-            Inclusion of, linking to, or permitting the use or installation of
-            any Third-Party Websites or any Third-Party Content does not imply
-            approval or endorsement thereof by us. If you decide to leave the
-            Services and access the Third-Party Websites or to use or install
-            any Third-Party Content, you do so at your own risk, and you should
-            be aware these Legal Terms no longer govern. You should review the
-            applicable terms and policies, including privacy and data gathering
-            practices, of any website to which you navigate from the Services or
-            relating to any applications you use or install from the Services.
-            Any purchases you make through Third-Party Websites will be through
-            other websites and from other companies, and we take no
-            responsibility whatsoever in relation to such purchases which are
-            exclusively between you and the applicable third party. You agree
-            and acknowledge that we do not endorse the products or services
-            offered on Third-Party Websites and you shall hold us blameless from
-            any harm caused by your purchase of such products or services.
-            Additionally, you shall hold us blameless from any losses sustained
-            by you or harm caused to you relating to or resulting in any way
-            from any Third-Party Content or any contact with Third-Party
-            Websites.
+            other websites (&quot;Third-Party Websites&quot;) as well as
+            articles, photographs, text, graphics, pictures, designs, music,
+            sound, video, information, applications, software, and other content
+            or items belonging to or originating from third parties
+            (&quot;Third-Party Content&quot;). Such Third-Party Websites and
+            Third-Party Content are not investigated, monitored, or checked for
+            accuracy, appropriateness, or completeness by us, and we are not
+            responsible for any Third-Party Websites accessed through the
+            Services or any Third-Party Content posted on, available through, or
+            installed from the Services, including the content, accuracy,
+            offensiveness, opinions, reliability, privacy practices, or other
+            policies of or contained in the Third-Party Websites or the
+            Third-Party Content. Inclusion of, linking to, or permitting the use
+            or installation of any Third-Party Websites or any Third-Party
+            Content does not imply approval or endorsement thereof by us. If you
+            decide to leave the Services and access the Third-Party Websites or
+            to use or install any Third-Party Content, you do so at your own
+            risk, and you should be aware these Legal Terms no longer govern.
+            You should review the applicable terms and policies, including
+            privacy and data gathering practices, of any website to which you
+            navigate from the Services or relating to any applications you use
+            or install from the Services. Any purchases you make through
+            Third-Party Websites will be through other websites and from other
+            companies, and we take no responsibility whatsoever in relation to
+            such purchases which are exclusively between you and the applicable
+            third party. You agree and acknowledge that we do not endorse the
+            products or services offered on Third-Party Websites and you shall
+            hold us blameless from any harm caused by your purchase of such
+            products or services. Additionally, you shall hold us blameless from
+            any losses sustained by you or harm caused to you relating to or
+            resulting in any way from any Third-Party Content or any contact
+            with Third-Party Websites.
           </div>
 
           <div>
@@ -563,14 +565,14 @@ export default function Home() {
             <strong>Informal Negotiations</strong>
             <br />
             To expedite resolution and control the cost of any dispute,
-            controversy, or claim related to these Legal Terms (each a "Dispute"
-            and collectively, the "Disputes") brought by either you or us
-            (individually, a "Party" and collectively, the "Parties"), the
-            Parties agree to first attempt to negotiate any Dispute (except
-            those Disputes expressly provided below) informally for at least
-            thirty (30) days before initiating arbitration. Such informal
-            negotiations commence upon written notice from one Party to the
-            other Party.
+            controversy, or claim related to these Legal Terms (each a
+            &quot;Dispute&quot; and collectively, the &quot;Disputes&quot;)
+            brought by either you or us (individually, a &quot;Party&quot; and
+            collectively, the &quot;Parties&quot;), the Parties agree to first
+            attempt to negotiate any Dispute (except those Disputes expressly
+            provided below) informally for at least thirty (30) days before
+            initiating arbitration. Such informal negotiations commence upon
+            written notice from one Party to the other Party.
             <br />
             <strong>Binding Arbitration</strong>
             <br />
@@ -580,24 +582,24 @@ export default function Home() {
             arbitration. YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD
             HAVE THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The
             arbitration shall be commenced and conducted under the Commercial
-            Arbitration Rules of the American Arbitration Association ("AAA")
-            and, where appropriate, the AAA’s Supplementary Procedures for
-            Consumer Related Disputes ("AAA Consumer Rules"), both of which are
-            available at the American Arbitration Association (AAA) website.
-            Your arbitration fees and your share of arbitrator compensation
-            shall be governed by the AAA Consumer Rules and, where appropriate,
-            limited by the AAA Consumer Rules. The arbitration may be conducted
-            in person, through the submission of documents, by phone, or online.
-            The arbitrator will make a decision in writing, but need not provide
-            a statement of reasons unless requested by either Party. The
-            arbitrator must follow applicable law, and any award may be
-            challenged if the arbitrator fails to do so. Except where otherwise
-            required by the applicable AAA rules or applicable law, the
-            arbitration will take place in Hall, Georgia. Except as otherwise
-            provided herein, the Parties may litigate in court to compel
-            arbitration, stay proceedings pending arbitration, or to confirm,
-            modify, vacate, or enter judgment on the award entered by the
-            arbitrator.
+            Arbitration Rules of the American Arbitration Association
+            (&quot;AAA&quot;) and, where appropriate, the AAA&apos;s
+            Supplementary Procedures for Consumer Related Disputes (&quot;AAA
+            Consumer Rules&quot;), both of which are available at the American
+            Arbitration Association (AAA) website. Your arbitration fees and
+            your share of arbitrator compensation shall be governed by the AAA
+            Consumer Rules and, where appropriate, limited by the AAA Consumer
+            Rules. The arbitration may be conducted in person, through the
+            submission of documents, by phone, or online. The arbitrator will
+            make a decision in writing, but need not provide a statement of
+            reasons unless requested by either Party. The arbitrator must follow
+            applicable law, and any award may be challenged if the arbitrator
+            fails to do so. Except where otherwise required by the applicable
+            AAA rules or applicable law, the arbitration will take place in
+            Hall, Georgia. Except as otherwise provided herein, the Parties may
+            litigate in court to compel arbitration, stay proceedings pending
+            arbitration, or to confirm, modify, vacate, or enter judgment on the
+            award entered by the arbitrator.
             <br />
             If for any reason, a Dispute proceeds in court rather than
             arbitration, the Dispute shall be commenced or prosecuted in the
@@ -668,25 +670,25 @@ export default function Home() {
             THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
             MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
             NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE
-            ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF
-            ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE SERVICES AND WE
-            WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS,
-            MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL
-            INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM
-            YOUR ACCESS TO AND USE OF THE SERVICES, (3) ANY UNAUTHORIZED ACCESS
-            TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL
-            INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY
-            INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES,
-            (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE
-            TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR
-            (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY
-            LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY
-            CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE
-            SERVICES. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
-            RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A
-            THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED WEBSITE, OR ANY
-            WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER
-            ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
+            ACCURACY OR COMPLETENESS OF THE SERVICES&apos; CONTENT OR THE
+            CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE
+            SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY
+            (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2)
+            PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER,
+            RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES, (3) ANY
+            UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND
+            ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED
+            THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR
+            FROM THE SERVICES, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE
+            WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD
+            PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND
+            MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT
+            OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE
+            AVAILABLE VIA THE SERVICES. WE DO NOT WARRANT, ENDORSE, GUARANTEE,
+            OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR
+            OFFERED BY A THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED
+            WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER
+            OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
             RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY
             THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE
             OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT,
