@@ -10,9 +10,9 @@ export const HomeVenue = () => {
       <MaxWidthWrapper className="py-12">
         <div className="space-y-4">
           <SubHeader>The Stage for Lifelong Memories</SubHeader>
-          <MainHeader>Staging Env Big change</MainHeader>
+          <MainHeader>Venue Gallery</MainHeader>
           <ArrowBtn href="https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204">
-            but freao this timne its fixed dawfgg
+            Book a Tour
           </ArrowBtn>
         </div>
       </MaxWidthWrapper>
