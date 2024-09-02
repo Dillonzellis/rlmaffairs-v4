@@ -16,13 +16,13 @@ export const VenueGallery = () => {
       <MaxWidthWrapper className="py-24">
         <MainHeader className="text-center">Gallery</MainHeader>
       </MaxWidthWrapper>
-      <div className="grid grid-cols-1 gap-1.5 pb-12 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="flex flex-wrap gap-1.5 pb-12">
         {images.map((src, index) => (
           <Image
             key={index}
             src={src}
             alt={`Gallery image ${index + 1}`}
-            className="aspect-square h-full w-full object-cover"
+            className="aspect-square h-full w-full max-w-[31.25rem] object-cover"
             height={300}
             width={300}
           />
