@@ -16,7 +16,7 @@ export const VenueGallery = () => {
       <MaxWidthWrapper className="py-24">
         <MainHeader className="text-center">Gallery</MainHeader>
       </MaxWidthWrapper>
-      <div className="flex flex-wrap gap-1.5 pb-12">
+      <div className="flex flex-wrap justify-center gap-1.5 pb-12">
         {images.map((src, index) => (
           <Image
             key={index}
