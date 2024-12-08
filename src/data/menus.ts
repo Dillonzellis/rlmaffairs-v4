@@ -116,7 +116,7 @@ export const mainCourseMenu = [
   },
   {
     title: "Chicken Caprese",
-    desc: "Grilled chicken topped with mozzarella, tomatoes, basil, and pesto, a fresh Italian classic.",
+    desc: "Grilled chicken topped with tomatoes, basil, and pesto, a fresh Italian classic.",
   },
   {
     title: "BBQ Boneless Chicken Breast",
@@ -145,10 +145,6 @@ export const mainCourseMenu = [
   {
     title: "Southern Shrimp & Grits",
     desc: "Classic Southern-style jumbo shrimp served over creamy grits, a hearty and flavorful dish.",
-  },
-  {
-    title: "Champagne Cream Tortellini",
-    desc: "Tortellini with your choice of pesto, shrimp, or chicken, combined with spinach and asiago cheese in a champagne cream sauce.",
   },
   {
     title: "Curry Spiced Tilapia",

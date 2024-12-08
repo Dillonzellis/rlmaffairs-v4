@@ -1,17 +1,17 @@
-import { PageHero } from "@/components/common/PageHero";
-import { CateringHashLinks } from "@/data/navLinks";
 import { BackgroundImage } from "@/components/common/BackgroundImage";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
+import { PageHero } from "@/components/common/PageHero";
+import { BodyText } from "@/components/common/typography/BodyText";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { SubHeader } from "@/components/common/typography/SubHeader";
-import { BodyText } from "@/components/common/typography/BodyText";
+import { MenuSection } from "@/components/sections/catering/MenuSection";
 import {
   appetizerMenu,
   mainCourseMenu,
   saladMenu,
   sideDishMenu,
 } from "@/data/menus";
-import { MenuSection } from "@/components/sections/catering/MenuSection";
+import { CateringHashLinks } from "@/data/navLinks";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -74,6 +74,12 @@ export default function CateringPage() {
             menuTitle="Side Dishes"
             menuItems={sideDishMenu}
           />
+          <div className="pt-8">
+            *All red meat and seafood are upgrades with any package*
+          </div>
+          <div>
+            *Menu availability and pricing subject to change without notice*
+          </div>
         </MaxWidthWrapper>
       </section>
     </main>
