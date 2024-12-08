@@ -153,7 +153,7 @@ export const eventPackages = [
     title: "Premier Event",
     mainPrice: "$3,800",
     feats: [
-      "50 Guests:",
+      "40 Guests:",
       "4-hour Venue Rental included",
       "Event Décor: greens and lanterns",
       "Set Up & display of your personal items",
