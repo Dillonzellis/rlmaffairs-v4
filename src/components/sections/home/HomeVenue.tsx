@@ -9,7 +9,7 @@ export const HomeVenue = () => {
     <section id="venue" className="scroll-mt-[4.25rem]">
       <MaxWidthWrapper className="py-12">
         <div className="space-y-4">
-          <SubHeader>All inclusive wedding venue</SubHeader>
+          <SubHeader>All-inclusive wedding venue</SubHeader>
           <MainHeader>Venue Gallery</MainHeader>
           <ArrowBtn href="venue-&-event-space">View Gallery</ArrowBtn>
         </div>
