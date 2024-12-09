@@ -131,12 +131,12 @@ export const mainCourseMenu = [
     desc: "Penne pasta mixed with onions, peppers, artichokes, capers, tomatoes, and fresh herbs, infused with Mediterranean flavors.",
   },
   {
-    title: "Cheesy Fettuccine Alfredo",
-    desc: "Fettuccine tossed in a creamy four cheese and basil Alfredo sauce, a rich and comforting dish.",
+    title: "Fettuccine Alfredo",
+    desc: "Fettuccine tossed in a creamy four cheese and Alfredo sauce, a rich and comforting dish.",
   },
   {
-    title: "Tricolored Tortellini",
-    desc: "Tricolored tortellini served with your choice of marinara, alfredo, or pesto sauce, customizable to your taste.",
+    title: "Tortellini",
+    desc: "Tortellini served with your choice of marinara, alfredo, or pesto sauce, customizable to your taste.",
   },
   {
     title: "Champagne Salmon Filet",
@@ -148,7 +148,7 @@ export const mainCourseMenu = [
   },
   {
     title: "Curry Spiced Tilapia",
-    desc: "Delicately seasoned Tilapia with a curry spice rub, served with citrus basil butter for a refreshing twist.",
+    desc: "Delicately seasoned Tilapia with a curry spice rub, served with citrus butter for a refreshing twist.",
   },
 ];
 
