@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { BodyText } from "@/components/common/typography/BodyText";
@@ -7,9 +6,9 @@ export const HomeAbout = () => {
   return (
     <section>
       <MaxWidthWrapper className="">
-        <div className="flex flex-col items-center justify-center gap-12 py-8 md:flex-row">
+        <div className="flex flex-col gap-12 py-8 md:flex-row">
           <div>
-            <MainHeader>RLM Affairs Wedding Venue</MainHeader>
+            <MainHeader size="medium">RLM Affairs Wedding Venue</MainHeader>
             <BodyText className="max-w-prose">
               RLM Affairs offers all the services you may need for your event.
               Our staff works directly with our clients to tailor each event to
