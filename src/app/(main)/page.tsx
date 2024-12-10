@@ -5,7 +5,6 @@ import { LoveLetters } from "@/components/sections/home/LoveLetters";
 import { PageHero } from "@/components/common/PageHero";
 import { HomePackages } from "@/components/sections/home/HomePackages";
 import { HomeAbout } from "@/components/sections/home/HomeAbout";
-import { HomeRlm } from "@/components/sections/home/HomeRlm";
 
 export default function Home() {
   return (
