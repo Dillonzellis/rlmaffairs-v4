@@ -1,14 +1,15 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
 import { BodyText } from "@/components/common/typography/BodyText";
-import { SubHeader } from "@/components/common/typography/SubHeader";
 
 export const HomeAbout = () => {
   return (
     <section>
       <MaxWidthWrapper className="">
         <div className="flex flex-col gap-4 py-12">
-          <MainHeader size="medium">RLM Affairs Wedding Venue</MainHeader>
+          <MainHeader as="h1" size="medium">
+            RLM Affairs Wedding Venue
+          </MainHeader>
           <BodyText className="">
             RLM Affairs offers all the services you may need for your event. Our
             staff works directly with our clients to tailor each event to your
