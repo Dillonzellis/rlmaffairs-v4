@@ -18,13 +18,22 @@ export const HomeFloral = () => {
                 RLM Florist
               </ArrowBtn>
             </div>
-            <BodyText className="col-span-3 ml-auto max-w-prose">
-              Our award winning designers offer exquisite attention to detail.
-              Whether it&apos;s a single rose, or décor for an entire Gala,
-              every bloom is hand picked. We have had many different influences
-              in the floral industry, affording us the opportunity to always
-              create something unique.
-            </BodyText>
+            <div className="col-span-3 ml-auto max-w-prose space-y-2">
+              <BodyText>
+                Our award winning designers at RLM Affairs Wedding Venue offer
+                exquisite attention to detail. Whether it&#39;s a bridal
+                bouquet, corsage, boutonniere, stunning floral backdrops, or
+                décor for an entire Gala, every bloom is hand picked to fit
+                every budget. RLM Affairs Wedding Packages all include beautiful
+                flowers in every All-Inclusive Wedding Packages.
+              </BodyText>
+              <BodyText>
+                RLM Affairs Event Venue backdrop sets the stage for your wedding
+                ceremony &amp; reception, rehearsal, cocktail hour, indoor &amp;
+                outdoor celebration, quinceañera, company party, birthday
+                celebration, anniversary party or a beautiful photoshoot.
+              </BodyText>
+            </div>
           </div>
         </div>
       </MaxWidthWrapper>

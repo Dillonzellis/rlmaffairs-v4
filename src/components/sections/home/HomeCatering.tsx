@@ -15,11 +15,13 @@ export const HomeCatering = () => {
             <SubHeader>Crafting Your Culinary Story</SubHeader>
             <MainHeader>Premiere Catering</MainHeader>
             <ArrowBtn href="/catering">Catering Menu</ArrowBtn>
-            <BodyText className="max-w-[55ch]">
-              Savor the magic of your event with our exceptional in-house
-              catering. We offer all the catering services you may need for your
-              event. Our staff works directly with each client to tailor every
-              detail.
+            <BodyText>
+              RLM Affairs is a stunning wedding and event venue that offers
+              gorgeous indoor and outdoor areas, rustic-luxe details, with an
+              in-house, gourmet chef to oversee the most stunning menu options
+              and unparalleled client services. This Beautiful Garden Wedding
+              Ceremony venue in the foothills of North Georgia, offers local
+              cuisine and seasonal favorites year round.
             </BodyText>
           </div>
         </MaxWidthWrapper>
