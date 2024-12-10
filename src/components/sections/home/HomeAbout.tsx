@@ -10,7 +10,7 @@ export const HomeAbout = () => {
           <MainHeader as="h1" size="medium">
             RLM Affairs Wedding Venue
           </MainHeader>
-          <BodyText className="">
+          <BodyText>
             RLM Affairs offers all the services you may need for your event. Our
             staff works directly with our clients to tailor each event to your
             specific needs. Whether you need just catering, or a complete event
