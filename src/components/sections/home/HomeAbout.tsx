@@ -9,7 +9,7 @@ export const HomeAbout = () => {
         <div className="flex flex-col gap-12 py-8 md:flex-row">
           <div>
             <MainHeader size="medium">RLM Affairs Wedding Venue</MainHeader>
-            <BodyText className="max-w-prose">
+            <BodyText className="">
               RLM Affairs offers all the services you may need for your event.
               Our staff works directly with our clients to tailor each event to
               your specific needs. Whether you need just catering, or a complete
