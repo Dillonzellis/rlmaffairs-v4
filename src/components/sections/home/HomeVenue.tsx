@@ -13,7 +13,7 @@ export const HomeVenue = () => {
           <SubHeader>All-inclusive wedding venue</SubHeader>
           <MainHeader>Venue Gallery</MainHeader>
           <ArrowBtn href="venue-&-event-space">View Gallery</ArrowBtn>
-          <div className="space-y-2">
+          <div className="flex flex-col gap-2">
             <BodyText>
               Choose RLM Affairs to host your dream wedding or event. Our
               Elegant Spaces for Your Unforgettable Moments are at the heart of

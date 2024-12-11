@@ -10,15 +10,15 @@ export const HomeFloral = () => {
     <section id="florals">
       <MaxWidthWrapper className="py-12">
         <div className="space-y-4">
-          <div className="grid-cols-7 items-center md:grid">
+          <div className="grid-cols-7 items-center min-[1230px]:grid">
             <div className="col-span-4 space-y-4">
               <SubHeader>Artistry in Every Petal</SubHeader>
               <MainHeader>Floral Designs</MainHeader>
-              <ArrowBtn targetBlank href="https://rlmflorist.com/">
+              <ArrowBtn targetBlank className="" href="https://rlmflorist.com/">
                 RLM Florist
               </ArrowBtn>
             </div>
-            <div className="col-span-3 ml-auto max-w-prose space-y-2">
+            <div className="col-span-3 flex flex-col gap-2 max-[1230px]:pt-4 min-[1230px]:ml-auto">
               <BodyText>
                 Our award winning designers at RLM Affairs Wedding Venue offer
                 exquisite attention to detail. Whether it&#39;s a bridal

@@ -15,7 +15,7 @@ export const HomeCatering = () => {
             <SubHeader>Crafting Your Culinary Story</SubHeader>
             <MainHeader>Premiere Catering</MainHeader>
             <ArrowBtn href="/catering">Catering Menu</ArrowBtn>
-            <BodyText>
+            <BodyText className="min-[1230px]:max-w-[55ch] min-[1400px]:max-w-[70ch]">
               RLM Affairs is a stunning wedding and event venue that offers
               gorgeous indoor and outdoor areas, rustic-luxe details, with an
               in-house, gourmet chef to oversee the most stunning menu options
@@ -32,7 +32,7 @@ export const HomeCatering = () => {
           alt=""
           height={700}
           width={620}
-          className="right-0 top-0 -z-10 hidden object-cover md:absolute md:block"
+          className="right-0 top-0 -z-10 hidden object-cover min-[1230px]:absolute min-[1230px]:block"
         />
       </div>
       <SmallSlider />
