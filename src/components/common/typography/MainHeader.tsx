@@ -1,17 +1,21 @@
 "use client";
-
-import { motion } from "framer-motion";
+import { motion, HTMLMotionProps } from "framer-motion";
 import { scrollInVariants } from "@/lib/framerVariants";
 import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
+// Define the allowed heading levels
+type HeadingLevel = "h1" | "h2" | "h3";
+
 type MainHeaderVariants = VariantProps<typeof MainHeaderVariants>;
 
+// Update the props interface to extend HTMLMotionProps
 interface MainHeaderProps
-  extends React.HTMLAttributes<HTMLHeadingElement>,
+  extends HTMLMotionProps<"h1" | "h2" | "h3">,
     MainHeaderVariants {
   children: React.ReactNode;
   className?: string;
+  as?: HeadingLevel;
 }
 
 const MainHeaderVariants = cva(
@@ -30,16 +34,26 @@ const MainHeaderVariants = cva(
   },
 );
 
-export const MainHeader = ({ children, className, size }: MainHeaderProps) => {
+export const MainHeader = ({
+  children,
+  className,
+  size,
+  as = "h2", // Default to h2 if not specified
+  ...props
+}: MainHeaderProps) => {
+  // Create the motion component with proper typing
+  const Component = motion[as] as typeof motion.h1;
+
   return (
-    <motion.h2
+    <Component
       variants={scrollInVariants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       className={cn(MainHeaderVariants({ size }), className)}
+      {...props}
     >
       {children}
-    </motion.h2>
+    </Component>
   );
 };

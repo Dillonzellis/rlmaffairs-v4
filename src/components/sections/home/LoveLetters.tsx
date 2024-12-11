@@ -14,7 +14,7 @@ export const LoveLetters = () => {
           alt=""
           height={758}
           width={423}
-          className="col-span-2 max-h-72 object-cover object-[0_12%] md:max-h-[800px]"
+          className="col-span-2 max-h-72 w-full object-cover object-[0_12%] md:max-h-[800px]"
         />
         <div className="col-span-4 pb-12 pt-12 md:pb-36">
           <MaxWidthWrapper>
@@ -38,7 +38,7 @@ export const LoveLetters = () => {
       </div>
       <MaxWidthWrapper>
         <div className="relative">
-          <div className="-top-[16rem] w-full md:absolute">
+          <div className="-top-[8rem] w-full md:absolute min-[1230px]:-top-[16rem]">
             <Letters />
           </div>
         </div>

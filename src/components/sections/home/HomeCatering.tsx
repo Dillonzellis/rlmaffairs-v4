@@ -15,11 +15,13 @@ export const HomeCatering = () => {
             <SubHeader>Crafting Your Culinary Story</SubHeader>
             <MainHeader>Premiere Catering</MainHeader>
             <ArrowBtn href="/catering">Catering Menu</ArrowBtn>
-            <BodyText className="max-w-[55ch]">
-              Savor the magic of your event with our exceptional in-house
-              catering. We offer all the catering services you may need for your
-              event. Our staff works directly with each client to tailor every
-              detail.
+            <BodyText className="min-[1230px]:max-w-[55ch] min-[1400px]:max-w-[70ch]">
+              RLM Affairs is a stunning wedding and event venue that offers
+              gorgeous indoor and outdoor areas, rustic-luxe details, with an
+              in-house, gourmet chef to oversee the most stunning menu options
+              and unparalleled client services. This Beautiful Garden Wedding
+              Ceremony venue in the foothills of North Georgia, offers local
+              cuisine and seasonal favorites year round.
             </BodyText>
           </div>
         </MaxWidthWrapper>
@@ -30,7 +32,7 @@ export const HomeCatering = () => {
           alt=""
           height={700}
           width={620}
-          className="right-0 top-0 -z-10 hidden object-cover md:absolute md:block"
+          className="right-0 top-0 -z-10 hidden object-cover min-[1230px]:absolute min-[1230px]:block"
         />
       </div>
       <SmallSlider />

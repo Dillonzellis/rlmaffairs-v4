@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main className="min-h-dvh">
       <PageHero videoSrc="/RLM-Website.webm" link="#venue" />
+      <HomeAbout />
       <HomeVenue />
       <HomeFloral />
       <HomePackages />
       <HomeCatering />
       <LoveLetters />
-      <HomeAbout />
     </main>
   );
 }
