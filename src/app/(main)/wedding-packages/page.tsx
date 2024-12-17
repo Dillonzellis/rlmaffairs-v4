@@ -41,7 +41,7 @@ export default function WeddingPackagePage() {
             variant="outline"
             size="lg"
             asChild
-            className="mt-12 text-base"
+            className="mt-12 text-base md:mt-24"
           >
             <Link href="/vendors">Our Preferred Vendors</Link>
           </Button>
