@@ -13,14 +13,14 @@ export const Package = ({
           <div className="font-serif text-4xl md:text-7xl">{title}</div>
           <hr className="border-t-1 w-[120%] border-[#d5d5d5]"></hr>
         </div>
-        <div className="flex flex-row-reverse items-baseline gap-2 pb-4 md:flex-row md:gap-4">
-          <div className="text-lg md:font-serif md:text-5xl">{mainPrice}</div>
-          <div className="text-sm font-medium italic md:text-base">
+        <div className="flex items-baseline gap-2 pb-4 md:gap-4">
+          <div className="font-serif text-3xl md:text-5xl">{mainPrice}</div>
+          <div className="text-xs font-light italic md:text-sm">
             Friday - Sunday
           </div>
         </div>
       </div>
-      <div className="pb-2 md:pb-4">
+      <div className="pb-4">
         Guests may be added to your package | Please Inquire
       </div>
       <ul className="list-inside list-disc space-y-2 pb-6">
@@ -28,7 +28,7 @@ export const Package = ({
           <li key={i}>{feat}</li>
         ))}
       </ul>
-      <div className="flex gap-2 text-sm">
+      <div className="flex gap-2 text-xs md:text-sm">
         <div className="font-normal italic">Monday - Thursday</div>
         <div>{reducedPrice}</div>
       </div>
