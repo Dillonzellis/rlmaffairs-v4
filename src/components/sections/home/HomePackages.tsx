@@ -15,7 +15,7 @@ const PackageBtn = ({ href, children, green }: PackageBtnProps) => {
     <Link href={href} className="max-w-xl">
       <div
         className={cn(
-          "item-center inline-flex cursor-pointer flex-col justify-center rounded-2xl border-b-[7px] px-6 pb-3 pt-4 text-center font-serif text-3xl text-white transition-colors active:border-b-0 active:pt-3 md:h-[21rem] md:px-8 md:py-4 md:text-7xl lg:text-8xl",
+          "item-center inline-flex  cursor-pointer flex-col justify-center rounded-2xl border-b-[7px] px-6 pb-3 pt-4 text-center font-serif text-3xl text-white transition-colors active:border-b-0 active:pt-3 min-[300px]:min-w-[300px] md:h-[21rem] md:px-8 md:py-4 md:text-7xl lg:text-8xl",
           green
             ? "border-b-brandGreen-800 bg-brandGreen-400 hover:bg-brandGreen-300"
             : "border-b-brandGold-800 bg-brandGold-400 hover:bg-brandGold-300",
