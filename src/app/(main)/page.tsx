@@ -9,7 +9,7 @@ import { HomeAbout } from "@/components/sections/home/HomeAbout";
 export default function Home() {
   return (
     <main className="min-h-dvh">
-      <PageHero videoSrc="/RLM-Website.webm" link="#venue" />
+      <PageHero videoSrc="/RLM-Website.webm" link="#about" />
       <HomeAbout />
       <HomeVenue />
       <HomeFloral />

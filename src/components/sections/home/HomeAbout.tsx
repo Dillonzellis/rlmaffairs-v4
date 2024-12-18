@@ -5,7 +5,7 @@ import { SubHeader } from "@/components/common/typography/SubHeader";
 
 export const HomeAbout = () => {
   return (
-    <section>
+    <section id="about" className="scroll-mt-[4.25rem]">
       <MaxWidthWrapper className="">
         <div className="flex flex-col gap-4 py-12">
           <SubHeader>North Georgia | Gainesville, GA</SubHeader>
