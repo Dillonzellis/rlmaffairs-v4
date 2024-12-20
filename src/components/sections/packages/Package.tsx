@@ -5,6 +5,7 @@ export const Package = ({
   mainPrice,
   feats,
   reducedPrice,
+  offSeasonPrice,
 }: TypeWeddingPackages) => {
   return (
     <div className="rounded-sm bg-[#d5d5d5]/15 px-3 py-6 font-light shadow md:px-6 md:py-10">
@@ -28,9 +29,17 @@ export const Package = ({
           <li key={i}>{feat}</li>
         ))}
       </ul>
-      <div className="flex gap-2 text-xs md:text-sm">
+      <div className="flex gap-2 pb-2 text-xs md:text-sm">
         <div className="font-normal italic">Monday - Thursday</div>
         <div>{reducedPrice}</div>
+      </div>
+
+      <div className="flex gap-2 text-xs md:text-sm">
+        <div className="font-normal italic">
+          Off season pricing: January, February, July &amp; August
+        </div>
+        <div>{offSeasonPrice}</div>
+        <div>Monday – Sunday</div>
       </div>
     </div>
   );
