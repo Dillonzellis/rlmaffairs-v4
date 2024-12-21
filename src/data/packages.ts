@@ -172,7 +172,13 @@ export const weddingPackages = [
   },
 ];
 
-export type TypeWeddingPackages = (typeof weddingPackages)[number];
+export type TypeWeddingPackages = {
+  title: string;
+  mainPrice: string;
+  feats: string[];
+  reducedPrice: string;
+  offSeasonPrice?: string;
+};
 
 export const smallWeddingPackages = [
   {

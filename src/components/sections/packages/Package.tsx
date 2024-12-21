@@ -33,14 +33,15 @@ export const Package = ({
         <div className="font-normal italic">Monday - Thursday</div>
         <div>{reducedPrice}</div>
       </div>
-
-      <div className="flex gap-2 text-xs md:text-sm">
-        <div className="font-normal italic">
-          Off season pricing: January, February, July &amp; August
+      {offSeasonPrice && (
+        <div className="flex gap-2 text-xs md:text-sm">
+          <div className="font-normal italic">
+            Off season pricing: January, February, July &amp; August
+          </div>
+          <div>{offSeasonPrice}</div>
+          <div>Monday – Sunday</div>
         </div>
-        <div>{offSeasonPrice}</div>
-        <div>Monday – Sunday</div>
-      </div>
+      )}
     </div>
   );
 };
