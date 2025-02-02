@@ -20,7 +20,7 @@ export const SmallPackage = ({
           ) : null}
         </div>
       </div>
-      <ul className="list-inside list-disc space-y-2 pb-6">
+      <ul className="list-inside list-disc space-y-2">
         {feats.map((feat, i) => (
           <li key={i}>{feat}</li>
         ))}

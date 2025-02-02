@@ -272,9 +272,9 @@ export const smallEventPackages = [
   {
     title: "Venue Only",
     feats: [
-      "Fridays, Saturdays & Sundays - $2,100 Rental Time: 8 hours",
-      "Monday-Thursday - $1,500 Rental Time: 6 hours",
-      "With any package $350/hour",
+      "Fridays, Saturdays & Sundays - $3,100 Rental Time: 10 hours",
+      "Monday-Thursday - $1,600 Rental Time: 6 hours",
+      "With any package $400/hour",
     ],
   },
 ];
