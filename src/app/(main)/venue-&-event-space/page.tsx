@@ -5,6 +5,7 @@ import venueHero from "/public/venue-hero.jpg";
 import { VenueFeatGrid } from "@/components/sections/venue/VenueFeat";
 import { VenueGallery } from "@/components/sections/venue/VenueGallery";
 import { Metadata } from "next";
+import { VenueTour } from "@/components/sections/venue/VenueTour";
 
 export const metadata: Metadata = {
   title: "Venue & Event Space",
@@ -19,6 +20,7 @@ export default function VenuePage() {
         hashLinks={VenueHashLinks}
         link="#venue"
       />
+      <VenueTour />
       <VenuePackages />
       <VenueFeatGrid />
       <VenueGallery />

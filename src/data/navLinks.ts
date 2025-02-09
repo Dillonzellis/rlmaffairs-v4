@@ -8,6 +8,11 @@ export const mainNav = [
     label: "Book A Tour",
     href: "https://hello.dubsado.com/public/form/view/5afe45144f411345f6129204",
   },
+
+  {
+    label: "Take A Virtual Tour",
+    href: "https://www.youtube.com/watch?v=4Umn9ClORJc",
+  },
 ] as const;
 
 export type TypeMainNav = (typeof mainNav)[number];
