@@ -7,7 +7,6 @@ export const VenueTour = () => {
     <>
       <section id="tour" className="scroll-mt-[4.25rem]">
         <MaxWidthWrapper className="py-12">
-          <SubHeader>Premier Packages</SubHeader>
           <MainHeader>Virtual Tour</MainHeader>
         </MaxWidthWrapper>
         <MaxWidthWrapper>
