@@ -11,7 +11,7 @@ export const mainNav = [
 
   {
     label: "Take A Virtual Tour",
-    href: "https://www.youtube.com/watch?v=4Umn9ClORJc",
+    href: "/venue-&-event-space#tour",
   },
 ] as const;
 
@@ -30,6 +30,7 @@ export const HomeHashLinks = [
 ];
 
 export const VenueHashLinks = [
+  { label: "Virtual Tour", href: "#tour" },
   { label: "Venue Features", href: "#venue" },
   { label: "Gallery", href: "#gallery" },
 ];

@@ -18,7 +18,7 @@ export default function VenuePage() {
         imgSrc={venueHero}
         imgAlt="bride with friends"
         hashLinks={VenueHashLinks}
-        link="#venue"
+        link="#tour"
       />
       <VenueTour />
       <VenuePackages />
