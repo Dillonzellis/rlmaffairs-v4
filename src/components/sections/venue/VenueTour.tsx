@@ -1,6 +1,5 @@
 import { MaxWidthWrapper } from "@/components/common/MaxWidthWrapper";
 import { MainHeader } from "@/components/common/typography/MainHeader";
-import { SubHeader } from "@/components/common/typography/SubHeader";
 
 export const VenueTour = () => {
   return (
