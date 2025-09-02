@@ -14,7 +14,7 @@ export const SmallPackage = ({
         </div>
         <div className="">
           {mainPrice ? (
-            <div className="pb-4 text-xl md:pb-2 md:font-serif md:text-3xl">
+            <div className="pb-4 font-serif text-xl md:pb-2 md:text-3xl">
               {mainPrice}
             </div>
           ) : null}
