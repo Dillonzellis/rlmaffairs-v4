@@ -8,15 +8,16 @@ export const HomeAwards = () => {
         Excellence in Service: Celebrating Our Prestigious Wedding Industry
         Awards
       </div>
-      <div className="mx-auto flex max-w-[100px] flex-col items-center justify-center gap-4 md:flex-row md:gap-8 lg:max-w-full">
+      <div className="mx-auto flex max-w-[100px] flex-col items-center justify-center gap-4 md:flex-row md:gap-5 lg:max-w-full">
         {awards.map((award, idx) => (
-          <Image
-            key={idx}
-            src={award.src}
-            alt={award.alt}
-            width={150}
-            height={150}
-          />
+          <div key={idx}>
+            <a
+              href="https://www.theknot.com/marketplace/rlm-affairs-estate-room-and-gardens-wysteria-room-gainesville-ga-2014225"
+              target="_blank"
+            >
+              <img src={award.src} alt={award.alt} width={125} height={125} />
+            </a>
+          </div>
         ))}
       </div>
     </div>
