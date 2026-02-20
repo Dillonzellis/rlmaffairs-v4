@@ -66,7 +66,6 @@ export const NavMenu = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.scrollY);
       if (window.scrollY >= 200) {
         setBgColor(solidHeaderClasses);
       } else {
