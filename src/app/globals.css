@@ -61,13 +61,10 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
-}
-
-html {
-  scroll-behavior: smooth !important;
 }
 
 .header-text-shadow {
@@ -105,9 +102,11 @@ html {
 .privacy-table {
   border: 1px solid #e5e7eb;
   overflow: scroll;
+
   thead {
     border-bottom: 1px solid #e5e7eb;
   }
+
   td {
     padding: 0.75rem;
     border: 1px solid #e5e7eb;

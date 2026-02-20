@@ -38,7 +38,7 @@ export const Package = ({
           <div className="font-normal italic">
             Off season pricing: January, February, July &amp; August
           </div>
-          <div>{offSeasonPrice}</div>
+          <div>{reducedPrice}</div>
           <div>Monday – Sunday</div>
         </div>
       )}

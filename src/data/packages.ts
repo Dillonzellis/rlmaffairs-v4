@@ -223,7 +223,7 @@ export const eventPackages = [
       "75 guests",
       "8-hour Venue Rental Included",
       "Set Up & display of your personal items",
-      "Event Décor: table runners, greens & lanterns with florals for tables, florals for food display, mantle & entry table",
+      "Event Décor: table runners, greens & lanterns with florals for food display, mantle & entry table",
       "Catering: Cocktail hour with 3 hors d’oeuvres, 2 entrée buffet, signature salad, dinner rolls, 2 side dishes",
       "Beverages Displayed in Elegant Decanters: Tea and water beverages",
       "Charger, Silver flatware, Goblets and Dinner Plates with Napkins",
