@@ -16,9 +16,9 @@ const MenuCol = ({
   return (
     <div>
       <MaxWidthWrapper className="py-12">
-        <MainHeader className="font-serif" size="medium">
+        <h2 className="font-serif text-5xl tracking-tighter lg:text-7xl">
           {menuTitle}
-        </MainHeader>
+        </h2>
         <hr className="pb-2" />
         {menuItems.map((item) => (
           <div key={item.title} className="flex justify-center py-2">
