@@ -30,12 +30,12 @@ export default function CateringPage() {
       <section>
         <MaxWidthWrapper className="py-12">
           <div className="space-y-4">
-            <div className="grid-cols-7 items-center md:flex">
+            <div className="grid-cols-7 items-center gap-8 md:flex">
               <div className="col-span-4 space-y-4">
                 <SubHeader>Artistry in Every Petal</SubHeader>
                 <MainHeader>Catering</MainHeader>
               </div>
-              <BodyText className="col-span-3 ml-auto max-w-prose">
+              <BodyText className="col-span-3 md:ml-auto md:max-w-prose">
                 RLM Affairs offers all the services you may need for your event.
                 Our staff works directly with our clients to tailor each event
                 to your specific needs. Whether you need just catering, or a

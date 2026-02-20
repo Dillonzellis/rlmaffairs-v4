@@ -37,7 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-w-0 scroll-smooth font-sans antialiased",
+          "min-w-0 font-sans antialiased",
           nunito.variable,
           dreamAvenue.variable,
           dmSerif.variable,
