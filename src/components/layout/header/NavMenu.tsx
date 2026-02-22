@@ -15,7 +15,7 @@ interface NavSheetProps {
 
 const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
   const navSheetClasses = cn(
-    "fixed top-0 z-30 flex h-dvh w-full flex-col bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
+    "fixed top-0 z-30 flex h-screen w-full flex-col bg-background/70 p-4 backdrop-blur-md md:w-[30rem] transition-transform duration-800 ease-in-out",
     "transition-transform duration-500 ease-in-out",
     {
       "transform translate-x-0": isOpen,
@@ -56,9 +56,12 @@ const NavSheet = ({ isOpen, toggleSheet }: NavSheetProps) => {
 export const NavMenu = () => {
   const transparentHeaderClasses = "bg-transparent text-background";
   const solidHeaderClasses = "bg-background/70 backdrop-blur-md text-primary";
+  const svgClassesDark = "text-primary";
+  const svgClassesLight = "text-background";
 
   const [isOpen, setIsOpen] = useState(false);
   const [bgColor, setBgColor] = useState(transparentHeaderClasses);
+  const [svgClasses, setSvgClasses] = useState(svgClassesLight);
 
   const toggleSheet = () => {
     setIsOpen(!isOpen);
@@ -68,8 +71,10 @@ export const NavMenu = () => {
     const handleScroll = () => {
       if (window.scrollY >= 200) {
         setBgColor(solidHeaderClasses);
+        setSvgClasses(svgClassesDark);
       } else {
         setBgColor(transparentHeaderClasses);
+        setSvgClasses(svgClassesLight);
       }
     };
 
@@ -92,7 +97,10 @@ export const NavMenu = () => {
         >
           <AlignLeft
             strokeWidth={1.5}
-            className={cn("h-9 w-9 text-background", bgColor)}
+            className={cn(
+              "h-9 w-9 transition-colors duration-300 ease-in-out",
+              svgClasses,
+            )}
           />
           <div className="hidden font-bold md:block">MENU</div>
         </div>
