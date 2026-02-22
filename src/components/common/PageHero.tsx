@@ -30,7 +30,7 @@ export const PageHero = ({
             muted
             loop
             playsInline
-            className="h-dvh w-full object-cover"
+            className="h-screen w-full object-cover"
           >
             <source src={videoSrc} type="video/webm" />
           </video>
@@ -41,7 +41,7 @@ export const PageHero = ({
             alt={imgAlt || "Hero Image"}
             height={834}
             width={1280}
-            className={cn("w-full object-cover", small ? "h-96" : "h-dvh")}
+            className={cn("w-full object-cover", small ? "h-96" : "h-screen")}
           />
         ) : null}
         <DownArrow link={link} />
