@@ -95,7 +95,13 @@ export const NavMenu = () => {
           onClick={toggleSheet}
           className="flex w-[105.13px] cursor-pointer items-center gap-2 p-4 md:w-[143px]"
         >
-          <AlignLeft strokeWidth={1.5} className={cn("h-9 w-9", svgClasses)} />
+          <AlignLeft
+            strokeWidth={1.5}
+            className={cn(
+              "h-9 w-9 transition-colors duration-300 ease-in-out",
+              svgClasses,
+            )}
+          />
           <div className="hidden font-bold md:block">MENU</div>
         </div>
         <div className="flex items-center">
