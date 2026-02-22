@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { Icons } from "./Icons";
+import HashLinkSmooth from "./HashLinkSmooth";
 
 interface DownArrowProps {
   link: string;
@@ -19,9 +19,9 @@ export const DownArrow = ({ link }: DownArrowProps) => {
       whileHover={{ scale: 1.5, transition: { duration: 0.3 } }}
       whileTap={{ scale: 1.2, transition: { duration: 0.3 } }}
     >
-      <Link href={link}>
+      <HashLinkSmooth href={link}>
         <Icons.downArrow className="text-backround h-14 w-14" />
-      </Link>
+      </HashLinkSmooth>
     </motion.div>
   );
 };
