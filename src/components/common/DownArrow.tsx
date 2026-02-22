@@ -11,7 +11,7 @@ interface DownArrowProps {
 export const DownArrow = ({ link }: DownArrowProps) => {
   return (
     <motion.div
-      className="absolute bottom-8 right-2.5 text-white md:right-7"
+      className="absolute bottom-8 right-2.5 z-[999] text-white md:right-7"
       animate={{
         y: [0, -10, 0],
         transition: { duration: 2, repeat: Infinity },
