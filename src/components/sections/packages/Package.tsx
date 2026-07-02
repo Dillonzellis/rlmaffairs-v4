@@ -36,7 +36,7 @@ export const Package = ({
       {offSeasonPrice && (
         <div className="flex gap-2 text-xs md:text-sm">
           <div className="font-normal italic">
-            Off season pricing: January, February, July &amp; August
+            Off season pricing: January &amp; February
           </div>
           <div>{reducedPrice}</div>
           <div>Monday – Sunday</div>
